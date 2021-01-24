@@ -15,7 +15,7 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-### My name is Ivan. I recently graduated from the Lambda School Data Science program. I've highlighted some of the projects I've worked on.
+### My name is Ivan. I recently graduated from the Lambda School Data Science program. I've highlighted some of the projects I've worked on and am proud of below:
 
 ### I'm currently looking for work! Feel free to visit my website at <!--TODO-->
 
