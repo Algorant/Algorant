@@ -1,4 +1,4 @@
-### Hi there 👋
+## Hi there 👋
 
 <!--
 **Algorant/Algorant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -15,12 +15,10 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 
-## My name is Ivan. I recently graduated from the Lambda School Data Science program. I've highlighted some of the projects I've worked on.
+### My name is Ivan. I recently graduated from the Lambda School Data Science program. I've highlighted some of the projects I've worked on.
 
-I'm interested in open source projects and making the world better through the lens of Machine Learning, Data Analysis, and someday AI.
+### I'm currently looking for work! Feel free to visit my website at <!--TODO-->
 
-I have a public Roam Page where I mostly review books with my thoughts and summarizations.
+### I'm interested in open source projects and making the world better through the lens of Machine Learning, Data Analysis, and someday AI.
 
-I'm currently looking for work! Feel free to visit my website at <!--TODO-->
-
-##
+### I have a public Roam where I mostly review books with my thoughts and summarizations.
