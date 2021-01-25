@@ -17,11 +17,14 @@
 
 <!--OS-->
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
 <!--Languages-->
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
 <!--Tools-->
 
+
 <!--Libraries-->
 
 <!--Frameworks-->
+![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=digitalocean&logoColor=white&color=2bbc8a)
 
