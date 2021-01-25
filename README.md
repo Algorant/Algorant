@@ -24,3 +24,5 @@ Here are some ideas to get you started:
 ### I have a public Roam where I mostly review books with my thoughts and summarizations.
 
 ### I've highlighted some of the projects I've worked on and am proud of below:
+
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
