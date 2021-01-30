@@ -1,18 +1,25 @@
-## Hi there 👋
-
 <!--
 **Algorant/Algorant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-### My name is Ivan. I recently graduated from the Lambda School Data Science program. 
+[![Header](./Banner.png "Banner")](https://www.linkedin.com/in/ivan-s-santos/)
 
-### I'm currently looking for work! Feel free to visit my website at <!--TODO-->
+# Hi there 👋
 
-### I'm interested in open source projects and making the world better through the lens of Machine Learning, and the intersection between Data Analysis and Dataviz.
+### * My name is Ivan. I recently graduated from the Lambda School Data Science program.
+### * I'm currently looking for work! Feel free to visit my [LinkedIn](https://www.linkedin.com/in/ivan-s-santos/) or DM me on [Twitter](https://twitter.com/)
+### * I am interested in:
+###   * open source projects,
+###   * making the world better through the lens of Machine Learning,
+###   * and the intersection between Data Analysis and Dataviz.
 
-### I have a public Roam where I mostly review books with my thoughts and summarizations.
+### * I have a public Roam where I mostly review books with my thoughts.
 
-### I've highlighted some of the projects I've worked on and am proud of below:
+
+
+### * I've highlighted some of the tools I use projects I've worked on and am proud of below:
+
+---
 
 
 <!--OS-->
@@ -27,4 +34,3 @@
 
 <!--Frameworks-->
 ![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=digitalocean&logoColor=white&color=2bbc8a)
-
