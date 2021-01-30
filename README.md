@@ -4,7 +4,7 @@
 
 [![Header](./Banner.png "Banner")](https://www.linkedin.com/in/ivan-s-santos/)
 
-# Hi there 👋
+# Hi! 👋
 
 ### My name is Ivan. I recently graduated from the [Lambda School Data Science](https://lambdaschool.com/courses/data-science) program.
 
@@ -13,13 +13,9 @@
 ### I am interested in:
 * ### Open source projects
 * ### Making the world better through the lens of Machine Learning
-* ### and the intersection between Data Analysis and Data Visualization.
+* ### and the intersection between Data Analysis and Data Visualization. <br><br>
 
-### I have a public Roam where I mostly review books with my thoughts.
-
-
-
-### I've highlighted some of the tools I use and some projects I've worked on and am proud of below:
+### Here's some of the Tools I use or have experience building with:
 
 ---
 
@@ -68,4 +64,8 @@
 ![](https://img.shields.io/badge/Apps-Roam-informational?style=flat&logo=roamresearch&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Apps-Bitcoin-informational?style=flat&logo=bitcoin&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Apps-Canva-informational?style=flat&logo=canva&logoColor=white&color=2bbc8a)
+
+---
+
+### And here are a few projects I've highlighted that I am proud of:
 ---
