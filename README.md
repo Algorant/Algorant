@@ -21,6 +21,8 @@
 
 ### I've highlighted some of the tools I use and some projects I've worked on and am proud of below:
 
+---
+
 
 <!--OS-->
 ##### OS
@@ -56,7 +58,6 @@
 ![](https://img.shields.io/badge/API-Twitter-informational?style=flat&logo=twitter&logoColor=white&color=2bbc8a)
 
 <!--Frameworks-->
-<<<<<<< HEAD
 ##### Databases/Hosting/Frameworks
 ![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=amazon&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Database-PostgreSQL-informational?style=flat&logo=postgresql&logoColor=white&color=2bbc8a)
@@ -68,6 +69,3 @@
 ![](https://img.shields.io/badge/Apps-Bitcoin-informational?style=flat&logo=bitcoin&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Apps-Canva-informational?style=flat&logo=canva&logoColor=white&color=2bbc8a)
 ---
-=======
-![](https://img.shields.io/badge/Cloud-AWS-informational?style=flat&logo=amazonaws&logoColor=white&color=2bbc8a)
->>>>>>> da65bceb19ee5a5249b825c0e0609315f2882f09
