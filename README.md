@@ -15,7 +15,7 @@
 * ### Making the world better through the lens of Machine Learning
 * ### and the intersection between Data Analysis and Data Visualization. <br><br>
 
-### Here's some of the Tools I use or have experience building with:
+### Here's some of the tools I use or have experience building with:
 
 ---
 
