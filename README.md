@@ -6,7 +6,7 @@
 
 # Hi! 👋
 
-### My name is Ivan. I recently graduated from the [Lambda School Data Science](https://lambdaschool.com/courses/data-science) program.
+### My name is Ivan. I am a data engineer.
 
 ### I'm currently looking for work! Feel free to visit my [LinkedIn](https://www.linkedin.com/in/ivan-s-santos/) or DM me on [Twitter](https://twitter.com/Algorant). <br><br>
 
