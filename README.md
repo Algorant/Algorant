@@ -8,6 +8,8 @@
 
 ### My name is Ivan. I am a data engineer.
 
+### I am the creator and lead maintainer of [Bitcoin Data Science](https://www.bitcoindatascience.com)
+
 ### I'm currently looking for work! Feel free to visit my [LinkedIn](https://www.linkedin.com/in/ivan-s-santos/) or DM me on [Twitter](https://twitter.com/Algorant). <br><br>
 
 ### I am interested in:
