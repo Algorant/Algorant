@@ -69,5 +69,5 @@
 
 ---
 
-### And here are a few projects I've highlighted that I am proud of:
+### Below are a few projects I am proud of:
 ---
