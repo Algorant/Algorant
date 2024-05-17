@@ -20,25 +20,29 @@
 
 <!--OS-->
 ##### OS
-![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
-
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=&archlinuxlogoColor=white&color=2bbc8a)
+
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=nixos&color=2bbc8a)
+
 
 ![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a)
 
 <!--Languages-->
 ##### Languages
 ![](https://img.shields.io/badge/Code-Python-informational?style=flat&logo=python&logoColor=white&color=2bbc8a)
+
+![](https://img.shields.io/badge/Code-Rust-informational?style=flat&logo=rust&logoColor=white&color=2bbc8a)
+
 ![](https://img.shields.io/badge/Shell-Bash-informational?style=flat&logo=gnu-bash&logoColor=white&color=2bbc8a)
 
 <!--Tools-->
 ##### Tools
-![](https://img.shields.io/badge/Tools-Atom-informational?style=flat&logo=atom&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Flask-informational?style=flat&logo=flask&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-JupyterNotebooks-informational?style=flat&logo=jupyter&logoColor=white&color=2bbc8a)
-![](https://img.shields.io/badge/Tools-Google_Colab-informational?style=flat&logo=googlecolab&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/Tools-Neovim-informational?style=flat&logo=neovim&color=2bbc8a)
+
+![](https://img.shields.io/badge/Tools-Obsidian-informational?style=flat&logo=obsidian&color=2bbc8a)
 
 <!--Libraries-->
+
 ##### Libraries
 ![](https://img.shields.io/badge/Libraries-NumPy-informational?style=flat&logo=numpy&logoColor=white&color=2bbc8a)
 ![](https://img.shields.io/badge/Libraries-Pandas-informational?style=flat&logo=pandas&logoColor=white&color=2bbc8a)
