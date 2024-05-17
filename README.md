@@ -2,22 +2,18 @@
 **Algorant/Algorant** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-[![Header](./Banner.png "Banner")](https://www.linkedin.com/in/ivan-s-santos/)
-
 # Hi! 👋
 
-### My name is Ivan. I am a data engineer.
+### I'm Algorant. I do some things on the internet. I am a data engineer by trade, but I also do things such as [woodworking] and [blog] about various topics.
 
-### I am the creator and lead maintainer of [Bitcoin Data Science](https://www.bitcoindatascience.com)
+### Here are some projects I am fond of.
 
-### I'm currently looking for work! Feel free to visit my [LinkedIn](https://www.linkedin.com/in/ivan-s-santos/) or DM me on [Twitter](https://twitter.com/Algorant). <br><br>
 
-### I am interested in:
-* ### Open source projects
-* ### Making the world better through the lens of Machine Learning
-* ### and the intersection between Data Analysis and Data Visualization. <br><br>
+### I mainly code in Python and Rust, but I have experience in many other things.
 
-### Here's some of the tools I use or have experience building with:
+### I typically run Arch and have extensive [dotfiles], including my own [Hyprland] and [neovim] configs.
+
+### I have articles and videos on various topics such as [Obsidian]
 
 ---
 
@@ -25,6 +21,8 @@
 <!--OS-->
 ##### OS
 ![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=linux&logoColor=white&color=2bbc8a)
+![](https://img.shields.io/badge/OS-Linux-informational?style=flat&logo=Arch_Linux&logoColor=white&color=2bbc8a)
+
 ![](https://img.shields.io/badge/OS-Windows-informational?style=flat&logo=windows&logoColor=white&color=2bbc8a)
 
 <!--Languages-->
