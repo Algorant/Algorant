@@ -2,7 +2,7 @@
 id: task-1
 type: task
 title: "01 — Dotfiles: prepare for public sharing"
-state: "in-progress"
+state: "validation"
 priority: "high"
 references: ["https://github.com/Algorant/.dotfiles", "task-11"]
 relatedFiles: ["/home/ivan/.dotfiles/README.md", "docs/public-readiness.md", "docs/dotfiles-verification.md"]
@@ -14,9 +14,13 @@ accord:
   constraints: ["Do not edit live dotfiles, run bootstrap/sync, push, rewrite history, or change GitHub visibility without explicit authorization.", "Follow the checkout's own instructions and existing Tandem workflow for repository implementation; preserve unrelated work.", "Algorant chose one public dotfiles repository with secrets outside Git, not separate maintained public/private dotfiles repositories. task-11 owns the remediation and verification prerequisite; its completion gates public readiness, not the ability to draft the README."]
   updatedAt: "2026-09-12T04:32:40Z"
 createdAt: "2026-09-12T03:56:43Z"
-updatedAt: "2026-09-12T04:32:40Z"
+updatedAt: "2026-09-12T14:57:46Z"
 assignee: "pi"
 blockers: ["task-11"]
+validation.criterion: "Record Algorant's approval of the public-facing result or explicit decision to keep it private/defer; do not publish or change visibility as part of implicit approval."
+validation.note: "Task-11 is complete: README replaced, active history cleaned, fresh-clone checks pass except the reviewed non-credential false positive, and all three main machines are healthy/synchronized. Repository remains private. GitHub's authenticated owner API still resolves an old session-containing commit outside the cleaned refs; no anonymous-access or old-file-content test was performed. Algorant should decide whether to request GitHub Support's retained-object/session-data purge before changing visibility. This is a publication decision, not a secrets-manager implementation task."
+validation.requestedAt: "2026-09-12T14:57:46Z"
+validation.reviewer: "Algorant"
 ---
 First repository, explicitly prioritized by Algorant. GitHub: https://github.com/Algorant/.dotfiles (private). Authoritative ordinary checkout: /home/ivan/.dotfiles; live configuration is owned separately by mise tracking. Coordinate this outcome here; repository implementation follows dotfiles' own instructions and Tandem workspace.
 
