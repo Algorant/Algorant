@@ -2,14 +2,13 @@
 id: task-11
 type: task
 title: "Dotfiles: remove historical secrets and verify publishable cleanup"
-state: "in-progress"
 priority: "high"
 effort: "large"
 references: ["task-1", "https://github.com/Algorant/.dotfiles", "https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository", "https://mise.jdx.dev/history.html", "https://fnox.jdx.dev/providers/proton-pass"]
 relatedFiles: ["docs/dotfiles-verification.md", "docs/task-11-progress.md", "/home/ivan/.dotfiles/config/config.toml", "/home/ivan/.dotfiles/home/.config/zsh/.zshrc", "/home/ivan/.dotfiles/home/.local/bin/ketch-sync", "/home/ivan/.dotfiles/.gitignore", "/home/ivan/.dotfiles/.tandem/logs/task-29.md"]
 tags: ["dotfiles", "security", "public-readiness"]
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["Known revoked credentials and agreed old credential/session/shell-history material are removed from the affected publishable Git history; current tracked content and a fresh remote clone are scanned, with any harmless false positives explicitly identified and no credential values logged.", "Preserve current configuration and unrelated local work, including local coordination records and stashes. Do not edit archived Tandem record content or discard unrelated history implicitly.", "After explicit approval, replace the affected remote history and reconcile the three main machines' ordinary checkouts and separate mise history stores so old ancestry is not reintroduced; x1nano is excluded by Algorant's deprecation decision.", "Verify healthy watchers, the correct three machine profiles, consistent intended shared configuration and successful native synchronization after cleanup; record actual checks and any material remaining publication limitation.", "Report a concise cleanup result to Algorant and keep the repository private until publication is separately approved. Fnox migration and additional security-automation work are not completion requirements."]
   claimedAt: "2026-09-12T11:50:10Z"
   deliveredAt: "2026-09-12T14:57:03Z"
@@ -18,10 +17,15 @@ accord:
   summary: "Applied and verified the narrowed dotfiles cleanup: new README, sanitized active Git history, preserved local work, and healthy synchronized native mise stores on all three main machines. Repository remains private; GitHub-retained-object limitation is documented for publication review."
   evidence: ["Algorant explicitly approved guarded force-pushes and refreshing all three machines' Git/mise history stores. /tmp/dotfiles-cutover.KkYk5q/cutover.py exited 0; its saved receipt confirms all preflight/backup/restore/start phases and the one atomic remote replacement.", "Private verified bundles and retired inactive directories preserve local coordination records, ignored files and stashes (desktop 10, homelab 7 recorded entries); no archived Tandem record content was edited. Ordinary retired clones have disabled push URLs.", "The new README was included in the cleaned source: 31 local links resolve, both TOML snippets match actual configuration, secret scan is clear. Its bounded implementation completed dotfiles task-30.", "The final fresh remote clone and all three live history/upstream refs agree on fc77896bc0a3ed72a4ead1baa46373e6995d3712. Fresh-clone Gitleaks current-tree exit 0; history exit 10 is the configured findings code for the single previously reviewed, unchanged non-credential handoff identifier.", "Original affected commit objects, including the old master tip and the known credential/session-introduction commits, are absent from the fresh clone. Git fsck --full exits 0. The prepared candidate's exact-value sweep found zero revoked values across all 6,981 objects.", "Final per-machine native sync/pull, syntax and status verification exited 0: mise 2026.9.5, exactly one running watcher each, expected 105/84/84 active paths, no pending sync errors, preserved shared Zsh/global config bytes, and obsolete secrets file/loader absent.", "GitHub still resolves one old session-containing commit via the authenticated owner API. This is a retained-object limitation, not a fresh-clone finding; no anonymous-access or file-content test was performed. It is documented for Algorant's separate publication decision, with the repository confirmed PRIVATE.", "No fnox migration, new publishing infrastructure, x1nano changes or repository visibility change was performed."]
   filesChanged: ["/home/ivan/.dotfiles/README.md", "GitHub master and niri-config history", "Ordinary dotfiles checkouts and native mise history stores on laptop, desktop WSL and homelab", "docs/task-11-progress.md"]
-  updatedAt: "2026-09-12T14:57:03Z"
+  reviewer: "pi"
+  updatedAt: "2026-09-12T14:57:13Z"
 createdAt: "2026-09-12T04:32:20Z"
-updatedAt: "2026-09-12T14:57:03Z"
+updatedAt: "2026-09-12T14:57:13Z"
 assignee: "pi"
+archivedAt: "2026-09-12T14:57:13Z"
+resolution:
+  outcome: "completed"
+  reviewer: "pi"
 ---
 COMPLETED NARROWED CLEANUP under Algorant's explicit production-cutover approval. The new README, reviewed historical-secret removal and three-machine history replacement are applied. The repository remains private; publication is a separate task-1 decision.
 
