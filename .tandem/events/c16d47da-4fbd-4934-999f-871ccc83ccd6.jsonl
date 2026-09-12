@@ -16,3 +16,7 @@
 {"ts":"2026-09-12T03:58:08Z","event":"task.created","id":"task-10","summary":"10 — AlgoPDF: prepare for public sharing","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":16}
 {"ts":"2026-09-12T03:59:10Z","event":"task.updated","id":"task-1","summary":"Updated task-1 metadata: references, relatedFiles","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":17}
 {"ts":"2026-09-12T04:09:48Z","event":"accord.claimed","id":"task-1","summary":"Accord claim for task-1","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":18}
+{"ts":"2026-09-12T04:24:35Z","event":"task.updated","id":"task-1","summary":"Updated task-1 metadata: relatedFiles, acceptance, body","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":19}
+{"ts":"2026-09-12T04:32:20Z","event":"task.created","id":"task-11","summary":"Dotfiles: remediate historical secrets and verify safe single-repository synchronization","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":20}
+{"ts":"2026-09-12T04:32:40Z","event":"task.updated","id":"task-1","summary":"Updated task-1 metadata: blockers, references, constraints","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":21}
+{"ts":"2026-09-12T11:50:10Z","event":"accord.claimed","id":"task-11","summary":"Accord claim for task-11","actor":"c16d47da-4fbd-4934-999f-871ccc83ccd6","seq":22}
