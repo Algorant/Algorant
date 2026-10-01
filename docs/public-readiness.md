@@ -4,7 +4,7 @@
 
 Algorant authorized this repository to be the Tandem coordination hub for preparing the projects linked in [`README.md`](../README.md) for public sharing. The target is safe, useful, honestly described public work—not an assumption that every project must become production-ready or public.
 
-Review one repository at a time with Algorant. Each row below has its own coordination Task in this workspace. Dotfiles is complete: the private `Algorant/.dotfiles` repository owns a privacy-gated publisher, and the profile now links to the generated public `Algorant/dotfiles` repository with independent clean history. Pi setup is next; the remaining reviews have not started.
+Review one repository at a time with Algorant. Each row below has its own coordination Task in this workspace. Dotfiles is complete: the private `Algorant/.dotfiles` repository owns a privacy-gated publisher, and the profile now links to the generated public `Algorant/dotfiles` repository with independent clean history. Pi setup is next; Algorant chose a private `Algorant/.pi` source and generated public `Algorant/pi` showcase. The [Pi public mirror plan](pi-public-mirror-plan.md) defines the pending migration and its narrower public-output review scope; implementation belongs in `~/.pi`. The remaining reviews have not started.
 
 ## Repository map and review order
 
