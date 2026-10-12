@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:52Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-10-12T01:50:52Z"
+updatedAt: "2026-10-12T01:58:22Z"
 ---
 
 ## Description
@@ -33,5 +33,4 @@ The common bar in AGENTS.md, plus: the public output and README reflect the Omar
 
 ## Next step
 
-Algorant: confirm the public dotfiles should be generated from the `omarchy` branch. Then the Algomarchy Ceph (which owns the dotfiles) retargets and re-audits the publisher.
-
+On hold (Algorant, 2026-10-11): do not retarget the publisher yet. Herdra is researching whether the private-to-public split still fits once the mise/omarchy setup is ready to show, and how the homelab (still on `master`) fits in, without adding much complexity. Update this Task when Herdra sends the conclusion.
