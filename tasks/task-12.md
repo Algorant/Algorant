@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:52Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-10-12T02:38:34Z"
+updatedAt: "2026-10-12T02:38:44Z"
 ---
 ## State
 
@@ -32,7 +32,7 @@ The common bar in AGENTS.md, plus: the public output and README reflect the Omar
 
 1. The GitHub repository description is stale: "My Arch Linux dotfiles, managed with mise and sysup."
 2. The README does not yet point to an Algomarchy guide (none exists yet; task-13).
-3. The repository's earlier public history (Arch/sysup era) is unchanged; whether the new publish keeps or replaces that history is not recorded here.
+3. The new publish was appended on top of the earlier Arch/sysup-era history (parent 25353e5f), which was public before. That history passed the earlier cleanup (task-11), so this is a presentation choice rather than a safety issue: going public exposes the old commits as well.
 
 ## Next step
 
