@@ -30,3 +30,4 @@
 {"ts":"2026-10-12T01:51:36Z","event":"rules.updated","id":"rules","summary":"Edited rule always-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":30}
 {"ts":"2026-10-12T01:51:37Z","event":"rules.updated","id":"rules","summary":"Edited rule context-1","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":31}
 {"ts":"2026-10-12T01:51:38Z","event":"rules.updated","id":"rules","summary":"Edited rule prefer-1","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":32}
+{"ts":"2026-10-12T01:58:19Z","event":"task.canceled","id":"task-5","summary":"Canceled: Algorant, 2026-10-11: AlgoNix dropped from the profile; Algomarchy (task-13) takes its place.","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":33}
