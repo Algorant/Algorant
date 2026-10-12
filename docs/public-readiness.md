@@ -10,12 +10,12 @@ Visibility was last checked on 2026-10-11 with `gh repo view`. Re-check it befor
 | 2 / `task-3` | Tandem | [Algorant/tandem](https://github.com/Algorant/tandem) | (same) | `~/Projects/tandem` | Public | direct; site via GitHub Pages |
 | 3 / `task-2` | Pi setup | [Algorant/pi](https://github.com/Algorant/pi) | `Algorant/.pi` | `~/.pi` | Private (generated) / Private (source) | "Publish Pi snapshot" Action on every `main` push |
 | 4 / `task-12` | Dotfiles | [Algorant/dotfiles](https://github.com/Algorant/dotfiles) | `Algorant/.dotfiles`, `omarchy` branch | none (mise history) | Public (generated) / Private (source) | "Publish public dotfiles" Action, still triggered from frozen `master` only |
-| 5 / `task-13` | Algomarchy guide | not yet decided | `Algorant/Algomarchy` | `~/Projects/Algomarchy` | Private | not yet decided |
+| 5 / `task-13` | Algomarchy guide | not yet decided (profile links [Algorant/Algomarchy](https://github.com/Algorant/Algomarchy)) | `Algorant/Algomarchy` | `~/Projects/Algomarchy` | Private | not yet decided |
 | 6 / `task-14` | obsmd | `Algorant/obsmd` or a public subset | `Algorant/obsmd` | `~/Projects/obsmd` | Private | not yet decided |
 | 7 / `task-9` | mediafetch | [Algorant/mediafetch](https://github.com/Algorant/mediafetch) | (same) | `~/Projects/mediafetch` | Private | direct |
 | 8 / `task-15` | finanza rulebook | not yet decided | `Algorant/finanza` | `~/Projects/finanza` | Private | written fresh; no source is published |
 
-Not in current focus (still linked from the profile): xunfurl (`task-6`), RSSify (`task-7`), retrokit (`task-8`), AlgoPDF (`task-10`), AlgoNix (`task-5`).
+Not in current focus (still linked from the profile): xunfurl (`task-6`), RSSify (`task-7`), retrokit (`task-8`), AlgoPDF (`task-10`). AlgoNix was dropped from the profile on 2026-10-11 in favour of Algomarchy.
 
 ## Review checklist
 

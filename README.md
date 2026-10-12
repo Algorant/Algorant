@@ -8,7 +8,7 @@ This is the most exciting time to be in love with computers.
 - [My Dotfiles](https://github.com/Algorant/dotfiles) — My take on dotfiles, powered by [mise](https://mise.jdx.dev/).
 - [Tandem](https://github.com/Algorant/tandem) — My agentic task management system. Jira for clankers.
 - [Verdigris](https://github.com/Algorant/verdigris) — My preferred colorscheme, with support for the things I use.
-- [AlgoNix](https://github.com/Algorant/AlgoNix) — Tools I consider essential for using Linux today.
+- [Algomarchy](https://github.com/Algorant/Algomarchy) — How I customized every important part of Omarchy to fit me.
 
 ## Some Projects
 
