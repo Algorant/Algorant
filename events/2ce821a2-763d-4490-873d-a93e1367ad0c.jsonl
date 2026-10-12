@@ -6,3 +6,4 @@
 {"ts":"2026-10-12T01:50:23Z","event":"task.updated","id":"task-8","summary":"Updated task-8 metadata: priority","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":6}
 {"ts":"2026-10-12T01:50:24Z","event":"task.updated","id":"task-10","summary":"Updated task-10 metadata: priority","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":7}
 {"ts":"2026-10-12T01:50:25Z","event":"task.updated","id":"task-9","summary":"Updated task-9 metadata: title, priority, constraints, body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":8}
+{"ts":"2026-10-12T01:50:52Z","event":"task.created","id":"task-12","summary":"04 — Dotfiles: republish from the Omarchy stream","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":9}
