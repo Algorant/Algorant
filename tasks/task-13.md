@@ -12,14 +12,14 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:53Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-10-12T01:50:53Z"
+updatedAt: "2026-10-12T01:58:21Z"
 ---
 
 ## Description
 
 ## State
 
-Algorant/Algomarchy is PRIVATE. It holds README.md (where each piece lives), CHECKLIST.md (new-machine bring-up), and an agent bootstrap skill, all written for Algorant's own machines. No public guide exists yet. The planned guide is a checklist with one section per important part of Omarchy, covering how Algorant customized it.
+Algorant/Algomarchy is PRIVATE. It holds README.md (where each piece lives), CHECKLIST.md (new-machine bring-up), and an agent bootstrap skill, all written for Algorant's own machines. No public guide exists yet. Since 2026-10-11 the profile's Dev Setup/Tools list links Algorant/Algomarchy in place of AlgoNix (a dead link for visitors until the guide is public; Algorant accepts that as motivation). The planned guide is a checklist with one section per important part of Omarchy, covering how Algorant customized it.
 
 ## Shippable means
 
@@ -33,5 +33,5 @@ The common bar in AGENTS.md, plus: a section per major Omarchy area (e.g. packag
 
 ## Next step
 
-Algorant: choose the guide's form and home. Then the Algomarchy Ceph drafts an outline of sections for review.
+Waiting on Algorant: the guide's form is not decided yet (2026-10-11). Once decided, the Algomarchy Ceph drafts an outline of sections for review. When the guide's home is known, repoint the profile link if needed.
 
