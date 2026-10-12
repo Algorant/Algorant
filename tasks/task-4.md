@@ -5,7 +5,6 @@ type: task
 title: "01 — Verdigris: ship publicly"
 state: todo
 references: ["https://github.com/Algorant/verdigris"]
-relatedFiles: ["/home/ivan/Projects/verdigris/README.md"]
 tags: ["public-readiness", "verdigris"]
 accord:
   status: "ready"
@@ -13,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:50:57Z"
+updatedAt: "2026-10-12T01:51:20Z"
 priority: "high"
 ---
 ## State
