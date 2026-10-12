@@ -2,7 +2,7 @@
 id: task-8
 uid: b0501cf2-2d33-4e6e-b84f-0e99e744da8e
 type: task
-title: "08 — retrokit: prepare for public sharing"
+title: "11 — retrokit: prepare for public sharing (not in focus)"
 state: todo
 references: ["https://github.com/Algorant/retrokit"]
 relatedFiles: ["/home/ivan/Projects/retrokit/README.md"]
@@ -10,13 +10,16 @@ tags: ["public-readiness", "retrokit"]
 accord:
   status: "ready"
   acceptance: ["Record a review of tracked content and Git history for secrets, private data, generated state, and publication blockers without copying sensitive values into findings.", "Agree with Algorant on public scope and address the agreed blockers; verify documentation, licensing/attribution, setup and usage claims, and experimental limitations against repository behavior.", "Record applicable repository-native checks and any explicit validation gaps, then record Algorant's approval of the public-facing result or explicit keep-private/defer decision."]
-  constraints: ["Do not push, change GitHub visibility, rewrite history, deploy, bootstrap, or modify live configuration without explicit authorization.", "Preserve unrelated work and use the referenced repository's own instructions, Tandem workflow, and validation commands for implementation."]
-  updatedAt: "2026-09-12T03:58:08Z"
+  constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
+  updatedAt: "2026-10-12T01:51:04Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:50:23Z"
+updatedAt: "2026-10-12T01:51:04Z"
 priority: "low"
 ---
+## State
 
-## Description
+Linked from the profile README but not in the current focus (VISION.md). GitHub: https://github.com/Algorant/retrokit. Checkout: ~/Projects/retrokit (not present on every machine). Not reviewed since the original inventory.
 
-Review position 8, following dotfiles first and then README order as agreed with Algorant. GitHub: https://github.com/Algorant/retrokit (visibility at inventory: private). Authoritative checkout: /home/ivan/Projects/retrokit; origin verified. The profile README describes the intended public presentation. Use the common rubric in docs/public-readiness.md, conduct the review with Algorant, and agree on concrete remediation after findings. This Task coordinates the outcome; implementation belongs in the referenced repository under its own instructions.
+## Next step
+
+None until Algorant brings it into focus.
