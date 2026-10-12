@@ -5,7 +5,7 @@ type: task
 title: "03 — Pi setup: publish the generated catalog"
 state: todo
 references: ["https://github.com/Algorant/pi"]
-relatedFiles: ["docs/pi-public-mirror-plan.md", "docs/public-readiness.md", "README.md", "/home/ivan/.pi/README.md", "/home/ivan/.pi/.tandem/tasks/task-182.md"]
+relatedFiles: ["docs/pi-public-mirror-plan.md", "docs/public-readiness.md", "README.md"]
 tags: ["public-readiness", "pi"]
 accord:
   status: "ready"
@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:50:59Z"
+updatedAt: "2026-10-12T01:51:18Z"
 priority: "high"
 ---
 ## State
