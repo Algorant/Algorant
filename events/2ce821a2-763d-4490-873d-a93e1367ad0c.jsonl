@@ -1,2 +1,3 @@
 {"ts":"2026-10-12T01:50:17Z","event":"task.updated","id":"task-4","summary":"Updated task-4 metadata: title, priority, constraints, body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":1}
 {"ts":"2026-10-12T01:50:18Z","event":"task.updated","id":"task-3","summary":"Updated task-3 metadata: title, priority, constraints, body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":2}
+{"ts":"2026-10-12T01:50:20Z","event":"task.updated","id":"task-2","summary":"Updated task-2 metadata: title, priority, constraints, body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":3}
