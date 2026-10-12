@@ -1,3 +1,7 @@
+---
+description: Algorant's public portfolio: his GitHub profile and the public-readiness state of each project he shares.
+---
+
 # Vision
 
 This repository holds what it takes to keep Algorant's public-facing projects current and presentable, and to connect them to the places he shows up online. The GitHub profile README is the most visible part of it, but only one part. When Algorant works on his public presence, the full picture should be here.
