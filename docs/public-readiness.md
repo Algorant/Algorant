@@ -6,7 +6,7 @@ Visibility was last checked on 2026-10-11 with `gh repo view`. Re-check it befor
 
 | Order / Task | Project | Public repository | Private source | Checkout | Visibility | Public version produced by |
 |---|---|---|---|---|---|---|
-| 1 / `task-4` | Verdigris | [Algorant/verdigris](https://github.com/Algorant/verdigris) | (same) | `~/Projects/verdigris` | Private | direct |
+| 1 / `task-4` | Verdigris | [Algorant/verdigris](https://github.com/Algorant/verdigris) and [Algorant/omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme) (Omarchy port, split out 2026-10-11) | (same) | `~/Projects/verdigris` | Private / Private | direct |
 | 2 / `task-3` | Tandem | [Algorant/tandem](https://github.com/Algorant/tandem) | (same) | `~/Projects/tandem` | Public | direct; site via GitHub Pages |
 | 3 / `task-2` | Pi setup | [Algorant/pi](https://github.com/Algorant/pi) | `Algorant/.pi` | `~/.pi` | Private (generated) / Private (source) | "Publish Pi snapshot" Action on every `main` push |
 | 4 / `task-12` | Dotfiles | [Algorant/dotfiles](https://github.com/Algorant/dotfiles) | `Algorant/.dotfiles`, `omarchy` branch | none (mise history) | Private until Algorant's call (generated, first Omarchy-era publish 2026-10-11) / Private (source) | on-demand publisher in private Algorant/Algomarchy reading `.dotfiles@omarchy` (Algomarchy task-69); replaces the old `master`-triggered Action |
