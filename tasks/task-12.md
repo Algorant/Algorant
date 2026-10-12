@@ -12,15 +12,15 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:52Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-10-12T02:37:21Z"
+updatedAt: "2026-10-12T02:38:34Z"
 ---
 ## State
 
-Decided 2026-10-11 (Algorant via Herdra):
-- The dotfiles are the `omarchy` branch of private Algorant/.dotfiles (Omarchy machines, `mise bootstrap` direction). ~/.dotfiles and sysup are retired. The homelab keeps a private, offsite-only branch `archbox` that is never published (cart-lab task-40).
-- The public Algorant/dotfiles will be regenerated from `.dotfiles@omarchy` by a new publisher in private Algorant/Algomarchy (Algomarchy task-69, in progress). It runs on demand only (manual `workflow_dispatch`, after significant changes when Algorant asks or OKs it), with a fail-closed audit, new deploy keys, and the old key rotated. The old `master`-triggered "Publish public dotfiles" workflow is superseded.
-- Algomarchy's README, CHECKLIST, and enable-ssh.sh are excluded from the public output.
-- Algorant/dotfiles goes private so Algorant can inspect the Omarchy-era content without risk. It goes public again on his call, and its profile link 404s until then (accepted, like Verdigris and Pi). On 2026-10-11 it was still PUBLIC with the old Arch/sysup content; the switch to private is pending.
+The dotfiles are the `omarchy` branch of private Algorant/.dotfiles (Omarchy machines, `mise bootstrap`). ~/.dotfiles and sysup are retired. The homelab keeps a private, offsite-only branch `archbox` that is never published (cart-lab task-40).
+
+The public Algorant/dotfiles is generated from `.dotfiles@omarchy` by an on-demand publisher in private Algorant/Algomarchy (Algomarchy task-69). It runs only via manual `workflow_dispatch` when Algorant asks or OKs it, uses a fail-closed audit, and has new deploy keys; the old key was rotated. Algomarchy's README, CHECKLIST, and enable-ssh.sh are excluded.
+
+Verified 2026-10-11: Algorant/dotfiles is PRIVATE. Its HEAD is 9613b081 "sync from .dotfiles@omarchy caae0fe22ea2", 214 files, from Algomarchy run 38196500715 (success). The README now describes the Omarchy + mise setup as a reference copy published from a private source, with no sysup mention; no Algomarchy README/CHECKLIST/enable-ssh.sh is in the tree. Algorant is inspecting it. Going public is his call; the profile link 404s until then (accepted).
 
 Earlier history cleanup: archived task-1 and task-11.
 
@@ -30,9 +30,10 @@ The common bar in AGENTS.md, plus: the public output and README reflect the Omar
 
 ## Crippling issues
 
-1. The public content is stale (the retired Arch/Niri/sysup setup) until the first run of the new publisher.
-2. The new publisher's audit and exclusions are not yet proven on Omarchy-era content (`home@omarchy/`, `config@omarchy/`, `~/scripts`).
+1. The GitHub repository description is stale: "My Arch Linux dotfiles, managed with mise and sysup."
+2. The README does not yet point to an Algomarchy guide (none exists yet; task-13).
+3. The repository's earlier public history (Arch/sysup era) is unchanged; whether the new publish keeps or replaces that history is not recorded here.
 
 ## Next step
 
-The Algomarchy Ceph finishes task-69 and the repository goes private. Then Algorant inspects the generated output and decides when it goes public. Verify the visibility and output here when Herdra reports.
+Algorant inspects the private output and decides when it goes public. Before that, the Algomarchy Ceph updates the repository description.
