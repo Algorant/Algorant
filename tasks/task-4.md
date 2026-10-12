@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:51:20Z"
+updatedAt: "2026-10-12T01:58:23Z"
 priority: "high"
 ---
 ## State
@@ -22,6 +22,8 @@ Algorant/verdigris is PRIVATE, so the profile's Verdigris link is dead for visit
 ## Shippable means
 
 The common bar in AGENTS.md, plus: screenshots of the main ports in the README, and verdigris.nvim linked.
+
+Algorant keeps the dead profile link on purpose (2026-10-11), as motivation to get this public.
 
 ## Crippling issues
 
