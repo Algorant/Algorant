@@ -42,3 +42,4 @@
 {"ts":"2026-10-12T03:04:49Z","event":"task.created","id":"task-12-1","summary":"Deferred: Algorant reviews private Algorant/dotfiles and decides whether it goes public","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":42}
 {"ts":"2026-10-12T13:18:33Z","event":"task.updated","id":"task-4","summary":"Updated task-4 metadata: body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":43}
 {"ts":"2026-10-12T20:38:40Z","event":"task.updated","id":"task-3","summary":"Updated task-3 metadata: body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":44}
+{"ts":"2026-10-15T19:20:11Z","event":"task.updated","id":"task-4","summary":"Updated task-4 metadata: references, body","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":45}
