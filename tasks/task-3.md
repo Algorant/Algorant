@@ -12,16 +12,18 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T20:38:40Z"
+updatedAt: "2026-10-16T12:39:20Z"
 priority: "high"
 ---
 ## State
 
-Algorant/tandem is PUBLIC, at release 0.17.0 (published 2026-10-12), with a docs site at trytandem.dev. Independently verified: main at 1f8b59a (Release Tandem 0.17.0), public GitHub release and site respond anonymously with HTTP 200, and AUR tandem-bin is 0.17.0-1.
+Algorant/tandem is PUBLIC, at release 0.17.1 (published 2026-10-16), with rewritten documentation live at trytandem.dev. Independently verified: main is at 2736599 (Release Tandem 0.17.1), GitHub lists 13 release assets, the release responds anonymously with HTTP 200, and AUR tandem-bin is 0.17.1-1. Herdra reports asset checksums verified; this portfolio check did not repeat the downloads/checksum audit. Protocol remains 0.5.0; current boards need no migration.
 
-0.17.0 adds an in-memory session working set: switching between boards opens each board's full TUI, and the chooser shows local Task counts and bounded in-progress work. The overview reflects board records, not live agent/process status or remote freshness. No migration; protocol remains 0.5.0. Also shipped: external-blocker guidance, optional archive resolution notes, and the new mark/favicon, hero/social card and light-theme logo variant.
+The seven-page docs/site overhaul is shipped, no longer paused: Home, Quickstart, Concepts, Agents, TUI and web, CLI, Configuration. All seven public routes returned HTTP 200. Live Concepts includes board storage and independent sync, diagrams and real product captures. The source has 12 old-URL aliases; the live /workspace/ alias points to /concepts/#board-storage-and-sync. The docs deployment at 190ad10 succeeded. The homepage now links the teaser, and its MP4 responds with HTTP 200: the earlier missing-teaser blocker is resolved.
 
-Algorant approved the mark; final live redraw review has not been confirmed here. The 88 s teaser v3 is final in 4K (fframes task-25); web encode and site placement remain undecided.
+Release notes describe refused mutations checked before record writes, correct published IDs on concurrent adds, protocol-shaped structured event data, and `$ ` runnable-validation help. Herdra also reports stricter release gates. Tandem task-63 and task-64 are archived completed; task-76 (docs overhaul) is archived completed. Task-65 was canceled because pre-0.5 boards are unsupported and live boards are current, not because a general repair feature shipped.
+
+The 0.17.0 session working set and local-record activity chooser remain part of the shipped product; the chooser is not live agent/process monitoring. The new mark, light-theme variant and site art are live.
 
 ## Shippable means
 
@@ -29,10 +31,10 @@ The common bar in AGENTS.md, plus: the site and README carry the current brand, 
 
 ## Crippling issues
 
-1. Stale docs and incomplete coverage of shipped behavior. The paused docs/site overhaul (tandem task-76) absorbs task-51's old workspace-layout text and task-67's review-status, Validation and install/version guidance. Its approved seven-page shape is not deployed.
-2. Board-integrity issues remain on Tandem's active board: task-63 (provisional ID returned after a parallel sync), task-64 (refused mutation leaves a written record), task-65 (no supported way to drop an unsynced record after migrate).
-3. Teaser not on the site yet (web encode undecided).
+No currently verified public-facing crippling issue from the previous list remains: the stale docs, refused-write/concurrent-ID bugs and missing teaser have been addressed; the old migration case is explicitly unsupported. This is a portfolio verification of publication, contents and board outcomes, not a new full-history safety audit or exhaustive functional test.
+
+Remaining active project work (rules UX, parent-closure assistance, deferred multi-project web, and release-checklist wording) is not by itself a public-shipping blocker.
 
 ## Next step
 
-Keep the docs overhaul paused until Herdra's style guide is ready and owner direction authorizes resumption (task-76); the revised TUI working-set features have now shipped. The tandem Ceph then updates docs for 0.17.0 within the approved seven-page shape and brings the rendered result to Algorant for approval before integration/deployment. Algorant decides final redraw review and teaser web encode/site placement.
+The tandem Ceph keeps docs and release descriptions aligned with shipped behavior and surfaces any newly verified public-facing blocker through Herdra. The portfolio record no longer waits for docs-overhaul approval, deployment or teaser placement.
