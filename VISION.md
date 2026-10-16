@@ -40,6 +40,10 @@ Later:
 7. **mediafetch**: an Obsidian plugin that creates media notes from provider metadata.
 8. **finanza rulebook**: how Algorant got his personal finance automation working, written as a reusable rulebook without any personal or financial details.
 
+Also tracked, without changing the focus order above:
+
+9. **[Herdra](https://github.com/Algorant/herdra)**: Algorant's front-door orchestrator agent, a Pi session coordinating project agents over Herdr, Tandem and an agent inbox. It brings back results, decisions and blockers and keeps one focused Now item at a time. The repository is private for now; the link is an intentional placeholder. Public-readiness blockers are unknown until reviewed.
+
 Older profile projects (xunfurl, RSSify, retrokit, AlgoPDF) stay listed but are not a current focus.
 
 ## Principles

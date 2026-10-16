@@ -2,7 +2,7 @@
 
 This file maps each portfolio project to its repositories, local checkout, and how its public version is produced. Each project's state, crippling issues, and next step live in its Task on this board ([AGENTS.md](../AGENTS.md)). The aims and order are in [VISION.md](../VISION.md).
 
-Baseline visibility was checked on 2026-10-11 with `gh repo view`; Verdigris's two repositories, generated dotfiles and omarchy-setup were rechecked on 2026-10-15. Re-check before relying on it.
+Baseline visibility was checked on 2026-10-11 with `gh repo view`; Verdigris's two repositories, generated dotfiles and omarchy-setup were rechecked on 2026-10-15. Herdra was also verified private when added to the portfolio. Re-check before relying on it.
 
 | Order / Task | Project | Public repository | Private source | Checkout | Visibility | Public version produced by |
 |---|---|---|---|---|---|---|
@@ -14,6 +14,7 @@ Baseline visibility was checked on 2026-10-11 with `gh repo view`; Verdigris's t
 | 6 / `task-14` | obsmd | `Algorant/obsmd` or a public subset | `Algorant/obsmd` | `~/Projects/obsmd` | Private | not yet decided |
 | 7 / `task-9` | mediafetch | [Algorant/mediafetch](https://github.com/Algorant/mediafetch) | (same) | `~/Projects/mediafetch` | Private | direct |
 | 8 / `task-15` | finanza rulebook | not yet decided | `Algorant/finanza` | `~/Projects/finanza` | Private | written fresh; no source is published |
+| 9 / `task-16` | Herdra | [Algorant/herdra](https://github.com/Algorant/herdra) (intentional private placeholder) | (same) | `~/Projects/herdra` | Private; readiness unreviewed | not yet decided; private-config dependency and sensitive-content review pending |
 
 Not in current focus (still linked from the profile): xunfurl (`task-6`), RSSify (`task-7`), retrokit (`task-8`), AlgoPDF (`task-10`). AlgoNix was dropped from the profile on 2026-10-11 in favour of Algomarchy.
 

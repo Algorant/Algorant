@@ -7,6 +7,7 @@ This is the most exciting time to be in love with computers.
 - [My Pi Setup](https://github.com/Algorant/pi) — My custom Pi configuration, extensions, and skills.
 - [My Dotfiles](https://github.com/Algorant/dotfiles) — My take on dotfiles, powered by [mise](https://mise.jdx.dev/).
 - [Tandem](https://github.com/Algorant/tandem) — My agentic task management system. Jira for clankers.
+- [Herdra](https://github.com/Algorant/herdra) — My front-door agent for coordinating work across projects. Private for now.
 - [Verdigris](https://github.com/Algorant/verdigris) — My preferred colorscheme, with support for the things I use.
 - [Algomarchy](https://github.com/Algorant/Algomarchy) — How I customized every important part of Omarchy to fit me.
 
