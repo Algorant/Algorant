@@ -49,3 +49,4 @@
 {"ts":"2026-10-16T13:11:33Z","event":"task.created","id":"task-16","summary":"09 — Herdra: review readiness for eventual public sharing","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":49}
 {"ts":"2026-10-16T13:11:44Z","event":"task.updated","id":"task-6","summary":"Updated task-6 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":50}
 {"ts":"2026-10-16T13:11:45Z","event":"task.updated","id":"task-7","summary":"Updated task-7 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":51}
+{"ts":"2026-10-16T13:11:46Z","event":"task.updated","id":"task-8","summary":"Updated task-8 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":52}
