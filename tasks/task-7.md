@@ -2,7 +2,7 @@
 id: task-7
 uid: 139946fd-ffb5-4df1-bd81-18bb8385b10a
 type: task
-title: "10 — RSSify: prepare for public sharing (not in focus)"
+title: "11 — RSSify: prepare for public sharing (not in focus)"
 state: todo
 references: ["https://github.com/Algorant/rssify"]
 tags: ["public-readiness", "rssify"]
@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:03Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:51:23Z"
+updatedAt: "2026-10-16T13:11:45Z"
 priority: "low"
 ---
 ## State
