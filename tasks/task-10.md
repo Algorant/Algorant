@@ -2,7 +2,7 @@
 id: task-10
 uid: 6d6572a5-571c-4be2-a418-c7b86ae03e30
 type: task
-title: "12 — AlgoPDF: prepare for public sharing (not in focus)"
+title: "13 — AlgoPDF: prepare for public sharing (not in focus)"
 state: todo
 references: ["https://github.com/Algorant/AlgoPDF"]
 tags: ["public-readiness", "algopdf"]
@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:05Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:51:26Z"
+updatedAt: "2026-10-16T13:11:48Z"
 priority: "low"
 ---
 ## State
