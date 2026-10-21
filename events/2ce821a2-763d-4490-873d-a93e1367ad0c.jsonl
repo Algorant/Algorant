@@ -51,3 +51,4 @@
 {"ts":"2026-10-16T13:11:45Z","event":"task.updated","id":"task-7","summary":"Updated task-7 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":51}
 {"ts":"2026-10-16T13:11:46Z","event":"task.updated","id":"task-8","summary":"Updated task-8 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":52}
 {"ts":"2026-10-16T13:11:48Z","event":"task.updated","id":"task-10","summary":"Updated task-10 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":53}
+{"ts":"2026-10-21T02:37:41Z","event":"task.updated","id":"task-3","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":54,"data":{"fields":["body"]}}

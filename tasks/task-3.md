@@ -12,18 +12,18 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-16T12:39:20Z"
+updatedAt: "2026-10-21T02:37:41Z"
 priority: "high"
 ---
 ## State
 
-Algorant/tandem is PUBLIC, at release 0.17.1 (published 2026-10-16), with rewritten documentation live at trytandem.dev. Independently verified: main is at 2736599 (Release Tandem 0.17.1), GitHub lists 13 release assets, the release responds anonymously with HTTP 200, and AUR tandem-bin is 0.17.1-1. Herdra reports asset checksums verified; this portfolio check did not repeat the downloads/checksum audit. Protocol remains 0.5.0; current boards need no migration.
+Algorant/tandem is PUBLIC, at release 0.17.3 (published 2026-10-21), with the seven-page docs site live at trytandem.dev. Independently verified: origin/main at 66a87b0 (lock refresh after the fe0f417 release commit), 13 release assets, the release and site respond anonymously with HTTP 200, the docs deployment at 66a87b0 succeeded, and AUR tandem-bin is 0.17.3-1. Protocol remains 0.5.0; existing boards need no migration.
 
-The seven-page docs/site overhaul is shipped, no longer paused: Home, Quickstart, Concepts, Agents, TUI and web, CLI, Configuration. All seven public routes returned HTTP 200. Live Concepts includes board storage and independent sync, diagrams and real product captures. The source has 12 old-URL aliases; the live /workspace/ alias points to /concepts/#board-storage-and-sync. The docs deployment at 190ad10 succeeded. The homepage now links the teaser, and its MP4 responds with HTTP 200: the earlier missing-teaser blocker is resolved.
+0.17.3: fresh workspaces start with six categorized starter rules, and any rule can be turned off and on without deletion (CLI `tandem rules enable/disable`, TUI keyboard/mouse; disabled rules remain visible via `tandem rules list --all`). Idle TUIs no longer rebuild board trees from unchanged Git snapshots every two seconds.
 
-Release notes describe refused mutations checked before record writes, correct published IDs on concurrent adds, protocol-shaped structured event data, and `$ ` runnable-validation help. Herdra also reports stricter release gates. Tandem task-63 and task-64 are archived completed; task-76 (docs overhaul) is archived completed. Task-65 was canceled because pre-0.5 boards are unsupported and live boards are current, not because a general repair feature shipped.
+0.17.2 (2026-10-19): board commits use the repository's Git identity instead of a fixed Tandem author, so remotes with author push rules accept board syncs.
 
-The 0.17.0 session working set and local-record activity chooser remain part of the shipped product; the chooser is not live agent/process monitoring. The new mark, light-theme variant and site art are live.
+Earlier: 0.17.1 rewrote the docs into seven pages (Home, Quickstart, Concepts, Agents, TUI and web, CLI, Configuration) with diagrams, real captures, old-URL redirects and the teaser; it also fixed refused-mutation writes and concurrent-add IDs. 0.17.0 added the session working set and local-record activity chooser (not live agent/process monitoring). The new mark and site art are live.
 
 ## Shippable means
 
@@ -33,7 +33,7 @@ The common bar in AGENTS.md, plus: the site and README carry the current brand, 
 
 No currently verified public-facing crippling issue from the previous list remains: the stale docs, refused-write/concurrent-ID bugs and missing teaser have been addressed; the old migration case is explicitly unsupported. This is a portfolio verification of publication, contents and board outcomes, not a new full-history safety audit or exhaustive functional test.
 
-Remaining active project work (rules UX, parent-closure assistance, deferred multi-project web, and release-checklist wording) is not by itself a public-shipping blocker.
+Remaining active project work (parent-closure assistance, deferred multi-project web, release-checklist wording, mise release pickup lag and small tooling papercuts) is not by itself a public-shipping blocker.
 
 ## Next step
 
