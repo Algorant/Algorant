@@ -14,7 +14,7 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-10-16T13:11:33Z"
+updatedAt: "2026-10-26T03:53:26Z"
 ---
 
 ## Description
@@ -27,6 +27,14 @@ Herdra is Algorant's front-door orchestrator: a Pi session coordinating per-proj
 
 Read-only checks confirm the repository identity/visibility, main at 5457d3f (clean and even with origin/main), VISION.md, AGENTS.md, README.md, bin/herdra, bin/herdra-check, bin/herdra-open, bin/herdra-tui, bin/herdra-cutover, research/, and its Tandem board. No public-readiness review has been done. Publication mechanism remains undecided; do not assume the current private tree or history can be published unchanged.
 
+## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- No licence; short README. Research notes and board history hold the tailnet name, LAN IPs, a homelab domain, about 100 machine-name lines and a username path (research/task-12.md, task-15.md, task-39.md; AGENTS.md). No credentials; no blob over 1 MB.
+
+Why private: "private for the moment… will go public eventually" (Algorant via Herdra).
+
 ## Shippable means
 
 The common bar in AGENTS.md, plus: instructions explain the Pi/Herdr/Tandem/inbox prerequisites and what a stranger can actually run without access to Algorant's private Pi configuration. Licensing and attribution cover scripts and borrowed material.
@@ -37,5 +45,4 @@ Unknown until reviewed. Candidate review areas, not confirmed findings: private 
 
 ## Next step
 
-When Algorant prioritizes it, Herdra's own project agent performs a read-only public-readiness review and reports path/category-only findings through Herdra, without copying private contents here. Algorant then chooses remediation/publication scope and timing. Keep the repository private meanwhile; this addition does not change the existing portfolio focus order.
-
+Herdra owns and scopes the research/ review itself (2026-10-26), including whether research/ and the board history can be public or need a fresh repository. Algorant decides timing.
