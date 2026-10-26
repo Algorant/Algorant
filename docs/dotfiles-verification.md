@@ -132,8 +132,8 @@ Additional privacy scope includes historical Zsh history and old agent-session f
 
 ## Checks actually run
 
-- `bash -n /home/ivan/.dotfiles/home/.local/bin/sysup` — exit 0 (older checkout).
-- `bash /home/ivan/.dotfiles/scripts/sysup/tests/test-sysup-rust-optin.sh` — exit 0, 45 stubbed assertions (older checkout only).
+- `bash -n ~/.dotfiles/home/.local/bin/sysup` — exit 0 (older checkout).
+- `bash ~/.dotfiles/scripts/sysup/tests/test-sysup-rust-optin.sh` — exit 0, 45 stubbed assertions (older checkout only).
 - `bash -n /tmp/dotfiles-verification.POeEwf/remote-scan/head-snapshot/home/.local/bin/sysup` — exit 0 (latest remote version matching live files).
 - `bash /tmp/dotfiles-verification.POeEwf/remote-scan/head-snapshot/scripts/sysup/tests/test-sysup-rust-optin.sh` — exit 0, **49 stubbed assertions**, including the four-agent group, update ordering, failure propagation and opt-in Rust behavior. No live upgrades.
 - `/tmp/dotfiles-verification.POeEwf/scan.py --repo /tmp/dotfiles-verification.POeEwf/remote.git --output /tmp/dotfiles-verification.POeEwf/remote-scan` — wrapper exit 0; underlying HEAD scanner exit 0, history scanner exit **10** (configured findings code, not a clean result).
@@ -141,7 +141,7 @@ Additional privacy scope includes historical Zsh history and old agent-session f
 - `mise bootstrap dotfiles status --json`, systemd state and process inspection — read-only observations as qualified above.
 - Read-only SSH probe using existing `archbox` configuration — exit 0. Initial fully-qualified Tailscale-name attempt failed strict host-key checking; no trust was changed. Desktop-name probe failed DNS resolution (exit 255).
 - `fnox --version` — exit 0, 1.35.1 on the laptop.
-- `git -C /home/ivan/.dotfiles status --short` — empty at end; checkout HEAD unchanged.
+- `git -C ~/.dotfiles status --short` — empty at end; checkout HEAD unchanged.
 
 ## Decisions before publication
 
