@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:56:38Z"
+updatedAt: "2026-10-26T03:56:46Z"
 priority: "high"
 ---
 ## State
@@ -48,4 +48,4 @@ The common bar in AGENTS.md, for each repository, plus:
 
 ## Next step
 
-Herdra has asked the verdigris Ceph (2026-10-26) to finish the Ports table, replace the username paths and drop the theme's stale private paragraph. Questions with Algorant via Herdra: MIT licence for his repos, and publishing the main repo after these fixes, accepting the first name in 4 old commits (both recommended).
+Herdra has asked the verdigris Ceph (2026-10-26) to finish the Ports table, replace the username paths, drop the theme's stale private paragraph and add the MIT licence. Publishing the main repo is still open with Algorant: he asked what the first name in old commits shows, and Herdra is answering him.
