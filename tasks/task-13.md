@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:53Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-10-26T03:13:07Z"
+updatedAt: "2026-10-26T03:53:24Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/Algomarchy"]
 ---
 
@@ -28,6 +28,14 @@ Algorant/Algomarchy stays the PRIVATE operations repository (publisher, private 
 
 Conflict: `bootstrap.sh` clones `https://github.com/Algorant/dotfiles.git` by default, and the README links plugin folders and the Omarchy profile in Algorant/dotfiles. Algorant decided on 2026-10-21 that the generated dotfiles stay private (task-12), so a stranger can follow neither.
 
+
+## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- omarchy-setup: **clean**, with no findings in tree or history. No licence. README: 7 TODO lines (captures, README.md:31-43); 4 links into the private generated dotfiles and one to the private Pi catalog; bootstrap.sh defaults to the private dotfiles.
+
+Why private: private until the fresh-install proof and explicit release approval (Algomarchy task-82); after the proof, "going public is still his separate decision" (Herdra, 2026-10-16). Algorant/Algomarchy is the private operations repository by design.
 
 ## Shippable means
 
