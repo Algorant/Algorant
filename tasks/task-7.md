@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:03Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:53:45Z"
+updatedAt: "2026-10-26T03:56:44Z"
 priority: "low"
 ---
 ## State
@@ -24,6 +24,8 @@ Linked from the profile README but not in the current focus (VISION.md). GitHub:
 Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
 
 - PUBLIC repository; no licence. Home paths and machine names in AGENTS.md and plan/; committed third-party feed dumps in artifacts/failed-feeds/. No credentials.
+
+Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant, for repos missing a licence; requested from the owner via Herdra.
 
 Visibility: public.
 
