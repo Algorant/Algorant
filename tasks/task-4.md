@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:56:46Z"
+updatedAt: "2026-10-26T03:58:02Z"
 priority: "high"
 ---
 ## State
@@ -30,7 +30,7 @@ Read-only pattern scan of the current tree and full history of every branch (git
 - Main repo: no licence; README.md:39 still "#todo make this a table"; first-name username in Windows paths at obsidian/verdigris-minimal.css:5 and windows-terminal/README.md:16,82, plus 4 history commits; one machine name in history (801b585). Links fine (verdigris.nvim is public). No credentials; no blob over 1 MB.
 - Public theme: MIT licence; clean apart from one machine name in history; README.md:37 still carries the private-era install paragraph.
 
-Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant, for repos missing a licence; requested from the owner via Herdra.
+Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant; sent to the verdigris Ceph as part of its fresh-history preparation.
 
 Why private: "keep it private like verdigris for now" (Algorant via Herdra, 2026-10-12); no reason recorded beyond "for now".
 
@@ -48,4 +48,4 @@ The common bar in AGENTS.md, for each repository, plus:
 
 ## Next step
 
-Herdra has asked the verdigris Ceph (2026-10-26) to finish the Ports table, replace the username paths, drop the theme's stale private paragraph and add the MIT licence. Publishing the main repo is still open with Algorant: he asked what the first name in old commits shows, and Herdra is answering him.
+The verdigris Ceph is preparing a fresh-history repository (Ports table, username paths, stale theme paragraph, MIT licence) and stops at "fresh repo ready, still private". Herdra then asks Algorant for the specific OK to make it public; nothing else counts as authorization.
