@@ -53,3 +53,4 @@
 {"ts":"2026-10-16T13:11:48Z","event":"task.updated","id":"task-10","summary":"Updated task-10 metadata: title","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":53}
 {"ts":"2026-10-21T02:37:41Z","event":"task.updated","id":"task-3","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":54,"data":{"fields":["body"]}}
 {"ts":"2026-10-26T01:51:12Z","event":"task.updated","id":"task-12","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":55,"data":{"fields":["title","priority","body"]}}
+{"ts":"2026-10-26T01:51:14Z","event":"task.canceled","id":"task-12-1","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":56,"data":{"reason":"Superseded: Algorant decided Algorant/dotfiles stays private (via Herdra, 2026-10-21). No publication review is pending."}}

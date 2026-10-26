@@ -3,7 +3,6 @@ id: task-12-1
 uid: c50cc709-5ff7-4c68-be82-c0f6a027eeed
 type: task
 title: "Deferred: Algorant reviews private Algorant/dotfiles and decides whether it goes public"
-state: todo
 priority: "low"
 parentId: "task-12"
 tags: ["public-readiness", "dotfiles", "deferred"]
@@ -13,7 +12,11 @@ accord:
   constraints: ["Visibility changes and history rewrites need Algorant's explicit word.", "Nothing private in this public board."]
   updatedAt: "2026-10-12T03:04:49Z"
 createdAt: "2026-10-12T03:04:49Z"
-updatedAt: "2026-10-12T03:04:49Z"
+updatedAt: "2026-10-26T01:51:14Z"
+archivedAt: "2026-10-26T01:51:14Z"
+resolution:
+  outcome: "canceled"
+  note: "Superseded: Algorant decided Algorant/dotfiles stays private (via Herdra, 2026-10-21). No publication review is pending."
 ---
 
 ## Description
