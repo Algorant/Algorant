@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:01Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:13:08Z"
+updatedAt: "2026-10-26T03:53:25Z"
 priority: "low"
 ---
 ## State
@@ -23,6 +23,14 @@ On its board: the diagnosis/repair loop (task-47) is closed, the vault-integrati
 
 Goal: a portable Obsidian media-note plugin across eight media types with narrowed providers, verified outside Obsidian (workbench, Obscura) before Algorant's native check.
 
+
+## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- MIT licence. Real tailnet name in test/gateway.test.ts:1249-1255 and 5 commits; LAN IP and home paths in old board history. Other hits were false positives ("diagnosis" wording; dependency emails in package-lock.json; .npmrc holds only fund/audit flags). No credentials; no blob over 1 MB.
+
+Why private: no recorded reason (the board's decisions cover private/local use of provider data, not repository visibility).
 
 ## Shippable means
 
@@ -36,4 +44,4 @@ The common bar in AGENTS.md, plus: installable through BRAT from the public repo
 
 ## Next step
 
-Herdra has put task-46 to Algorant (2026-10-26); record the outcome. After acceptance, the mediafetch Ceph refreshes the README and provider matrix; publication still needs Algorant's explicit approval. Focus order unchanged.
+Herdra has asked the mediafetch Ceph (2026-10-26) to replace the real tailnet name in its test with a synthetic host. Task-46 native acceptance is with Algorant. After acceptance, the Ceph refreshes the README and provider matrix; publication still needs Algorant's explicit approval.
