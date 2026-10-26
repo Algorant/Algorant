@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:53:28Z"
+updatedAt: "2026-10-26T03:53:49Z"
 priority: "high"
 ---
 ## State
@@ -31,7 +31,7 @@ Read-only pattern scan of the current tree and full history of every branch (git
 
 - PUBLIC repository. The real tailnet name appears in 31 commits, including current board records; username home paths in the tracked .tandem_old/ folder on main (13 lines) and in 84 history commits. MIT licence. No credentials; no blob over 1 MB.
 
-Why private: not private (public).
+Visibility: public.
 
 ## Shippable means
 
