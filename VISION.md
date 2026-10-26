@@ -33,7 +33,7 @@ First focus, in order:
 Next:
 
 5. **Algomarchy**: a public guide or checklist, section by section, to how Algorant customized each important part of Omarchy to fit him.
-6. **obsmd**: Obsidian vault maintenance with agents. It should be public, ideally as the repository itself, with its semi-sensitive parts kept out.
+6. **obsmd**: Obsidian vault maintenance with agents. The repository stays private. If anything goes public, it is a separate, generic guide to setting things up the same way (skills, scripts), written fresh with no secrets or personal content. Not scheduled.
 
 Later:
 
