@@ -14,7 +14,7 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-10-26T03:56:42Z"
+updatedAt: "2026-10-26T03:58:00Z"
 ---
 
 ## Description
@@ -33,7 +33,7 @@ Read-only pattern scan of the current tree and full history of every branch (git
 
 - No licence; short README. Research notes and board history hold the tailnet name, LAN IPs, a homelab domain, about 100 machine-name lines and a username path (research/task-12.md, task-15.md, task-39.md; AGENTS.md). No credentials; no blob over 1 MB.
 
-Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant, for repos missing a licence; requested from the owner via Herdra.
+Licence: MIT added (4afb212, 2026-10-26, verified).
 
 Why private: "private for the moment… will go public eventually" (Algorant via Herdra).
 
