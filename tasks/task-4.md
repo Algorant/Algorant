@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-15T19:20:11Z"
+updatedAt: "2026-10-26T03:53:21Z"
 priority: "high"
 ---
 ## State
@@ -22,6 +22,15 @@ Verdigris now has a public, independently installable Omarchy theme. Verified 20
 Algorant approved publication after a final audit, reported by Herdra on 2026-10-15. The reported audit found no secrets; approved already-public author metadata is not a blocker. This portfolio check did not independently repeat the full-history audit.
 
 Algorant/verdigris remains PRIVATE (visibility rechecked). It holds the canonical palette and other ports; its omarchy/ directory is a stub pointing to the extracted theme (92e417d). The theme retained its history when extracted (verdigris task-1, archived/accepted). The profile still links the private main repository, deliberately retained by Algorant.
+
+## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- Main repo: no licence; README.md:39 still "#todo make this a table"; first-name username in Windows paths at obsidian/verdigris-minimal.css:5 and windows-terminal/README.md:16,82, plus 4 history commits; one machine name in history (801b585). Links fine (verdigris.nvim is public). No credentials; no blob over 1 MB.
+- Public theme: MIT licence; clean apart from one machine name in history; README.md:37 still carries the private-era install paragraph.
+
+Why private: "keep it private like verdigris for now" (Algorant via Herdra, 2026-10-12); no reason recorded beyond "for now".
 
 ## Shippable means
 
@@ -37,4 +46,4 @@ The common bar in AGENTS.md, for each repository, plus:
 
 ## Next step
 
-The verdigris Ceph refreshes the public theme README's private-era guidance and confirms remaining readiness gaps for the private main repository through Herdra. Algorant then decides whether to publish the main palette/ports repository. Keep the already-public theme distinct from the still-private omarchy-setup and generated dotfiles, whose publication remains gated on VM proof (Herdra, 2026-10-15).
+Herdra has asked the verdigris Ceph (2026-10-26) to finish the Ports table, replace the username paths and drop the theme's stale private paragraph. Questions with Algorant via Herdra: MIT licence for his repos, and publishing the main repo after these fixes, accepting the first name in 4 old commits (both recommended).
