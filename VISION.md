@@ -49,6 +49,7 @@ Older profile projects (xunfurl, RSSify, retrokit, AlgoPDF) stay listed but are 
 ## Principles
 
 - **Private source, public output.** Where a project's working copy mixes private and public material, the private repository stays authoritative and automation publishes a public version. Private changes flow out without a second copy to maintain.
+- **Public only on Algorant's word.** Nothing goes from private to public without his explicit OK for that specific flip, given at that moment. Approved plans, licences, readiness evidence or an agreed publication method never count.
 - **Nothing private, ever.** Credentials, personal data, financial details, private vault content, and machine-local state never reach a public repository, including this one and its Tandem board.
 - **Honest over impressive.** Public descriptions match what the project actually does today.
 - **Each project owns its work.** This repository knows the state of each public project and what stands between it and shipping. The changes themselves happen in each project, by that project's own agent.

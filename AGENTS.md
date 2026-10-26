@@ -43,6 +43,7 @@ Treat Herdra's account as a lead, not evidence. Record what you verified yoursel
 - Each project's own Ceph makes that project's changes, however small. Never edit another repository, its board, or its Git state. To have work done there, or to ask about a project's crippling issues, send a request through Herdra.
 - This repository's own work is the profile README, these documents, and the board.
 - Pushing other repositories, changing visibility, rewriting history, and any publication decision need Algorant's explicit word. Readiness evidence is not authorization.
+- A private-to-public flip needs Algorant's explicit OK for that specific flip, given at that moment (his standing rule, 2026-10-26). Approved plans, licences and agreed publication methods never count. Record such work as "ready, still private" and ask through Herdra.
 - The profile README is public output. Change its links or wording only as part of an agreed Task, and check every link anonymously afterwards.
 
 ## Talking to Herdra
