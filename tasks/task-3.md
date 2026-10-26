@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:53:49Z"
+updatedAt: "2026-10-26T03:56:45Z"
 priority: "high"
 ---
 ## State
@@ -46,4 +46,4 @@ Remaining active project work (parent-closure assistance, deferred multi-project
 
 ## Next step
 
-Question with Algorant via Herdra (2026-10-26): have the tandem Ceph remove .tandem_old/ from main and stop writing MagicDNS URLs and home paths into board records, without a history rewrite (recommended). Held until his answer.
+Approved by Algorant (2026-10-26) and sent by Herdra to the tandem Ceph: remove .tandem_old/ from main and add a rule that board records carry no host names or home paths. No history rewrite. Verify the result here once it lands.
