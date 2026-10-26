@@ -13,12 +13,15 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-12T01:58:24Z"
+updatedAt: "2026-10-26T03:13:10Z"
 priority: "high"
 ---
 ## State
 
-The private source is Algorant/.pi (checkout ~/.pi). The 'Publish Pi snapshot' Action regenerates Algorant/pi on every main push (green on 2026-10-11). But Algorant/pi is still PRIVATE, so the profile's 'My Pi Setup' link 404s. Recent features: agent inbox, Herdra widget, model roles with quota-aware choice, an adversarial reviewer, dbs, /mem. Codemode is used throughout. Algorant expects a significant codemode-driven refactor, which does not block publishing.
+The private source is Algorant/.pi (checkout ~/.pi); last commit 2026-10-22 (43cf1b5). The "Publish Pi snapshot" Action regenerates Algorant/pi on every main push; the latest run succeeded and regenerated the catalog on 2026-10-22 (2128247). Verified 2026-10-26: Algorant/pi is still PRIVATE (top level: README.md, config-manifest.json, extensions, prompts, scripts, skills, themes), so the profile's "My Pi Setup" link 404s (kept on purpose by Algorant as motivation). No public-readiness review of the generated catalog appears on the .pi board.
+
+Recent features: agent inbox, Herdra widget, model roles with quota-aware choice, an adversarial reviewer, dbs, /mem. Codemode is used throughout. Algorant expects a significant codemode-driven refactor, which does not block publishing.
+
 
 ## Shippable means
 
@@ -35,4 +38,4 @@ Algorant keeps the dead profile link on purpose (2026-10-11), as motivation to g
 
 ## Next step
 
-The .pi Ceph reviews a fresh clone of the generated Algorant/pi (safety, README, codemode accuracy) and reports. Then Algorant decides on making it public.
+Herdra has put a .pi Ceph readiness review to Algorant (2026-10-26): one review of a fresh clone of Algorant/pi covering safety, README and codemode/model-role/inbox accuracy. Record his answer and the review's findings, then Algorant decides visibility.
