@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:04Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-16T13:11:46Z"
+updatedAt: "2026-10-26T03:53:31Z"
 priority: "low"
 ---
 ## State
@@ -21,4 +21,12 @@ Linked from the profile README but not in the current focus (VISION.md). GitHub:
 
 ## Next step
 
-None until Algorant brings it into focus.
+None until Algorant brings it into focus.## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- No licence. LAN device IPs at retrokit.toml:16,26; username paths in two skills. No credentials.
+
+Why private: no recorded reason.
+
+
