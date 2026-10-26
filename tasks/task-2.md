@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:13:10Z"
+updatedAt: "2026-10-26T03:53:22Z"
 priority: "high"
 ---
 ## State
@@ -22,6 +22,14 @@ The private source is Algorant/.pi (checkout ~/.pi); last commit 2026-10-22 (43c
 
 Recent features: agent inbox, Herdra widget, model roles with quota-aware choice, an adversarial reviewer, dbs, /mem. Codemode is used throughout. Algorant expects a significant codemode-driven refactor, which does not block publishing.
 
+
+## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- Generated Algorant/pi: no licence; README links the private Algorant/.pi source (dead for visitors); external links resolve. Machine names in docs and code by design (inbox, model roles, memory); a Windows vault path in skills/memory/SKILL.md:30. No credentials; no blob over 1 MB.
+
+Why private: no recorded reason. The public-mirror plan authorized planning only and publication was never approved; the .pi source is private by design.
 
 ## Shippable means
 
