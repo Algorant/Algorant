@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-21T02:37:41Z"
+updatedAt: "2026-10-26T03:53:28Z"
 priority: "high"
 ---
 ## State
@@ -25,16 +25,25 @@ Algorant/tandem is PUBLIC, at release 0.17.3 (published 2026-10-21), with the se
 
 Earlier: 0.17.1 rewrote the docs into seven pages (Home, Quickstart, Concepts, Agents, TUI and web, CLI, Configuration) with diagrams, real captures, old-URL redirects and the teaser; it also fixed refused-mutation writes and concurrent-add IDs. 0.17.0 added the session working set and local-record activity chooser (not live agent/process monitoring). The new mark and site art are live.
 
+## Readiness scan (2026-10-26)
+
+Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
+
+- PUBLIC repository. The real tailnet name appears in 31 commits, including current board records; username home paths in the tracked .tandem_old/ folder on main (13 lines) and in 84 history commits. MIT licence. No credentials; no blob over 1 MB.
+
+Why private: not private (public).
+
 ## Shippable means
 
 The common bar in AGENTS.md, plus: the site and README carry the current brand, and the docs match current behavior.
 
 ## Crippling issues
 
-No currently verified public-facing crippling issue from the previous list remains: the stale docs, refused-write/concurrent-ID bugs and missing teaser have been addressed; the old migration case is explicitly unsupported. This is a portfolio verification of publication, contents and board outcomes, not a new full-history safety audit or exhaustive functional test.
+1. Infrastructure details on the public repository (see scan). The tailnet name grants no access, but it and the username paths should stop appearing.
 
 Remaining active project work (parent-closure assistance, deferred multi-project web, release-checklist wording, mise release pickup lag and small tooling papercuts) is not by itself a public-shipping blocker.
 
+
 ## Next step
 
-The tandem Ceph keeps docs and release descriptions aligned with shipped behavior and surfaces any newly verified public-facing blocker through Herdra. The portfolio record no longer waits for docs-overhaul approval, deployment or teaser placement.
+Question with Algorant via Herdra (2026-10-26): have the tandem Ceph remove .tandem_old/ from main and stop writing MagicDNS URLs and home paths into board records, without a history rewrite (recommended). Held until his answer.
