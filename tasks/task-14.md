@@ -2,9 +2,9 @@
 id: task-14
 uid: 35ffc32d-c0d4-4963-8c8e-6f787da348bd
 type: task
-title: "06 — obsmd: decide what stays private, then publish"
+title: "06 — obsmd: stays private; generic setup guide later"
 state: todo
-priority: "medium"
+priority: "low"
 tags: ["public-readiness", "obsmd"]
 accord:
   status: "ready"
@@ -12,14 +12,17 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:54Z"
 createdAt: "2026-10-12T01:50:54Z"
-updatedAt: "2026-10-26T03:53:20Z"
+updatedAt: "2026-10-26T03:56:37Z"
 ---
 
 ## Description
 
 ## State
 
-Algorant/obsmd is PRIVATE. It is a project-local Pi skill for maintaining Obsidian vaults (books, movies, finance bills modules) plus devlog and agent-sync docs. Algorant wants it public, ideally the repository itself, but it contains semi-sensitive information.
+Decision (Algorant via Herdra, 2026-10-26): the Algorant/obsmd repository stays PRIVATE. Publication plan, if anything goes public: a separate, generic guide on how to set up vault maintenance the way he has (skills, scripts and so on), as a new repository with fresh content, not a copy of obsmd's history, with no secrets or personal content, MIT licensed (copyright Algorant). Not scheduled.
+
+obsmd itself is a project-local Pi skill set for maintaining Obsidian vaults (books, movies, finance bills modules) plus devlog and agent-sync docs.
+
 
 ## Readiness scan (2026-10-26)
 
@@ -33,15 +36,14 @@ Why private: "semi-sensitive information" (Algorant's portfolio kickoff); the sc
 
 ## Shippable means
 
-The common bar in AGENTS.md, plus: the sensitivity question is settled first, and nothing about the vault's personal content (finance, reading, people) is exposed in the tree or history.
+For the future guide: the common bar in AGENTS.md, plus generic instructions with no vault content, personal or financial data, or infrastructure details, and an MIT licence.
+
 
 ## Crippling issues
 
-1. Personal financial documents in history (see scan). Publishing needs a new repository with fresh, reviewed history, or a history rewrite.
-2. Infrastructure details (tailnet, LAN IPs, machine names) in history and board.
-3. No licence; the public subset is not defined.
+None for the plan; the guide does not exist yet. The obsmd repository's history (see scan) is why it stays private.
 
 
 ## Next step
 
-Herdra has asked the obsmd Ceph for a path/category inventory of sensitive material (2026-10-26). Question with Algorant via Herdra: publish from a new repository with fresh history, keeping the current one private (recommended). Then agree the public tree.
+None scheduled. The obsmd Ceph's sensitivity inventory (requested by Herdra) can inform what the guide covers when Algorant schedules it.
