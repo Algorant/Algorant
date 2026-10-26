@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:52Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-10-26T01:51:12Z"
+updatedAt: "2026-10-26T01:51:55Z"
 ---
 ## State
 
@@ -28,9 +28,10 @@ Not applicable while the decision stands. If Algorant reopens publication: the c
 
 ## Crippling issues
 
-1. The profile README still links Algorant/dotfiles ("My Dotfiles"), which 404s for visitors. Earlier the dead link was accepted as motivation while publication was pending; with the repository staying private, whether to keep, remove or repoint it is Algorant's call (asked through Herdra).
-2. Work that planned to link public dotfiles files (the Algomarchy guide, task-13) needs another way to show the configuration.
+None. The profile README no longer links Algorant/dotfiles: Herdra chose to remove the "My Dotfiles" entry under its delegation rules (2026-10-21), since it was a dead link for visitors and the Algomarchy entry covers the setup. Removed in 47d69f4, pushed to origin/main.
+
+Work that planned to link public dotfiles files (the Algomarchy guide, task-13) shows the configuration itself instead.
 
 ## Next step
 
-Record Algorant's answer on the profile link. Nothing else to do unless he reopens publication.
+None unless Algorant reopens publication.
