@@ -12,14 +12,17 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:01Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-16T12:52:24Z"
+updatedAt: "2026-10-26T03:13:08Z"
 priority: "low"
 ---
 ## State
 
-Algorant/mediafetch remains PRIVATE and testing/unaccepted. Independently verified: main at 2968a67 (approved vision and restart plan), clean and even with origin/main; latest GitHub release is still the historical 0.1.3 prerelease from 2026-09-29. No new release or native acceptance is established by the restart.
+Algorant/mediafetch remains PRIVATE and unaccepted. Verified 2026-10-26: last commit 2026-10-22 (2bebd20); prerelease **0.1.4** published 2026-10-21 (the previous was 0.1.3, 2026-09-29).
 
-The goal remains a portable Obsidian media-note plugin across eight media types with narrowed providers. The approved direction is autonomous diagnosis outside Obsidian using the existing workbench and Obscura before handing Algorant a verified candidate. The current board consolidates work into task-1 (capability/readiness review), task-3 (vault-integration specification aligned with obsmd and Pi writers), task-47 (11-checkpoint diagnosis/repair loop), and task-46 (final desktop native acceptance). The old Windows/frozen-0.1.3 installation prerequisite is superseded, not an outstanding gate. The project owner reports review/spec Workers underway; their output is not yet acceptance evidence.
+On its board: the diagnosis/repair loop (task-47) is closed, the vault-integration specification (task-3) is parked by Algorant (2026-10-16), and task-46, final native acceptance of the verified candidate in desktop MasterVault, is blocked waiting on Algorant's install, credential selection and short native check. task-46 says the parked integration spec is not a prerequisite. This record does not independently confirm that 0.1.4 is the candidate that passed the workbench gates; the mediafetch Ceph should confirm.
+
+Goal: a portable Obsidian media-note plugin across eight media types with narrowed providers, verified outside Obsidian (workbench, Obscura) before Algorant's native check.
+
 
 ## Shippable means
 
@@ -27,11 +30,10 @@ The common bar in AGENTS.md, plus: installable through BRAT from the public repo
 
 ## Crippling issues
 
-1. No verified replacement candidate or final native acceptance yet. Do not present the old 0.1.3 beta as newly accepted or ready because planning restarted.
-2. Provider identity/artwork and host-correct credential behavior remain under the consolidated task-47 checkpoints; results must distinguish fixed local defects from evidenced upstream limitations and untested flows.
-3. Current capability/security review and vault integration are not complete (task-1/task-3). Portable notes must preserve user-owned content and follow the approved integration contract, not an invented universal schema.
-4. Workbench/README/provider guidance must match verified behavior (task-47-11) before public claims are refreshed.
+1. No native acceptance yet (task-46 waits on Algorant). Until then, 0.1.4 is an unaccepted prerelease.
+2. README and provider/credential guidance must match the verified build before public claims are refreshed.
+
 
 ## Next step
 
-The mediafetch Ceph verifies the current-state review and integration specification, then executes the bounded task-47 repair loop and supplies one exact candidate with concise evidence. Algorant performs the final targeted desktop native acceptance under task-46. Keep portfolio readiness testing/unaccepted until those outcomes are verified; publication still requires his explicit approval. The portfolio focus order has not changed.
+Herdra has put task-46 to Algorant (2026-10-26); record the outcome. After acceptance, the mediafetch Ceph refreshes the README and provider matrix; publication still needs Algorant's explicit approval. Focus order unchanged.
