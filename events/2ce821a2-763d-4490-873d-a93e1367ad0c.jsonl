@@ -89,3 +89,4 @@
 {"ts":"2026-10-26T03:58:02Z","event":"task.updated","id":"task-4","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":89,"data":{"fields":["body"]}}
 {"ts":"2026-10-26T03:58:04Z","event":"task.updated","id":"task-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":90,"data":{"fields":["body"]}}
 {"ts":"2026-10-26T03:58:05Z","event":"task.updated","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":91,"data":{"fields":["body"]}}
+{"ts":"2026-10-27T02:33:46Z","event":"task.updated","id":"task-4","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":92,"data":{"fields":["title","references","body"]}}

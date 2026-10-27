@@ -2,9 +2,9 @@
 id: task-4
 uid: 65bf0b8b-f1b6-45e8-b6eb-028665166e14
 type: task
-title: "01 — Verdigris: ship publicly"
+title: "01 — Verdigris: public; keep public face current"
 state: todo
-references: ["https://github.com/Algorant/verdigris", "https://github.com/Algorant/omarchy-verdigris-theme"]
+references: ["https://github.com/Algorant/verdigris", "https://github.com/Algorant/omarchy-verdigris-theme", "https://github.com/Algorant/verdigris.nvim"]
 tags: ["public-readiness", "verdigris"]
 accord:
   status: "ready"
@@ -12,27 +12,17 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:58:02Z"
+updatedAt: "2026-10-27T02:33:46Z"
 priority: "high"
 ---
 ## State
 
-Verdigris now has a public, independently installable Omarchy theme. Verified 2026-10-15: Algorant/omarchy-verdigris-theme is PUBLIC, responds anonymously with HTTP 200, and an anonymous shallow clone succeeds at 911bb6a. Its tree has an MIT LICENSE, five README-linked desktop/app previews, colors.toml, and 28 wallpapers. The README documents `omarchy theme install https://github.com/Algorant/omarchy-verdigris-theme`; it installs as `verdigris`. This check verified public access and contents, not a fresh desktop installation.
+Both repositories are PUBLIC. Verified 2026-10-26, logged out:
+- **Algorant/verdigris** (palette and 15 terminal/editor/desktop ports): public since 2026-10-26, with Algorant's explicit OK via Herdra. The page returns HTTP 200 and an anonymous HTTPS clone works. main is one fresh commit (e8b8a39, "Initial Verdigris palette and theme ports"), and the tandem branch is a fresh one-commit board. MIT LICENSE, copyright 2026 Algorant. The README has no TODO left. Tree and board have no tailnet name, home paths or machine names. README links resolve: omarchy-verdigris-theme and verdigris.nvim are both public.
+- **Algorant/omarchy-verdigris-theme**: public since 2026-10-15, MIT. The stale private-install paragraph is gone (cac3587).
+- The full old history is kept PRIVATE in Algorant/verdigris-archive (anonymous 404), so the first name in old Windows-path commits is not public.
 
-Algorant approved publication after a final audit, reported by Herdra on 2026-10-15. The reported audit found no secrets; approved already-public author metadata is not a blocker. This portfolio check did not independently repeat the full-history audit.
-
-Algorant/verdigris remains PRIVATE (visibility rechecked). It holds the canonical palette and other ports; its omarchy/ directory is a stub pointing to the extracted theme (92e417d). The theme retained its history when extracted (verdigris task-1, archived/accepted). The profile still links the private main repository, deliberately retained by Algorant.
-
-## Readiness scan (2026-10-26)
-
-Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
-
-- Main repo: no licence; README.md:39 still "#todo make this a table"; first-name username in Windows paths at obsidian/verdigris-minimal.css:5 and windows-terminal/README.md:16,82, plus 4 history commits; one machine name in history (801b585). Links fine (verdigris.nvim is public). No credentials; no blob over 1 MB.
-- Public theme: MIT licence; clean apart from one machine name in history; README.md:37 still carries the private-era install paragraph.
-
-Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant; sent to the verdigris Ceph as part of its fresh-history preparation.
-
-Why private: "keep it private like verdigris for now" (Algorant via Herdra, 2026-10-12); no reason recorded beyond "for now".
+The profile's Verdigris link now resolves for visitors.
 
 ## Shippable means
 
@@ -42,10 +32,8 @@ The common bar in AGENTS.md, for each repository, plus:
 
 ## Crippling issues
 
-1. The main repository is still private: the profile link and the theme README's links to its palette and dedicated ports do not resolve anonymously. This does not prevent cloning the public theme.
-2. The main repository's previously recorded license, unfinished Ports README and history/attribution checks remain unconfirmed here; the public theme now has its own MIT LICENSE and previews. Do not carry the old theme license/private-access blockers forward.
-3. The public theme README still contains private-repository installation guidance; its wording needs refreshing now that anonymous HTTPS cloning works.
+None verified. This check covered publication, licence, links and a sensitive-pattern check of the new public tree and board; it did not judge README screenshots or port quality.
 
 ## Next step
 
-The verdigris Ceph is preparing a fresh-history repository (Ports table, username paths, stale theme paragraph, MIT licence) and stops at "fresh repo ready, still private". Herdra then asks Algorant for the specific OK to make it public; nothing else counts as authorization.
+Keep the public face current: the verdigris Ceph reports significant changes through Herdra. Verdigris-archive stays private; publishing it would need its own explicit OK from Algorant.
