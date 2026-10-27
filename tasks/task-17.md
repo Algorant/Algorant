@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-27T04:18:10Z"
+updatedAt: "2026-10-27T05:18:43Z"
 ---
 
 ## Description
@@ -36,3 +36,14 @@ Standing rule: nothing goes private to public without Algorant's explicit OK for
 Pilot in this repository (Herdra, 2026-10-27): in about a day, gitguard installs log-only pre-push and reference-transaction hooks in this repository's clone on the workstation for about one week (gitguard task-5). They never block, log locally only, and use untracked config. If a push or Tandem sync fails mentioning gitguard, tell the gitguard Ceph.
 
 Pilot progress (gitguard, 2026-10-28): the user-level literals file now holds the homelab domain, the tailnet name and an account name (network/identity class, blocking in block mode), so rules catch them offline. gitguard's later publish-gate task will also check that a candidate repository has no history before its fresh root. A per-repository log→block recommendation will follow gitguard's task-4 calibration.
+
+Calibration (gitguard 0.3.1, task-4, 2026-10-28): finding groups across the 12 pilot mirrors went from 1,080 to 241, with no judged leak lost. Of the 241, 27 are leaks newly recovered by the literals.
+- Recommended block (new pushes only): herdra, .pi, Pi catalog, omarchy-setup, obsmd (rules only), Algorant, tandem, mediafetch.
+- Recommended log: dotfiles (false flags to accept first) and finanza (its data is its purpose).
+- Verdigris: out until its own Gitleaks hook and gitguard have an approved coexistence design.
+My policy position:
+- Adoption is a commit by each owner.
+- Each Ceph gets a refusal instruction first: fix the text, or report the finding ID. Never accept without Algorant.
+- Initial accepts go to Algorant as one batch.
+- Algorant decides after the phase B addendum (about 2026-11-03), as one package through Herdra.
+gitguard filed task-7 (`gitguard verify`, the publish gate) following §3.
