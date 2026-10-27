@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:57Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-27T02:33:46Z"
+updatedAt: "2026-10-27T04:17:09Z"
 priority: "high"
 ---
 ## State
@@ -23,6 +23,8 @@ Both repositories are PUBLIC. Verified 2026-10-26, logged out:
 - The full old history is kept PRIVATE in Algorant/verdigris-archive (anonymous 404), so the first name in old Windows-path commits is not public.
 
 The profile's Verdigris link now resolves for visitors.
+
+gitguard pilot phase A (2026-10-28, counts and shapes only; report in the gitguard repo, pilot/history-scan.md): the fresh Verdigris history is clean apart from accepted-by-design items (approved author email); the private archive keeps the old Windows-path username, as expected. Algorant/verdigris is a new repository (created 2026-10-26), and old commit SHAs return 404 anonymously.
 
 ## Shippable means
 
