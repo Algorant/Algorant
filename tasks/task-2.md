@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-27T04:17:01Z"
+updatedAt: "2026-10-27T05:18:45Z"
 priority: "high"
 ---
 ## State
@@ -32,6 +32,8 @@ Read-only pattern scan of the current tree and full history of every branch (git
 Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant; sent to the .pi Ceph to add through the publisher.
 
 gitguard pilot phase A (2026-10-28, counts and shapes only; report in the gitguard repo, pilot/history-scan.md): the generated catalog's dbs skill docs and script name the homelab Postgres domain (an internal domain, so a leak; found only by Jev until a literal rule exists); 3 user-home path groups, one a real README example path; machine-name notes. To be fixed in the .pi source before any publication.
+
+gitguard calibration (2026-10-28): the Pi catalog has 4 real findings, including the homelab domain in the dbs docs. These must be fixed in the .pi source before any flip.
 
 Why private: no recorded reason. The public-mirror plan authorized planning only and publication was never approved; the .pi source is private by design.
 
