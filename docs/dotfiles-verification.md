@@ -88,7 +88,7 @@ Official documentation confirms automatic saves, default five-minute publishing 
 
 ### Tool/configuration links for the eventual list
 
-The current tree has inspectable configuration for Atuin, bat, btop, fastfetch, fd, Ghostty, Git, Herdr, lsd, mise, mpv, ncspot, Neovim, paru, SecretSpec declarations, Starship, Tandem, Worktrunk, Yazi, and Zsh under `home/.config/`. Laptop configuration for Fuzzel, Niri, Noctalia and WirePlumber is under `home@algotop/.config/`.
+The current tree has inspectable configuration for Atuin, bat, btop, fastfetch, fd, Ghostty, Git, Herdr, lsd, mise, mpv, ncspot, Neovim, paru, SecretSpec declarations, Starship, Tandem, Worktrunk, Yazi, and Zsh under `home/.config/`. Laptop configuration for Fuzzel, Niri, Noctalia and WirePlumber is under `home@<laptop profile>/.config/`.
 
 Link actual snapshot files/directories, not retired Stow paths or a claim that every configured application is installed on every machine.
 
