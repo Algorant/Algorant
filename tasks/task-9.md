@@ -12,14 +12,14 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:01Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:53:25Z"
+updatedAt: "2026-10-27T03:12:36Z"
 priority: "low"
 ---
 ## State
 
 Algorant/mediafetch remains PRIVATE and unaccepted. Verified 2026-10-26: last commit 2026-10-22 (2bebd20); prerelease **0.1.4** published 2026-10-21 (the previous was 0.1.3, 2026-09-29).
 
-On its board: the diagnosis/repair loop (task-47) is closed, the vault-integration specification (task-3) is parked by Algorant (2026-10-16), and task-46, final native acceptance of the verified candidate in desktop MasterVault, is blocked waiting on Algorant's install, credential selection and short native check. task-46 says the parked integration spec is not a prerequisite. This record does not independently confirm that 0.1.4 is the candidate that passed the workbench gates; the mediafetch Ceph should confirm.
+On its board: the diagnosis/repair loop (task-47) is closed, the vault-integration specification (task-3) is parked by Algorant (2026-10-16), and task-46, final native acceptance of the verified candidate in MasterVault on the workstation, is blocked waiting on Algorant's install, credential selection and short native check. task-46 says the parked integration spec is not a prerequisite. This record does not independently confirm that 0.1.4 is the candidate that passed the workbench gates; the mediafetch Ceph should confirm.
 
 Goal: a portable Obsidian media-note plugin across eight media types with narrowed providers, verified outside Obsidian (workbench, Obscura) before Algorant's native check.
 
@@ -34,7 +34,7 @@ Why private: no recorded reason (the board's decisions cover private/local use o
 
 ## Shippable means
 
-The common bar in AGENTS.md, plus: installable through BRAT from the public repository, with an honest provider/credential matrix. A replacement candidate must pass the project's current release gates, outside-Obsidian workflow checks and content-preservation checks, then targeted native desktop acceptance. Harness success alone does not prove native Obsidian behavior, mobile support or accessibility.
+The common bar in AGENTS.md, plus: installable through BRAT from the public repository, with an honest provider/credential matrix. A replacement candidate must pass the project's current release gates, outside-Obsidian workflow checks and content-preservation checks, then targeted native acceptance on the workstation. Harness success alone does not prove native Obsidian behavior, mobile support or accessibility.
 
 ## Crippling issues
 
