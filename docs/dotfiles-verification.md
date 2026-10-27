@@ -4,7 +4,7 @@ Coordination: `task-1` in the **Algorant GitHub public-readiness** workspace (no
 
 ## Follow-up
 
-Algorant chose a **single public dotfiles repository with secrets outside Git**, not a separate public mirror. Remediation is tracked in `task-11`; see [the current progress report](task-11-progress.md) for restored desktop access, the reproduced watcher-lock issue and its verified released fix, and the automatic-publishing hook limitation. The observations below preserve the initial verification baseline.
+Algorant chose a **single public dotfiles repository with secrets outside Git**, not a separate public mirror. Remediation is tracked in `task-11`; see [the current progress report](task-11-progress.md) for restored workstation access, the reproduced watcher-lock issue and its verified released fix, and the automatic-publishing hook limitation. The observations below preserve the initial verification baseline.
 
 ## Conclusion
 
@@ -28,7 +28,7 @@ The root README rewrite must use current facts, not the stale checkout copies. F
 
 Repository `AGENTS.md` and the `dots` skill describe:
 
-- **Desktop:** Arch under WSL; Windows integration, not a native Linux desktop stack.
+- **Workstation:** Arch under WSL; Windows integration, not a native Linux desktop stack.
 - **Laptop:** Arch with Niri and Noctalia.
 - **Main homelab machine:** headless Arch server.
 
@@ -36,11 +36,11 @@ Current observations:
 
 | Role | Observation | Boundary |
 | --- | --- | --- |
-| Laptop | Arch; mise 2026.9.3; selected profile `algotop`; Niri and Noctalia processes running; 105 active tracked entries | Live configuration and tracking targets inspected locally |
-| Homelab | Arch; mise 2026.9.3; selected profile `archbox`; `sysup` present; 84 active tracked entries | Read-only SSH through the existing configured `archbox` alias; machine reports hostname `dellmini` |
-| Desktop | Documented profile `desktop` and WSL role | The `desktop` SSH name did not resolve during review; not live-verified |
+| Laptop | Arch; mise 2026.9.3; selected laptop profile; Niri and Noctalia processes running; 105 active tracked entries | Live configuration and tracking targets inspected locally |
+| Homelab | Arch; mise 2026.9.3; selected homelab profile; `sysup` present; 84 active tracked entries | Read-only SSH through the existing configured homelab alias |
+| Workstation | Documented workstation profile and WSL role | The workstation's SSH name did not resolve during review; not live-verified |
 
-The prose can use generic role names. Actual profile examples must still use the implemented selectors `desktop`, `algotop`, and `archbox`; renaming those is a separate configuration change.
+The prose can use generic role names. Actual profile examples must still use the implemented selector names (for the workstation, laptop and homelab server); renaming those is a separate configuration change.
 
 ### System updates with sysup
 
@@ -80,7 +80,7 @@ The actual declaration is track-in-place, not Stow or a symlink deployment:
 - 105 tracking declarations comprise 84 shared entries plus 21 laptop-profile entries.
 - Laptop variants cover Niri, Noctalia, Fuzzel, WirePlumber and related desktop integration. Common CLI/application configuration stays shared.
 - Profile selection lives in untracked, machine-local `~/.config/mise/miserc.toml`.
-- Saved content appears under `home/`, `home@algotop/`, and `config/` in Git. These are snapshots, not the paths to edit for live application changes.
+- Saved content appears under `home/`, `home@<laptop profile>/`, and `config/` in Git. These are snapshots, not the paths to edit for live application changes.
 
 Official documentation confirms automatic saves, default five-minute publishing and fifteen-minute fetching, credentials required on each machine, and conflict/unsaved-edit pauses. Tool installation, service application, package provisioning, and template rendering are not implied by receiving tracked-file changes.
 
@@ -103,7 +103,7 @@ Gitleaks v8.30.1 was downloaded from its official GitHub release and its archive
 | Laptop's selected live tracked regular files | 0 scanner findings; no missing targets |
 | All history in fresh GitHub mirror | 6 scanner findings: 5 credential-related occurrences and 1 coordination-identifier false positive |
 
-The tracked `.zshenv` symlink was not dereferenced during snapshot scans; its tracked target `home/.zshenv` was included as an ordinary file. This is a pattern-based assessment, not proof that no secret or private information exists. The desktop's live files and the homelab's full file contents were not secret-scanned.
+The tracked `.zshenv` symlink was not dereferenced during snapshot scans; its tracked target `home/.zshenv` was included as an ordinary file. This is a pattern-based assessment, not proof that no secret or private information exists. The workstation's live files and the homelab's full file contents were not secret-scanned.
 
 ### Credential-containing historical locations
 
@@ -139,7 +139,7 @@ Additional privacy scope includes historical Zsh history and old agent-session f
 - `/tmp/dotfiles-verification.POeEwf/scan.py --repo /tmp/dotfiles-verification.POeEwf/remote.git --output /tmp/dotfiles-verification.POeEwf/remote-scan` — wrapper exit 0; underlying HEAD scanner exit 0, history scanner exit **10** (configured findings code, not a clean result).
 - `/tmp/dotfiles-verification.POeEwf/scan-live.py` — exit 0; live scanner exit 0.
 - `mise bootstrap dotfiles status --json`, systemd state and process inspection — read-only observations as qualified above.
-- Read-only SSH probe using existing `archbox` configuration — exit 0. Initial fully-qualified Tailscale-name attempt failed strict host-key checking; no trust was changed. Desktop-name probe failed DNS resolution (exit 255).
+- Read-only SSH probe using existing homelab configuration — exit 0. Initial fully-qualified Tailscale-name attempt failed strict host-key checking; no trust was changed. Workstation-name probe failed DNS resolution (exit 255).
 - `fnox --version` — exit 0, 1.35.1 on the laptop.
 - `git -C ~/.dotfiles status --short` — empty at end; checkout HEAD unchanged.
 
@@ -148,7 +148,7 @@ Additional privacy scope includes historical Zsh history and old agent-session f
 1. Confirm revocation or rotate the exposed OpenAI, Anthropic and Exa API keys; review the historical OAuth/session exposure.
 2. Implement Algorant's subsequent single-repository decision through a coordinated history cleanup across all branches, machines and mise history stores. The earlier separate-public-snapshot proposal was not adopted. Do not rewrite only one checkout while other watchers can reintroduce old ancestry.
 3. Decide on fnox adoption separately, including headless authentication and the desired command-level exposure of secrets. No plaintext fallback is required. fnox improves future handling; it does not sanitize existing Git history.
-4. Resolve or explicitly qualify the watcher-status discrepancy, and verify the desktop when reachable.
+4. Resolve or explicitly qualify the watcher-status discrepancy, and verify the workstation when reachable.
 5. Write the README from scratch around the agreed three-machine story, current `sysup` behavior, a real mise excerpt, bootstrap synchronization, and linked configuration inventory. No historical migration/fallback narrative needs to be retained.
 
 These are review findings and proposals, not authorization to rotate credentials, change live configuration, rewrite history, create a public repository, or change visibility.

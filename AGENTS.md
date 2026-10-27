@@ -21,7 +21,7 @@ Each project in VISION.md has exactly one root Task on this board, titled `NN â€
 
 A work in progress is shippable once all of the following hold:
 
-1. The public repository contains no secrets, private data, or machine-local state, in either the current tree or its history.
+1. The public repository contains no secrets, private data, or machine-local state, in either the current tree or its history: it is verified by gitguard as defined in [docs/sharing-framework.md](docs/sharing-framework.md) (Algorant's signed-off policy), including generic names instead of machine nicknames.
 2. The README says what the project is, how to try it, and that it is a work in progress, listing its known crippling issues.
 3. Licensing and attribution are present and correct.
 4. Every link to it from the profile README (and later the blog or videos) resolves for an anonymous visitor.

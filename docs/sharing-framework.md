@@ -1,6 +1,6 @@
-# Sharing framework (draft for Algorant)
+# Sharing framework
 
-Status: **draft, awaiting Algorant's decisions** (marked "Decision" below). It describes where the line between shareable and private lies, so that every repository can be public after one initial verification by gitguard, and stays that way without new reviews.
+Status: **signed off by Algorant as his policy (2026-10-27)**, with machine nicknames treated as findings (below). It describes where the line between shareable and private lies, so that every repository can be public after one initial verification by gitguard, and stays that way without new reviews.
 
 Roles: this repository owns the policy and the portfolio. gitguard (`Algorant/gitguard`, the project's own Ceph) owns the tool: rules, Jev questions, thresholds and hooks. Each project's Ceph owns its own content. Algorant decides publication.
 
@@ -12,12 +12,14 @@ A public repository is everything a stranger can fetch: the default branch, ever
 |---|---|---|
 | Code | source, scripts, tests, CI workflows | No credential values. Personal locations come from the environment or placeholders (`$HOME`, `~`, `<user>`), never literals. Vendored third-party code keeps its licence. |
 | Config | dotfiles, mise, app and theme configs, `.env.example` | Same as code. Secrets appear only as references (fnox or environment variable names, `.example` placeholders). Host-specific values live in an untracked override or a private companion. |
-| Docs | README, AGENTS.md, VISION.md, plans, research notes | No username-bearing paths, no tailnet or MagicDNS names, LAN or CGNAT IPs, or internal domains. Bare machine nicknames (`desktop`, `x1nano`) are acceptable. Links to private repositories are marked as private or removed. |
-| Board | Tandem Tasks, Decisions, rules, events, logs | Same as docs. Evidence cites paths, commits and categories, never values, and never local URLs or home paths. A public repository's board is public. |
+| Docs | README, AGENTS.md, VISION.md, plans, research notes | No username-bearing paths, no tailnet or MagicDNS names, LAN or CGNAT IPs, or internal domains. No machine nicknames: use the generic names from the machine mapping (below). Links to private repositories are marked as private or removed. |
+| Board | Tandem Tasks, Decisions, rules, events, logs | Same as docs, including the machine mapping. Evidence cites paths, commits and categories, never values, and never local URLs or home paths. A public repository's board is public. |
 | Personal data | names other than "Algorant", emails, phone numbers, postal addresses, account or card numbers, family, health or finance prose | Never present. Exception approved by Algorant: his Gmail as commit author. |
 | Data files | statements, transaction exports, vault notes, session transcripts, provider payloads, caches, databases | Never in git, in any repository that may become public. See section 2. |
 | Media | screenshots, recordings, wallpapers | A person checks each one for visible private details (window titles, notifications, hosts, file names). No tool verdict is enough for images. |
 | Commit metadata | author and committer, messages, file names | Same as personal data and docs. File names count: a statement filename is a finding even when its content is binary. |
+
+**Machine nicknames.** Algorant's machine nicknames are harmless but do not appear in public material. A mapping list outside every repository, next to gitguard's personal literals, gives each nickname a generic replacement: `workstation`, `laptop`, `homelab-server`, `work-machine`, `raspberry-pi`. It lives in the `[machines]` table of `~/.config/gitguard/literals.toml` (never in a repository, since it lists the nicknames). gitguard flags a nickname and suggests the replacement. Names that are also ordinary words are matched only in machine context (in backticks, host or SSH fields, `name.` or `name:` hostnames, "on/from/to name"). Until the pilot calibrates it, a nickname is reported as a note, not a block (gitguard task-1). A nickname is a fix-forward finding: the current tree and board must be clean, but a nickname only in history does not force fresh history.
 
 Findings are judged in three ways (calibration vocabulary shared with gitguard):
 
@@ -38,7 +40,7 @@ The repository itself must be publishable, so content that is private by nature 
 A repository is verified when all of these hold, recorded on its portfolio Task:
 
 1. The repository has committed gitguard's config.
-2. **Initial full scan.** A scan of the full history of every ref exits 0 with no unscanned chunks (gitguard's working definition), using the Jev mode set for that repository. Every remaining finding is either fixed or accepted by Algorant with a reason in the accept file.
+2. **Initial full scan.** A scan of the full history of every ref exits 0 with no unscanned chunks (gitguard's working definition), using the Jev mode set for that repository. Every remaining finding is either fixed or accepted by Algorant with a reason in the accept file. Machine nicknames in the current tree and board are replaced with their mapped generic names; nicknames only in history do not block.
 3. **Fresh history if needed.** If history holds a leak, the repository is republished from a clean tree as a new single-commit history, with the old history kept private in `<name>-archive`. Existing published history is not rewritten in place. The fresh repository is then scanned again (step 2).
 4. **Hooks on.** The pre-push and reference-transaction hooks are installed on every clone that pushes (or by the machine-wide dispatcher once that exists). The scheduled all-refs scan is enabled for the repository.
 5. **Record.** The portfolio Task records the gitguard and ruleset versions, the date, the scanned refs and the result. A ruleset major version change means a new full scan.
@@ -55,11 +57,11 @@ Verification covers text and file names. It does not replace the person's check 
 
 Already-public repositories need no new review: the hooks and the scheduled scan keep them clean, and a finding is handled as a normal fix.
 
-## 5. Decisions for Algorant
+## 5. Decisions (Algorant, 2026-10-27)
 
-1. **Is a green verification enough to flip?** Today's rule: nothing goes private to public without his explicit OK for that flip, at that moment. Proposal: keep that one confirmation, but reduce it to a single yes on a gitguard report, since everything before and after it is automated. Optionally, later, after the pilot has run without misses: pre-authorize repositories that pass verification with no accepted personal-data findings. That is his call.
-2. **Jev data exposure per repository.** Already set through Herdra (2026-10-27): `full` for ordinary repositories, finanza `paths-only`, obsmd `off` (rules only, with a local rule for financial-document paths), worktop excluded. Values are always masked before sending. Algorant can change any repository with one config value.
-3. **Bare machine nicknames** in public docs and boards: accepted by design (proposed), or treated as findings.
+1. **Flip gate:** every private-to-public flip keeps his explicit OK, given as one "yes" on the gitguard report for that flip. Revisited after the pilot only if he raises it.
+2. **Jev data exposure per repository.** Already set through Herdra (2026-10-27): `full` for ordinary repositories, finanza `paths-only`, obsmd `off` (rules only, with a local rule for financial-document paths), the work machine excluded. Values are always masked before sending. Algorant can change any repository with one config value.
+3. **Machine nicknames:** not accepted by design. They are replaced through the machine mapping (section 1).
 
 ## 6. Pilot
 
