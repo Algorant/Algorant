@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:54Z"
 createdAt: "2026-10-12T01:50:54Z"
-updatedAt: "2026-10-26T03:56:37Z"
+updatedAt: "2026-10-27T04:17:06Z"
 ---
 
 ## Description
@@ -31,6 +31,8 @@ Read-only pattern scan of the current tree and full history of every branch (git
 - **Critical:** commit afbfc8e (2026-05-01) added real personal financial statements and transaction exports under data/finance_inputs/; they were deleted in aaf72d4 (2026-07-22) but remain in history. The repository cannot be published with its current history.
 - Medium: tailnet name (8 commits), LAN IPs, machine names and home paths in history and the board; two identity emails at .pi/skills/devlog/references/harvest.md:69.
 - No licence; README is a short draft. No credentials found; no blob over 1 MB.
+
+gitguard pilot phase A (2026-10-28, counts and shapes only; report in the gitguard repo, pilot/history-scan.md): commit afbfc8e is no longer reachable from any branch, but GitHub still serves it by SHA (72 files) as an unreachable commit. The repository is private and stays private, so this is not exposed. It is the reason the framework requires a new repository, never an in-place rewrite, before anything turns public.
 
 Why private: "semi-sensitive information" (Algorant's portfolio kickoff); the scan confirms it.
 
