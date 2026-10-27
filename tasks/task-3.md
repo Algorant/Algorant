@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:56:45Z"
+updatedAt: "2026-10-27T04:17:04Z"
 priority: "high"
 ---
 ## State
@@ -30,6 +30,8 @@ Earlier: 0.17.1 rewrote the docs into seven pages (Home, Quickstart, Concepts, A
 Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
 
 - PUBLIC repository. The real tailnet name appears in 31 commits, including current board records; username home paths in the tracked .tandem_old/ folder on main (13 lines) and in 84 history commits. MIT licence. No credentials; no blob over 1 MB.
+
+gitguard pilot phase A (2026-10-28, counts and shapes only; report in the gitguard repo, pilot/history-scan.md): 2 tailnet groups (59 occurrences) in board events and logs; home paths from 2 usernames in this clone. Cleanup is with the tandem Ceph (approved 2026-10-26).
 
 Visibility: public.
 
