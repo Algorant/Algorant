@@ -58,9 +58,11 @@ Already-public repositories need no new review: the hooks and the scheduled scan
 ## 5. Decisions for Algorant
 
 1. **Is a green verification enough to flip?** Today's rule: nothing goes private to public without his explicit OK for that flip, at that moment. Proposal: keep that one confirmation, but reduce it to a single yes on a gitguard report, since everything before and after it is automated. Optionally, later, after the pilot has run without misses: pre-authorize repositories that pass verification with no accepted personal-data findings. That is his call.
-2. **Jev data exposure per repository**, from Herdra research task-42: `full` for ordinary repositories, `paths-only` or `off` where the content is itself sensitive (finanza, obsmd, worktop machines).
+2. **Jev data exposure per repository.** Already set through Herdra (2026-10-27): `full` for ordinary repositories, finanza `paths-only`, obsmd `off` (rules only, with a local rule for financial-document paths), worktop excluded. Values are always masked before sending. Algorant can change any repository with one config value.
 3. **Bare machine nicknames** in public docs and boards: accepted by design (proposed), or treated as findings.
 
 ## 6. Pilot
 
-Coordinated with gitguard (its task-3, log-only). It is chosen to cover each category and each judgement: known leaks (Tandem board, Herdra research, mediafetch test, obsmd file names), accepted-by-design values (machine nicknames, the approved author email), false flags (vendored bundles, placeholder tokens) and clean controls (omarchy-setup, the fresh Verdigris).
+Agreed with gitguard (its task-3): herdra, .pi, omarchy-setup, dotfiles, obsmd, Algorant and finanza (Algorant's list), plus tandem, mediafetch and verdigris with its archive. The pilot is local and log-only: per-clone untracked config, hooks in each clone's git dir, nothing committed or pushed in pilot repositories.
+
+It covers each category and each judgement: known leaks (Tandem board, Herdra research, mediafetch test, obsmd financial file names, which the new local rule must catch offline), accepted-by-design values (machine nicknames, the approved author email), false flags (vendored bundles, lockfile emails, placeholder tokens, third-party feed contacts) and clean controls (omarchy-setup, the fresh Verdigris).
