@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:52Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-10-26T01:51:55Z"
+updatedAt: "2026-10-27T03:12:37Z"
 ---
 ## State
 
@@ -20,7 +20,7 @@ Decision (Algorant, reported by Herdra 2026-10-21): the generated Algorant/dotfi
 
 Verified: Algorant/dotfiles is PRIVATE (anonymous request returns 404). GitHub last recorded a change on 2026-10-12. Its description reads "My Omarchy setup on Arch Linux, themed Verdigris and reproduced with mise".
 
-Background: the dotfiles are the `omarchy` branch of private Algorant/.dotfiles, bootstrapped with `mise bootstrap`. An on-demand publisher in private Algorant/Algomarchy (task-69) generates Algorant/dotfiles from it with a fail-closed audit. The homelab `archbox` branch is offsite-only and never published. Earlier history cleanup: archived task-1 and task-11.
+Background: the dotfiles are the `omarchy` branch of private Algorant/.dotfiles, bootstrapped with `mise bootstrap`. An on-demand publisher in private Algorant/Algomarchy (task-69) generates Algorant/dotfiles from it with a fail-closed audit. The homelab server's own branch is offsite-only and never published. Earlier history cleanup: archived task-1 and task-11.
 
 ## Shippable means
 
