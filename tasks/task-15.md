@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:56Z"
 createdAt: "2026-10-12T01:50:56Z"
-updatedAt: "2026-10-12T01:50:56Z"
+updatedAt: "2026-10-27T04:17:11Z"
 ---
 
 ## Description
@@ -20,6 +20,8 @@ updatedAt: "2026-10-12T01:50:56Z"
 ## State
 
 Algorant/finanza is PRIVATE personal finance automation (TypeScript/Node, budget and bank integration). Only a rulebook is to be published: how Algorant got it working, as reusable guidance. The code and data are not published.
+
+gitguard pilot phase A (2026-10-28, counts and shapes only; report in the gitguard repo, pilot/history-scan.md): the finanza source tracks a financial/ directory of transaction-level data. The source is never published; the rulebook is written fresh, so this confirms the policy rather than changing it.
 
 ## Shippable means
 
