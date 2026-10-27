@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-27T05:18:43Z"
+updatedAt: "2026-10-27T05:19:01Z"
 ---
 
 ## Description
@@ -47,3 +47,5 @@ My policy position:
 - Initial accepts go to Algorant as one batch.
 - Algorant decides after the phase B addendum (about 2026-11-03), as one package through Herdra.
 gitguard filed task-7 (`gitguard verify`, the publish gate) following §3.
+
+Next (agreed with gitguard, its task-5): after phase B (about 2026-11-03), gitguard sends one package. It holds the addendum, the per-repo block/log list (verdigris out), the initial accept batch (location, category and why; the Gmail author marked as already approved) and the one-paragraph Ceph instruction. I forward it to Algorant through Herdra as one decision. Verdigris coexistence comes later: gitguard runs after its Gitleaks hook, keeping both exit statuses.
