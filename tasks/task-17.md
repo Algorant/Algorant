@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-27T03:48:25Z"
+updatedAt: "2026-10-27T04:18:10Z"
 ---
 
 ## Description
@@ -34,3 +34,5 @@ Signed off by Algorant (2026-10-27) as his policy:
 Standing rule: nothing goes private to public without Algorant's explicit OK for that specific flip. A green verification is evidence, not authorization, unless he decides otherwise.
 
 Pilot in this repository (Herdra, 2026-10-27): in about a day, gitguard installs log-only pre-push and reference-transaction hooks in this repository's clone on the workstation for about one week (gitguard task-5). They never block, log locally only, and use untracked config. If a push or Tandem sync fails mentioning gitguard, tell the gitguard Ceph.
+
+Pilot progress (gitguard, 2026-10-28): the user-level literals file now holds the homelab domain, the tailnet name and an account name (network/identity class, blocking in block mode), so rules catch them offline. gitguard's later publish-gate task will also check that a candidate repository has no history before its fresh root. A per-repository log→block recommendation will follow gitguard's task-4 calibration.
