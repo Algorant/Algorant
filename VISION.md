@@ -25,7 +25,7 @@ Each public project should be easy to point to from any of these channels. A pos
 
 First focus, in order:
 
-1. **Verdigris**: an oxidized-copper color theme with ports for the tools Algorant uses. It is the closest to shareable, and a theme is the easiest thing for a stranger to try.
+1. **Verdigris**: an oxidized-copper color theme with ports for the tools Algorant uses. Public since 2026-10-26, together with its Omarchy theme; a theme is the easiest thing for a stranger to try.
 2. **Tandem**: agentic task management ("Jira for clankers"). It is the centerpiece of Algorant's agent workflow, and it already has releases, a site, a logo, and a teaser.
 3. **Pi setup**: Algorant's Pi agent configuration, extensions, and skills, published as a generated catalog from a private source. It shows how he actually works with agents, including Pi's codemode.
 4. **Dotfiles**: his machine setup, now Omarchy-based and bootstrapped with mise. Algorant decided the generated `Algorant/dotfiles` repository stays private; it is not a publication target.

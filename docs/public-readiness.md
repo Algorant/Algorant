@@ -2,11 +2,11 @@
 
 This file maps each portfolio project to its repositories, local checkout, and how its public version is produced. Each project's state, crippling issues, and next step live in its Task on this board ([AGENTS.md](../AGENTS.md)). The aims and order are in [VISION.md](../VISION.md).
 
-Baseline visibility was checked on 2026-10-11 with `gh repo view`; Verdigris's two repositories, generated dotfiles and omarchy-setup were rechecked on 2026-10-15. Herdra was also verified private when added to the portfolio. Re-check before relying on it.
+Baseline visibility was checked on 2026-10-11 with `gh repo view`; Verdigris's two repositories, generated dotfiles and omarchy-setup were rechecked on 2026-10-15. Herdra was also verified private when added to the portfolio. Verdigris (main) verified public on 2026-10-26. Re-check before relying on it.
 
 | Order / Task | Project | Public repository | Private source | Checkout | Visibility | Public version produced by |
 |---|---|---|---|---|---|---|
-| 1 / `task-4` | Verdigris | [Algorant/verdigris](https://github.com/Algorant/verdigris) and [Algorant/omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme) (Omarchy port, public 2026-10-15) | (same) | `~/Projects/verdigris` (palette/ports) | Private (palette/ports) / Public (Omarchy theme) | direct; theme installs independently via `omarchy theme install` |
+| 1 / `task-4` | Verdigris | [Algorant/verdigris](https://github.com/Algorant/verdigris) and [Algorant/omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme) (Omarchy port, public 2026-10-15) | (same) | `~/Projects/verdigris` (palette/ports) | Public (palette/ports, fresh history since 2026-10-26; old history private in `Algorant/verdigris-archive`) / Public (Omarchy theme) | direct; theme installs independently via `omarchy theme install` |
 | 2 / `task-3` | Tandem | [Algorant/tandem](https://github.com/Algorant/tandem) | (same) | `~/Projects/tandem` | Public | direct; site via GitHub Pages |
 | 3 / `task-2` | Pi setup | [Algorant/pi](https://github.com/Algorant/pi) | `Algorant/.pi` | `~/.pi` | Private (generated) / Private (source) | "Publish Pi snapshot" Action on every `main` push |
 | 4 / `task-12` | Dotfiles | [Algorant/dotfiles](https://github.com/Algorant/dotfiles) | `Algorant/.dotfiles`, `omarchy` branch | none (mise history) | Private by Algorant's decision, 2026-10-21 (generated) / Private (source) | on-demand publisher in private Algorant/Algomarchy reading `.dotfiles@omarchy` (Algomarchy task-69); replaces the old `master`-triggered Action |
