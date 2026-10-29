@@ -9,10 +9,10 @@ tags: ["public-readiness", "rssify"]
 accord:
   status: "ready"
   acceptance: ["Record a review of tracked content and Git history for secrets, private data, generated state, and publication blockers without copying sensitive values into findings.", "Agree with Algorant on public scope and address the agreed blockers; verify documentation, licensing/attribution, setup and usage claims, and experimental limitations against repository behavior.", "Record applicable repository-native checks and any explicit validation gaps, then record Algorant's approval of the public-facing result or explicit keep-private/defer decision."]
-  constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
-  updatedAt: "2026-10-12T01:51:03Z"
+  constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
+  updatedAt: "2026-10-29T03:13:41Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-26T03:58:01Z"
+updatedAt: "2026-10-29T03:13:41Z"
 priority: "low"
 ---
 ## State
