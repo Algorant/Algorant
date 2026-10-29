@@ -12,14 +12,12 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:51:01Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-27T03:12:36Z"
+updatedAt: "2026-10-29T02:52:19Z"
 priority: "low"
 ---
 ## State
 
-Algorant/mediafetch remains PRIVATE and unaccepted. Verified 2026-10-26: last commit 2026-10-22 (2bebd20); prerelease **0.1.4** published 2026-10-21 (the previous was 0.1.3, 2026-09-29).
-
-On its board: the diagnosis/repair loop (task-47) is closed, the vault-integration specification (task-3) is parked by Algorant (2026-10-16), and task-46, final native acceptance of the verified candidate in MasterVault on the workstation, is blocked waiting on Algorant's install, credential selection and short native check. task-46 says the parked integration spec is not a prerequisite. This record does not independently confirm that 0.1.4 is the candidate that passed the workbench gates; the mediafetch Ceph should confirm.
+Algorant/mediafetch remains PRIVATE. Verified 2026-10-29: latest prerelease is **0.1.5** (2026-10-27), BRAT-ready. Its board shows task-46 (native acceptance of the verified candidate) archived as completed with Algorant as reviewer.
 
 Goal: a portable Obsidian media-note plugin across eight media types with narrowed providers, verified outside Obsidian (workbench, Obscura) before Algorant's native check.
 
@@ -38,10 +36,11 @@ The common bar in AGENTS.md, plus: installable through BRAT from the public repo
 
 ## Crippling issues
 
-1. No native acceptance yet (task-46 waits on Algorant). Until then, 0.1.4 is an unaccepted prerelease.
-2. README and provider/credential guidance must match the verified build before public claims are refreshed.
+1. Algorant's own trial of 0.1.5 in MasterVault is still outstanding (the mediafetch Ceph has the steps).
+2. README and provider/credential guidance must match the verified build before any public claims are refreshed.
+3. A real tailnet name in test/gateway.test.ts (the fix was requested from the mediafetch Ceph on 2026-10-26).
 
 
 ## Next step
 
-Herdra has asked the mediafetch Ceph (2026-10-26) to replace the real tailnet name in its test with a synthetic host. Task-46 native acceptance is with Algorant. After acceptance, the Ceph refreshes the README and provider matrix; publication still needs Algorant's explicit approval.
+Algorant runs his 0.1.5 trial in MasterVault. The mediafetch Ceph fixes the test host and refreshes the README. Any flip needs his explicit OK at that moment, plus gitguard verification.
