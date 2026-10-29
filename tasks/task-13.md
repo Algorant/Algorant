@@ -2,9 +2,9 @@
 id: task-13
 uid: 6f9ff1e9-1bcb-4f15-821a-c46dd8b078b0
 type: task
-title: "05 — Algomarchy: public Omarchy guide (omarchy-setup)"
+title: "03b — Algomarchy guide (omarchy-setup): polish, then share"
 state: todo
-priority: "medium"
+priority: "high"
 tags: ["public-readiness", "algomarchy"]
 accord:
   status: "ready"
@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:52Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-10-29T03:42:09Z"
+updatedAt: "2026-10-29T03:47:03Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/Algomarchy"]
 ---
 
@@ -53,3 +53,5 @@ The common bar in AGENTS.md, plus: a section per major Omarchy area (e.g. packag
 ## Next step
 
 Re-assessed under the narrowed policy (2026-10-29). omarchy-setup (88f6163) has the reference README note, an AGENTS.md reference section and MIT, with no credentials or personal records. It is still PRIVATE. Offered to Algorant via Herdra as a flip together with Algorant/dotfiles, since its bootstrap and links point there. After the flip, repoint the profile's Algomarchy link to Algorant/omarchy-setup.
+
+Upcoming (Algorant, 2026-10-29; not scoped, nothing started): significant presentability polish first, then sharing through X/Twitter threads, blog posts and videos. Any flip waits for Algorant (the 2026-10-29 flip list is on hold).
