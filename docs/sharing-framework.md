@@ -41,7 +41,7 @@ Everything Algorant shares is a reference: someone points their agent at the rep
 Algorant's specifics invite a visiting agent to copy them, so the current files of a public repository use generic stand-ins where that is simple. This is polish, not a privacy gate: no history rewrite, fresh repository or CI provisioning for it, and a miss never blocks publishing.
 
 - His home directory → `~`.
-- Machine nicknames → roles: workstation, laptop, homelab-server, work-machine, raspberry-pi.
+- Machine nicknames → roles: desktop → workstation; x1nano, algotop → laptop; archbox, dellmini, cart-lab → homelab-server; worktop → work-machine; raspi → raspberry-pi. Machine names are publishable, so the map lives here.
 - His domain → `example.com`, or a role such as `homelab.example`.
 - Accounts and handles used only as examples → placeholders.
 
