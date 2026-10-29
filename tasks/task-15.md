@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:56Z"
 createdAt: "2026-10-12T01:50:56Z"
-updatedAt: "2026-10-29T03:13:56Z"
+updatedAt: "2026-10-29T13:16:41Z"
 ---
 
 ## Description
@@ -36,3 +36,4 @@ The common bar in AGENTS.md, plus: zero personal or financial details: no instit
 
 Later, after the focus projects: agree with Algorant on the rulebook's outline and where it lives (a blog post or a small public repository).
 
+Decision (Algorant via Herdra, 2026-10-29): finanza is DEFERRED for sharing, to be reviewed later. It stays as it is; gitguard keeps it in log (watching) mode.
