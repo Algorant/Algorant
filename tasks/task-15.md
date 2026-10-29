@@ -9,10 +9,10 @@ tags: ["public-readiness", "finanza"]
 accord:
   status: "ready"
   acceptance: ["The project meets the shippable bar in AGENTS.md and its own addition: rulebook reviewed for personal and financial details; verified independently here from a fresh anonymous view.", "Every profile or channel link to it resolves for an anonymous visitor.", "Algorant's decision to publish (or to defer) is recorded."]
-  constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
-  updatedAt: "2026-10-12T01:50:56Z"
+  constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
+  updatedAt: "2026-10-29T03:13:56Z"
 createdAt: "2026-10-12T01:50:56Z"
-updatedAt: "2026-10-27T04:17:11Z"
+updatedAt: "2026-10-29T03:13:56Z"
 ---
 
 ## Description
