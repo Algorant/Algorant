@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:33Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:46:59Z"
+updatedAt: "2026-10-29T03:47:46Z"
 priority: "high"
 ---
 ## State
@@ -45,7 +45,7 @@ Algorant keeps the dead profile link on purpose (2026-10-11), as motivation to g
 
 ## Crippling issues
 
-None known under the narrowed policy (2026-10-29). The fresh-repo plan (.pi task-491) is cancelled, and the existing private repository and its history stay. The final confirmation that the catalog holds no personal records waits for gitguard 0.5.0 (.pi task-492).
+None known under the narrowed policy (2026-10-29). The fresh-repo plan (.pi task-491) is cancelled, and the existing private repository and its history stay. gitguard 0.5.0 (2026-10-29) found 0 credential and 0 personal-record findings in the catalog's full history.
 
 ## Next step
 
