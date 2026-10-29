@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T02:52:22Z"
+updatedAt: "2026-10-29T02:54:11Z"
 priority: "high"
 ---
 ## State
@@ -41,7 +41,7 @@ The common bar in AGENTS.md, plus: the site and README carry the current brand, 
 
 ## Crippling issues
 
-1. Infrastructure details on the public repository (see scan). The tailnet name grants no access, but it and the username paths should stop appearing.
+1. None open in the current tree or active board. Tailnet names and home paths remain only in history and archived board records, which are accepted by never-6 (no history rewrite).
 
 Remaining active project work (parent-closure assistance, deferred multi-project web, release-checklist wording, mise release pickup lag and small tooling papercuts) is not by itself a public-shipping blocker.
 
@@ -52,4 +52,4 @@ Cleanup check (2026-10-29):
 - Main a164f66 removed .tandem_old/ (0 entries).
 - Rule never-6 bans private hostnames, tailnet URLs, LAN IPs and absolute home paths in board records.
 - The current board's active records are clean. The tailnet name remains only in 16 archived logs and 1 event file; home paths only in 11 archived logs. never-6 leaves archived records unchanged, so this is accepted history.
-- Open: the main tree still holds 13 real-username absolute home paths, at AGENTS.md:27 and plan/task-15-pi-handoff.md:57-65 and nearby. Raised with the tandem Ceph through Herdra (its Ceph wasn't running).
+- Fixed: edb1ab8 (2026-10-29) replaced the 13 real-username absolute home paths on main with ~/… paths, no history rewrite. Verified from an anonymous clone: no real-username home paths and no tailnet name in the main tree.
