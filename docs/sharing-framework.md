@@ -36,6 +36,17 @@ Everything Algorant shares is a reference: someone points their agent at the rep
 
    Where the repository has no AGENTS.md, create one with just this section. The rest of an existing AGENTS.md stays as the project's own agent instructions.
 
+## Readability polish: generic current files
+
+Algorant's specifics invite a visiting agent to copy them, so the current files of a public repository use generic stand-ins where that is simple. This is polish, not a privacy gate: no history rewrite, fresh repository or CI provisioning for it, and a miss never blocks publishing.
+
+- His home directory → `~`.
+- Machine nicknames → roles: workstation, laptop, homelab-server, work-machine, raspberry-pi.
+- His domain → `example.com`, or a role such as `homelab.example`.
+- Accounts and handles used only as examples → placeholders.
+
+Apply it once as a plain find-and-replace on the current tree. Where a repository is published by a generator (the Pi catalog, Algorant/dotfiles), extend that generator's existing replace list instead; the list may live in the generator's private policy file.
+
 ## Going public
 
 The project's Ceph prepares the repository; the portfolio Ceph checks it and records "ready, still private"; Herdra asks Algorant; he gives an explicit OK for that specific flip, at that moment; the owner flips it; the portfolio Ceph checks the result logged out.
