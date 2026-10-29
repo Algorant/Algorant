@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-27T05:18:45Z"
+updatedAt: "2026-10-29T02:52:24Z"
 priority: "high"
 ---
 ## State
@@ -52,4 +52,6 @@ Algorant keeps the dead profile link on purpose (2026-10-11), as motivation to g
 
 ## Next step
 
-Herdra has put a .pi Ceph readiness review to Algorant (2026-10-26): one review of a fresh clone of Algorant/pi covering safety, README and codemode/model-role/inbox accuracy. Record his answer and the review's findings, then Algorant decides visibility.
+Herdra approved the .pi readiness review (2026-10-29; no visibility change). Already done in .pi: task-483 (privacy placeholders), task-487 (homelab domain redacted from generated output), MIT licence via the publisher. My check: the current catalog has no tailnet name and only placeholder home paths.
+
+The review was asked of the pi Ceph (2026-10-29) against gitguard's 4 findings. Those findings sit in the catalog's history, so under the framework's §3 the flip candidate must be a new repository with fresh history, with the current one kept private as an archive. The pi Ceph is to propose the publisher change; Algorant's OK is needed before any repo is created or flipped.
