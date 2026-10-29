@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-29T03:13:58Z"
+updatedAt: "2026-10-29T03:15:15Z"
 ---
 Requested by Algorant via Herdra (2026-10-27). This repository owns the POLICY (the line between shareable and private, and the portfolio); gitguard (~/Projects/gitguard, its own Ceph) owns the TOOL.
 
@@ -29,3 +29,11 @@ Policy revised by Algorant (2026-10-29): only genuinely personal things are priv
 gitguard is retuning to the narrowed policy (its task-13, release 0.5.0): it blocks credentials and personal records only; drops the network, machine, path and email findings; Jev covers credential, financial, family, home address, health and correspondence. The Nov 3 package is being reworked to match (pilot/retune.md).
 
 Standing rule: nothing goes private to public without Algorant's explicit OK for that specific flip.
+
+Split decided by Herdra (2026-10-29), framework 1101614:
+- Personal-setup repos (Pi catalog, Algorant/dotfiles, omarchy-setup, Herdra, future obsmd guide) get the full convention plus polish.
+- Products (Tandem, Verdigris and the theme, mediafetch, AlgoPDF, RSSify, x_unfurl, retrokit) get no "don't run it" note: a licence where missing, and an optional ideas section in AGENTS.md.
+
+Owners briefed directly: pi, algomarchy (dotfiles), omarchy-setup, mediafetch, tandem, verdigris. Herdra takes its own repo plus AlgoPDF, RSSify, x_unfurl and retrokit (no Cephs): MIT LICENSE for x_unfurl, retrokit and RSSify, and removal of RSSify's third-party failed-feed dumps.
+
+Next: re-check once the owners report, then bring Herdra the flip list as one yes/no per repo.
