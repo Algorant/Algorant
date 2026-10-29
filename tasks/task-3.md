@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:58Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-27T04:17:04Z"
+updatedAt: "2026-10-29T02:52:22Z"
 priority: "high"
 ---
 ## State
@@ -48,4 +48,8 @@ Remaining active project work (parent-closure assistance, deferred multi-project
 
 ## Next step
 
-Approved by Algorant (2026-10-26) and sent by Herdra to the tandem Ceph: remove .tandem_old/ from main and add a rule that board records carry no host names or home paths. No history rewrite. Verify the result here once it lands.
+Cleanup check (2026-10-29):
+- Main a164f66 removed .tandem_old/ (0 entries).
+- Rule never-6 bans private hostnames, tailnet URLs, LAN IPs and absolute home paths in board records.
+- The current board's active records are clean. The tailnet name remains only in 16 archived logs and 1 event file; home paths only in 11 archived logs. never-6 leaves archived records unchanged, so this is accepted history.
+- Open: the main tree still holds 13 real-username absolute home paths, at AGENTS.md:27 and plan/task-15-pi-handoff.md:57-65 and nearby. Raised with the tandem Ceph through Herdra (its Ceph wasn't running).
