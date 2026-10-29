@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-29T13:16:39Z"
+updatedAt: "2026-10-29T13:26:41Z"
 ---
 Requested by Algorant via Herdra (2026-10-27). This repository owns the POLICY (the line between shareable and private, and the portfolio); gitguard (~/Projects/gitguard, its own Ceph) owns the TOOL.
 
@@ -58,3 +58,5 @@ DECIDED by Algorant (via Herdra, 2026-10-29): all yes.
 - finanza is DEFERRED for sharing, to be reviewed later, and stays as it is.
 - Verdigris stays out until its coexistence design is approved.
 gitguard ships 0.5.1 (wording: watching/enabled), then sends each owner its adoption commit and the standing instruction. This repository adopts its own when gitguard sends it.
+
+This repository: gitguard ENABLED in ccd86da (2026-10-29), with .gitguard.toml (Jev full, offline warn) and .gitguard-accepted.toml (one Algorant-approved jev:financial false flag). The live push passed without findings.
