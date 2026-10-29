@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:52Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-10-29T03:13:52Z"
+updatedAt: "2026-10-29T03:42:09Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/Algomarchy"]
 ---
 
@@ -52,4 +52,4 @@ The common bar in AGENTS.md, plus: a section per major Omarchy area (e.g. packag
 
 ## Next step
 
-Herdra has put the rework question to Algorant (2026-10-26); record his answer. If approved, the Algomarchy Ceph reworks omarchy-setup and fills the captures; then Algorant approves the release and the profile link is repointed to Algorant/omarchy-setup.
+Re-assessed under the narrowed policy (2026-10-29). omarchy-setup (88f6163) has the reference README note, an AGENTS.md reference section and MIT, with no credentials or personal records. It is still PRIVATE. Offered to Algorant via Herdra as a flip together with Algorant/dotfiles, since its bootstrap and links point there. After the flip, repoint the profile's Algomarchy link to Algorant/omarchy-setup.
