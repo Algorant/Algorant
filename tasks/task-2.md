@@ -2,7 +2,7 @@
 id: task-2
 uid: dae194be-bd7a-4d67-9192-1b94ddd630c6
 type: task
-title: "03 — Pi setup: publish the generated catalog"
+title: "02 — Pi catalog: polish, then share"
 state: todo
 references: ["https://github.com/Algorant/pi"]
 relatedFiles: ["docs/pi-public-mirror-plan.md", "docs/public-readiness.md", "README.md"]
@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:33Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:18:47Z"
+updatedAt: "2026-10-29T03:46:59Z"
 priority: "high"
 ---
 ## State
@@ -56,3 +56,5 @@ Reference convention shipped (2026-10-29; verified):
 - Nickname replacements are kept as polish, and the domain stand-in is now example.com.
 
 gitguard 0.4.1 scanned all refs and full history (138 commits): no credential or financial-record findings. When gitguard 0.5.0 releases, the pi Ceph reruns it for personal records (family, address, health, correspondence). Then the flip comes to Algorant as one yes/no. Algorant/pi is still PRIVATE.
+
+Upcoming (Algorant, 2026-10-29; not scoped, nothing started): significant presentability polish first, then sharing through X/Twitter threads, blog posts and videos. Any flip waits for Algorant (the 2026-10-29 flip list is on hold).
