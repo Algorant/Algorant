@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:33Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:13:33Z"
+updatedAt: "2026-10-29T03:18:47Z"
 priority: "high"
 ---
 ## State
@@ -45,22 +45,14 @@ Algorant keeps the dead profile link on purpose (2026-10-11), as motivation to g
 
 ## Crippling issues
 
-1. The catalog's git history still holds the old leaks (gitguard's 4 findings). The current repository can't be flipped; the flip candidate is a fresh repository.
-2. One gitguard Jev note on dbs/docs/stack.md (lines 9–16), confirmed a placeholder false flag and tracked as gitguard task-12. It doesn't block.
+None known under the narrowed policy (2026-10-29). The fresh-repo plan (.pi task-491) is cancelled, and the existing private repository and its history stay. The final confirmation that the catalog holds no personal records waits for gitguard 0.5.0 (.pi task-492).
 
 ## Next step
 
-The review was delivered as .pi task-490 (2026-10-29):
-- Fixes: source commit e2aada6, catalog commit d076fd9, publisher run 40809907192 succeeded.
-- A bare account-name example was made generic, and seven nickname groups are redacted by the publisher-only rules under the documented framework exception.
-- The README now marks the .pi source link and other private links as "(private)". MIT stays publisher-owned.
+Reference convention shipped (2026-10-29; verified):
+- .pi source e5e152d, catalog 22a898f, publisher run 40811085013 green.
+- The README's first line after the title is the exact reference note.
+- A publisher-owned AGENTS.md holds only the "Reading this repo as a reference" section.
+- Nickname replacements are kept as polish, and the domain stand-in is now example.com.
 
-Independent check (2026-10-29), against the user-level literals and machine map: the current catalog tree has 0 literal, 0 nickname and 0 real home-path matches. Algorant/pi is still PRIVATE.
-
-Fresh-repo plan (scripts/public-pi/README.md in .pi). Herdra approved it on 2026-10-29 for creation only, then put it ON HOLD the same day: Algorant is reconsidering the sharing framework's scope. The pi Ceph was told to hold and to report any partial state. State (pi report, 2026-10-29, .pi task-491): Herdra had the publisher re-enabled, and normal regeneration to the existing private Algorant/pi resumed. Algorant/pi is unchanged and PRIVATE: same repository, old history, old deploy key. Nothing has been renamed or created. Plan as it was:
-1. Pause the publisher.
-2. Rename Algorant/pi to pi-archive and keep it private.
-3. Create a new private Algorant/pi seeded with one clean snapshot, with gitguard config, hooks and scheduled checks bootstrapped.
-4. Give it a new scoped deploy key and resume publishing to the same target.
-5. Run the full-history verification and a portfolio review.
-6. Flip visibility only after a separate explicit OK.
+gitguard 0.4.1 scanned all refs and full history (138 commits): no credential or financial-record findings. When gitguard 0.5.0 releases, the pi Ceph reruns it for personal records (family, address, health, correspondence). Then the flip comes to Algorant as one yes/no. Algorant/pi is still PRIVATE.
