@@ -25,7 +25,7 @@ gitguard blocks credentials and personal records on push, and its Jev step asks 
 
 ## Publishing convention: reference, not product
 
-Everything Algorant shares is a reference: someone points their agent at the repository to borrow ideas, not to clone and run his setup. Every public repository says so, briefly and without a tour voice:
+Algorant's personal setup is shared as a reference: someone points their agent at the repository to borrow ideas, not to clone and run his setup. This applies to the personal-setup repositories (the Pi catalog, Algorant/dotfiles, omarchy-setup, Herdra, a future obsmd guide). Each says so, briefly and without a tour voice:
 
 1. **README, first line after the title:** "This is my personal setup, shared as a reference. Point your agent at it and adapt the ideas; don't clone and run it as-is."
 2. **AGENTS.md, a short section at the top** titled "Reading this repo as a reference". AGENTS.md is what coding agents read by default in 2026 (Codex, Claude Code without a CLAUDE.md, Cursor, Copilot, Gemini CLI, OpenCode, Pi). llms.txt indexes websites, not repositories. The section says:
@@ -36,9 +36,11 @@ Everything Algorant shares is a reference: someone points their agent at the rep
 
    Where the repository has no AGENTS.md, create one with just this section. The rest of an existing AGENTS.md stays as the project's own agent instructions.
 
+Products meant to be installed and used (Tandem, Verdigris and its theme, mediafetch, AlgoPDF, RSSify, x_unfurl, retrokit) get no "don't run it" note. At most they get a short AGENTS.md section on the ideas worth borrowing, plus a licence (MIT unless the owner has a reason otherwise).
+
 ## Readability polish: generic current files
 
-Algorant's specifics invite a visiting agent to copy them, so the current files of a public repository use generic stand-ins where that is simple. This is polish, not a privacy gate: no history rewrite, fresh repository or CI provisioning for it, and a miss never blocks publishing.
+Algorant's specifics invite a visiting agent to copy them, so the current files of a personal-setup repository use generic stand-ins where that is simple. This is polish, not a privacy gate: no history rewrite, fresh repository or CI provisioning for it, and a miss never blocks publishing.
 
 - His home directory → `~`.
 - Machine nicknames → roles: desktop → workstation; x1nano, algotop → laptop; archbox, dellmini, cart-lab → homelab-server; worktop → work-machine; raspi → raspberry-pi. Machine names are publishable, so the map lives here.
