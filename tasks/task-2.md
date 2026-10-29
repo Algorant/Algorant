@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:05:57Z"
+updatedAt: "2026-10-29T03:06:16Z"
 priority: "high"
 ---
 ## State
@@ -57,7 +57,7 @@ The review was delivered as .pi task-490 (2026-10-29):
 
 Independent check (2026-10-29), against the user-level literals and machine map: the current catalog tree has 0 literal, 0 nickname and 0 real home-path matches. Algorant/pi is still PRIVATE.
 
-Fresh-repo plan (scripts/public-pi/README.md in .pi), awaiting Algorant's OK:
+Fresh-repo plan (scripts/public-pi/README.md in .pi). Herdra approved it on 2026-10-29 for creation only; everything stays private. Execution was sent to the pi Ceph:
 1. Pause the publisher.
 2. Rename Algorant/pi to pi-archive and keep it private.
 3. Create a new private Algorant/pi seeded with one clean snapshot, with gitguard config, hooks and scheduled checks bootstrapped.
