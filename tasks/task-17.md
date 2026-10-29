@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-29T03:42:11Z"
+updatedAt: "2026-10-29T03:47:18Z"
 ---
 Requested by Algorant via Herdra (2026-10-27). This repository owns the POLICY (the line between shareable and private, and the portfolio); gitguard (~/Projects/gitguard, its own Ceph) owns the TOOL.
 
@@ -43,3 +43,5 @@ All owners done (2026-10-29). Flip list sent to Herdra as one yes/no per repo:
 - Recommend WAIT: herdra (until the gitguard 0.5.0 personal-records pass) and mediafetch (until Algorant's 0.1.5 trial).
 - Stays private: obsmd, finanza and the private sources.
 RSSify token leak closed (subscription inactive; untracked in aa2470f).
+
+Flip list ON HOLD (Herdra, 2026-10-29): no flips until Algorant says so. They will fit the polish-then-share sequence in VISION.md.
