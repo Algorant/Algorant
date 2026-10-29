@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:54Z"
 createdAt: "2026-10-12T01:50:54Z"
-updatedAt: "2026-10-29T03:13:54Z"
+updatedAt: "2026-10-29T13:16:43Z"
 ---
 
 ## Description
@@ -49,3 +49,5 @@ None for the plan; the guide does not exist yet. The obsmd repository's history 
 ## Next step
 
 None scheduled. The obsmd Ceph's sensitivity inventory (requested by Herdra) can inform what the guide covers when Algorant schedules it.
+
+gitguard ENABLED on obsmd, rules only with Jev off (Algorant via Herdra, 2026-10-29).
