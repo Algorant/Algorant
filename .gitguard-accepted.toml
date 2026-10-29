@@ -1,0 +1,7 @@
+# Accepted by design. Value hashes only; managed by `gitguard accept`.
+
+[[accepted]]
+rule = "jev:financial"
+value = "sha256:1b713a7d5b83e2631ade10f05587811830efd57f90c846bb260ddd88b0660514"
+why = "readiness write-up with no figures; Jev note false flag (Algorant, 2026-10-29)"
+date = "2026-10-29"
