@@ -4,7 +4,7 @@ A Pi session started here is this project's Ceph (Herdr agent `algorant`). It re
 
 ## This repository is public
 
-Everything committed here, the Tandem board on the `tandem` branch included, is world-readable. Never write credentials, personal or financial details, private vault content, private repository contents, home-directory paths, or machine-local state into files, Task bodies, evidence, or commit messages. Refer to checkouts as `~/Projects/<name>` or `~/.pi`, never with a username.
+Everything committed here, the Tandem board on the `tandem` branch included, is world-readable. Never write credentials or personal records (family details, home address, financial or health data, private correspondence, private vault content) into files, Task bodies, evidence, or commit messages. Machine names, paths and network names are fine ([docs/sharing-framework.md](docs/sharing-framework.md)).
 
 ## Tracking each project's public state
 
@@ -21,7 +21,7 @@ Each project in VISION.md has exactly one root Task on this board, titled `NN â€
 
 A work in progress is shippable once all of the following hold:
 
-1. The public repository contains no secrets, private data, or machine-local state, in either the current tree or its history: it is verified by gitguard as defined in [docs/sharing-framework.md](docs/sharing-framework.md) (Algorant's signed-off policy), including generic names instead of machine nicknames.
+1. The public repository contains no credentials or personal records, in either the current tree or its history, as defined in [docs/sharing-framework.md](docs/sharing-framework.md). A leaked secret is rotated, and history is rewritten or restarted only for that.
 2. The README says what the project is, how to try it, and that it is a work in progress, listing its known crippling issues.
 3. Licensing and attribution are present and correct.
 4. Every link to it from the profile README (and later the blog or videos) resolves for an anonymous visitor.
