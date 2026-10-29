@@ -2,9 +2,9 @@
 id: task-12
 uid: bf46ebb5-f902-4ebd-9918-22d338256736
 type: task
-title: "04 — Dotfiles: stays private (Algorant's decision)"
+title: "03a — Dotfiles: polish via Algomarchy, then share"
 state: todo
-priority: "low"
+priority: "high"
 tags: ["public-readiness", "dotfiles"]
 accord:
   status: "ready"
@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:50Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-10-29T03:42:06Z"
+updatedAt: "2026-10-29T03:47:01Z"
 ---
 ## State
 
@@ -35,3 +35,5 @@ Work that planned to link public dotfiles files (the Algomarchy guide, task-13) 
 ## Next step
 
 Re-assessed under the narrowed policy (2026-10-29). The generated Algorant/dotfiles (940f3a0, publisher run 40813028250) has the reference README note, the top AGENTS.md section and an MIT LICENSE. No credentials or personal records were found in its tree or history. It is still PRIVATE. Offered to Algorant via Herdra as a flip together with omarchy-setup; that would reverse his 2026-10-21 "stays private" decision, which he must confirm explicitly.
+
+Upcoming (Algorant, 2026-10-29; not scoped, nothing started): significant presentability polish first, then sharing through X/Twitter threads, blog posts and videos. Any flip waits for Algorant (the 2026-10-29 flip list is on hold).
