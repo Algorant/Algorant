@@ -23,28 +23,22 @@ Each public project should be easy to point to from any of these channels. A pos
 
 ## Projects
 
-First focus, in order:
+The goal is not only to make projects public: it is to polish each one and then share it in different ways (Algorant, 2026-10-29). For each project in the focus set, significant work on presentability comes first, then sharing: X/Twitter threads, blog posts and videos. This is upcoming work, not yet scoped.
 
-1. **Verdigris**: an oxidized-copper color theme with ports for the tools Algorant uses. Public since 2026-10-26, together with its Omarchy theme; a theme is the easiest thing for a stranger to try.
-2. **Tandem**: agentic task management ("Jira for clankers"). It is the centerpiece of Algorant's agent workflow, and it already has releases, a site, a logo, and a teaser.
-3. **Pi setup**: Algorant's Pi agent configuration, extensions, and skills, published as a generated catalog from a private source. It shows how he actually works with agents, including Pi's codemode.
-4. **Dotfiles**: his machine setup, now Omarchy-based and bootstrapped with mise. Algorant decided the generated `Algorant/dotfiles` repository stays private; it is not a publication target.
+Focus set, in order:
 
-Next:
+1. **Tandem**: agentic task management ("Jira for clankers"). The centerpiece of Algorant's agent workflow, with releases, a site, a logo and a teaser.
+2. **Pi catalog**: Algorant's Pi agent configuration, extensions and skills, published as a generated catalog from the private `.pi` source. It shows how he actually works with agents.
+3. **Dotfiles via Algomarchy**: his Omarchy-based machine setup, shown through omarchy-setup (the Algomarchy guide) and the generated dotfiles it bootstraps.
+4. **Verdigris**: an oxidized-copper color theme with ports for the tools Algorant uses, and its Omarchy theme. Public since 2026-10-26.
+5. **Herdra**, together with his two Herdr plugins (herdr-agent-tree, herdr-notifs-plus): his front-door orchestrator agent and the Herdr pieces around it.
 
-5. **Algomarchy**: a public guide or checklist, section by section, to how Algorant customized each important part of Omarchy to fit him.
-6. **obsmd**: Obsidian vault maintenance with agents. The repository stays private. If anything goes public, it is a separate, generic guide to setting things up the same way (skills, scripts), written fresh with no secrets or personal content. Not scheduled.
+Also tracked, after the focus set:
 
-Later:
-
-7. **mediafetch**: an Obsidian plugin that creates media notes from provider metadata.
-8. **finanza rulebook**: how Algorant got his personal finance automation working, written as a reusable rulebook without any personal or financial details.
-
-Also tracked, without changing the focus order above:
-
-9. **[Herdra](https://github.com/Algorant/herdra)**: Algorant's front-door orchestrator agent, a Pi session coordinating project agents over Herdr, Tandem and an agent inbox. It brings back results, decisions and blockers and keeps one focused Now item at a time. The repository is private for now; the link is an intentional placeholder. Public-readiness blockers are unknown until reviewed.
-
-Older profile projects (xunfurl, RSSify, retrokit, AlgoPDF) stay listed but are not a current focus.
+- **obsmd**: Obsidian vault maintenance with agents. The repository stays private; if anything goes public, it is a separate, generic setup guide written fresh. Not scheduled.
+- **mediafetch**: an Obsidian plugin that creates media notes from provider metadata.
+- **finanza rulebook**: how Algorant got his personal finance automation working, written as a reusable rulebook without any personal or financial details.
+- Older profile projects (xunfurl, RSSify, retrokit, AlgoPDF) stay listed but are not a current focus.
 
 ## Principles
 
