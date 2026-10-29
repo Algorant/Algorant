@@ -13,7 +13,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials, personal or financial details, vault content, or home-directory paths."]
   updatedAt: "2026-10-12T01:50:59Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:07:30Z"
+updatedAt: "2026-10-29T03:07:53Z"
 priority: "high"
 ---
 ## State
@@ -57,7 +57,7 @@ The review was delivered as .pi task-490 (2026-10-29):
 
 Independent check (2026-10-29), against the user-level literals and machine map: the current catalog tree has 0 literal, 0 nickname and 0 real home-path matches. Algorant/pi is still PRIVATE.
 
-Fresh-repo plan (scripts/public-pi/README.md in .pi). Herdra approved it on 2026-10-29 for creation only, then put it ON HOLD the same day: Algorant is reconsidering the sharing framework's scope. The pi Ceph was told to hold and to report any partial state. Plan as it was:
+Fresh-repo plan (scripts/public-pi/README.md in .pi). Herdra approved it on 2026-10-29 for creation only, then put it ON HOLD the same day: Algorant is reconsidering the sharing framework's scope. The pi Ceph was told to hold and to report any partial state. Partial state (pi report, 2026-10-29, .pi task-491): the publisher workflow is disabled and drained. Algorant/pi is unchanged and PRIVATE: same repository, old history, old deploy key. Nothing has been renamed or created. Plan as it was:
 1. Pause the publisher.
 2. Rename Algorant/pi to pi-archive and keep it private.
 3. Create a new private Algorant/pi seeded with one clean snapshot, with gitguard config, hooks and scheduled checks bootstrapped.
