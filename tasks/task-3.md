@@ -2,7 +2,7 @@
 id: task-3
 uid: 4f6c1fe0-535e-402c-9cf1-eca0d9988dd6
 type: task
-title: "02 — Tandem: keep public face current"
+title: "01 — Tandem: polish, then share"
 state: todo
 references: ["https://github.com/Algorant/tandem"]
 tags: ["public-readiness", "tandem"]
@@ -12,7 +12,7 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:35Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:13:35Z"
+updatedAt: "2026-10-29T03:46:56Z"
 priority: "high"
 ---
 ## State
@@ -53,3 +53,5 @@ Cleanup check (2026-10-29):
 - Rule never-6 bans private hostnames, tailnet URLs, LAN IPs and absolute home paths in board records.
 - The current board's active records are clean. The tailnet name remains only in 16 archived logs and 1 event file; home paths only in 11 archived logs. never-6 leaves archived records unchanged, so this is accepted history.
 - Fixed: edb1ab8 (2026-10-29) replaced the 13 real-username absolute home paths on main with ~/… paths, no history rewrite. Verified from an anonymous clone: no real-username home paths and no tailnet name in the main tree.
+
+Upcoming (Algorant, 2026-10-29; not scoped, nothing started): significant presentability polish first, then sharing through X/Twitter threads, blog posts and videos. Any flip waits for Algorant (the 2026-10-29 flip list is on hold).
