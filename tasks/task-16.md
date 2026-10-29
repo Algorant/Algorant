@@ -14,7 +14,7 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-10-29T03:47:08Z"
+updatedAt: "2026-10-29T03:47:43Z"
 ---
 
 ## Description
@@ -43,7 +43,9 @@ The common bar in AGENTS.md, plus: instructions explain the Pi/Herdr/Tandem/inbo
 
 ## Crippling issues
 
-Unknown until reviewed. Candidate review areas, not confirmed findings: private paths and machine names in AGENTS.md, VISION.md and research notes; dependency on the private .pi configuration; current tree, full history and board-history exposure; documentation, licensing and attribution. The placeholder link's anonymous 404 is expected and explicitly approved, not evidence of readiness.
+1. Personal records: gitguard 0.5.0 (2026-10-29) found family members' names and account handles in Herdra's board record task-43, both at the current tip of the tandem branch and in its history. Under the framework's history rule, the repository stays private unless Algorant chooses another route. Herdra has the options from gitguard.
+
+Done: MIT licence, the reference README note and the AGENTS.md section (49a5df6). The polish replace was skipped deliberately because the files are live operating instructions.
 
 ## Next step
 
