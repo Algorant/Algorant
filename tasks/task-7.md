@@ -12,8 +12,8 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:41Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:17:55Z"
-priority: "high"
+updatedAt: "2026-10-29T03:37:21Z"
+priority: "low"
 ---
 ## State
 
@@ -31,9 +31,8 @@ Visibility: public.
 
 ## Crippling issues
 
-1. LEAKED SECRET (found 2026-10-29): a paid podcast subscriber feed token sits in the private feed URL. It appears in the tracked rssify.duckdb (feeds table and about 504 episode enclosure URLs) and in data/PocketCasts.opml:87 and data/PocketCasts_new.opml:94. It has been public in tree and history since about 2026-04-05. Untracked in aa2470f (verified from an anonymous clone: no tracked DB, no OPML files in data/, no token URL in the tree). Deployment runs on the homelab server with its own DB. STILL OPEN: Algorant must rotate the feed URL (asked by Herdra), then the homelab project updates the deployed feed entry. No history rewrite needed once rotated.
+None open. A paid-podcast subscriber feed token was found in the tracked database and OPML exports (2026-10-29). They were untracked in aa2470f. Algorant confirmed the subscription is inactive, so the token is moot: no rotation, no history rewrite, and RSSify stays public. MIT LICENSE added (915b1b9); the third-party failed-feed dumps are untracked.
 
-MIT LICENSE added (915b1b9). The third-party failed-feed dumps are untracked and gitignored, with history untouched.
 
 ## Next step
 
