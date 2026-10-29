@@ -14,7 +14,7 @@ accord:
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
   updatedAt: "2026-10-27T03:06:52Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-29T03:15:15Z"
+updatedAt: "2026-10-29T03:42:11Z"
 ---
 Requested by Algorant via Herdra (2026-10-27). This repository owns the POLICY (the line between shareable and private, and the portfolio); gitguard (~/Projects/gitguard, its own Ceph) owns the TOOL.
 
@@ -37,3 +37,9 @@ Split decided by Herdra (2026-10-29), framework 1101614:
 Owners briefed directly: pi, algomarchy (dotfiles), omarchy-setup, mediafetch, tandem, verdigris. Herdra takes its own repo plus AlgoPDF, RSSify, x_unfurl and retrokit (no Cephs): MIT LICENSE for x_unfurl, retrokit and RSSify, and removal of RSSify's third-party failed-feed dumps.
 
 Next: re-check once the owners report, then bring Herdra the flip list as one yes/no per repo.
+
+All owners done (2026-10-29). Flip list sent to Herdra as one yes/no per repo:
+- Recommend YES: pi, dotfiles together with omarchy-setup, x_unfurl, retrokit, AlgoPDF.
+- Recommend WAIT: herdra (until the gitguard 0.5.0 personal-records pass) and mediafetch (until Algorant's 0.1.5 trial).
+- Stays private: obsmd, finanza and the private sources.
+RSSify token leak closed (subscription inactive; untracked in aa2470f).
