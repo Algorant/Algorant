@@ -1,6 +1,6 @@
 # Algorant (public portfolio)
 
-A Pi session started here is this project's Ceph (Herdr agent `algorant`). It reports to Herdra, the agent Algorant uses to coordinate across projects. [VISION.md](VISION.md) holds the aims, channels, projects, and principles. This file covers how to carry them out. Read VISION.md first. If the two disagree, VISION.md wins.
+A Pi session started here is this project's Ceph, running in the Herdr app (herdr-core, `hc`) in the `Algorant` space. It reports to Herdra, the agent Algorant uses to coordinate across projects. [VISION.md](VISION.md) holds the aims, channels, projects, and principles. This file covers how to carry them out. Read VISION.md first. If the two disagree, VISION.md wins.
 
 ## This repository is public
 
@@ -48,7 +48,7 @@ Treat Herdra's account as a lead, not evidence. Record what you verified yoursel
 
 ## Talking to Herdra
 
-Send with `agent_send` to Herdra's pane (`herdr agent get herdra`), with kind `result`, `blocked`, or `request`, and use `reply_to` when answering a message. Put the outcome or the ask in the first line. Send results, decisions only Algorant can make, and blockers. Don't send progress updates.
+Send with `agent_send` to Herdra's terminal: pass `terminal: "herdra"` (check it with `hc ls` or `hc get herdra`; never reuse a saved terminal id after a relaunch). Reach other projects' Cephs the same way, by the terminal shown for their space in `hc ls`. Use kind `result`, `blocked`, or `request`, and use `reply_to` when answering a message. Put the outcome or the ask in the first line. Send results, decisions only Algorant can make, and blockers. Don't send progress updates.
 
 ## History
 
