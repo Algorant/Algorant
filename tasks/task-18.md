@@ -3,15 +3,17 @@ id: task-18
 uid: dd82eec9-33f1-44a4-84c3-bde894645683
 type: task
 title: "Migration plan for six public repos (pi, dotfiles, Algomarchy, tandem, verdigris, herdra)"
-state: todo
+state: "in-progress"
 priority: "high"
 effort: "large"
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["One Sideshow post published covering all six repos in Algorant's order, each with public state, blockers, simplify/rescope items, shortest path, and the five-point readiness checklist marked met/missing/unknown with evidence", "Board-level rescope proposals named per project as suggestions for each owner, not applied", "Cross-repo themes and a proposed order of work included", "No public flip, push or other-repo edit made"]
-  updatedAt: "2026-11-09T22:04:46Z"
+  claimedAt: "2026-11-09T22:04:55Z"
+  updatedAt: "2026-11-09T22:04:55Z"
 createdAt: "2026-11-09T22:04:46Z"
-updatedAt: "2026-11-09T22:04:46Z"
+updatedAt: "2026-11-09T22:04:55Z"
+assignee: "algorant"
 ---
 
 ## Description
