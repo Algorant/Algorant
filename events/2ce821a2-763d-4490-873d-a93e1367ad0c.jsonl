@@ -158,3 +158,4 @@
 {"ts":"2026-10-29T13:26:41Z","event":"task.updated","id":"task-17","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":158,"data":{"fields":["body"]}}
 {"ts":"2026-11-09T22:04:46Z","event":"task.created","id":"task-18","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":159,"data":{"title":"Migration plan for six public repos (pi, dotfiles, Algomarchy, tandem, verdigris, herdra)"}}
 {"ts":"2026-11-09T22:04:55Z","event":"accord.claimed","id":"task-18","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":160,"data":{}}
+{"ts":"2026-11-09T22:05:58Z","event":"task.updated","id":"task-18","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":161,"data":{"fields":["body"]}}

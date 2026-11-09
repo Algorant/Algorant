@@ -12,12 +12,9 @@ accord:
   claimedAt: "2026-11-09T22:04:55Z"
   updatedAt: "2026-11-09T22:04:55Z"
 createdAt: "2026-11-09T22:04:46Z"
-updatedAt: "2026-11-09T22:04:55Z"
+updatedAt: "2026-11-09T22:05:58Z"
 assignee: "algorant"
 ---
-
-## Description
-
 ## Algorant's words (verbatim)
 
 "I want to reopen Algorant and, in light of all the recent changes, get an idea of how we migrate all the things we are working on. a few tasks can be simplified, and a few things can be rescoped, at the intersection of me wanting to make my repos public starting with 1) pi setup 2) dotfiles setup 3) Algomarchy guide 4) tandem 5) verdigris 6)herdra. some of these are already public and some are planned to be public but I mean seeing and reorganizing around what I can do to make them all simple, straightforward, public, and ready to go"
@@ -26,16 +23,22 @@ assignee: "algorant"
 
 "that means organized nice readme, licence (always generic MIT no fuss), gitguard approved/passed, and having the latest updtaes along with confirming that private -> public actions work appropriately and consistently"
 
-Per-repo checklist, marked met / missing / unknown with evidence:
+Five-point checklist per repo, marked met / missing / unknown with evidence:
 1. Organized, readable README.
 2. Licence: plain MIT, no deliberation.
 3. gitguard scanned it and passed (gitguard has its own Ceph; ask through Herdra for scans).
 4. Current with the latest changes, not a stale snapshot.
 5. Private→public mechanism (visibility flip, or generated public mirror such as the dotfiles) verified correct and repeatable.
 
+## Shape of the post (Herdra, 2026-11-09, from Algorant)
+
+"cool, then we can go repo by repo and I can give feedback on waht has been done and whats outstanding in order to be ready to go. there are many things that won't be 'checklist'able until I give specific details for each repo"
+
+So: each repo gets its own section — what's done, what's outstanding, and a short "needs your details" list of open questions for him — instead of forcing every item into the five-point checklist. Do not block the post on those questions. Afterwards the repos are taken one at a time, in his order. The plan stays open-ended where his input is needed.
+
 ## Deliverable
 
-One Sideshow post: a plan, not changes. Per repo, in his order: current state + blockers, simplify/rescope items (Tasks to close/merge/reword — proposed to owners), shortest path, and the five-point checklist matrix. Then cross-repo themes (shared README style, secrets hygiene) and a proposed order of work.
+One Sideshow post: a plan, not changes. Per repo, in his order: current state + blockers, done/outstanding, "needs your details", simplify/rescope items (Tasks to close/merge/reword — proposed to owners, not applied), shortest path. Then cross-repo themes (shared README style, secrets hygiene) and a proposed order of work.
 
 ## Boundaries
 
