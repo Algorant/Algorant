@@ -12,28 +12,14 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:35Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:46:56Z"
+updatedAt: "2026-11-11T17:01:13Z"
 priority: "high"
 ---
 ## State
 
-Algorant/tandem is PUBLIC, at release 0.17.3 (published 2026-10-21), with the seven-page docs site live at trytandem.dev. Independently verified: origin/main at 66a87b0 (lock refresh after the fe0f417 release commit), 13 release assets, the release and site respond anonymously with HTTP 200, the docs deployment at 66a87b0 succeeded, and AUR tandem-bin is 0.17.3-1. Protocol remains 0.5.0; existing boards need no migration.
+Algorant/tandem is PUBLIC, at 0.17.5 (tag `tandem-v0.17.5`, 2026-11-08), MIT. Verified 2026-11-09: the docs site at trytandem.dev returns 200 and is generated from `docs/` (Astro Starlight in `site/`, synced by `site/scripts/sync-docs.mjs`), the release carries 13 assets including the installer and linux/darwin x86_64+aarch64 tarballs, AUR `tandem-bin` is 0.17.5-1, and every command in `tandem --help` appears in the CLI docs with no name mismatches. gitguard is enabled (fleet config) and passed at `121aee5`: 1054 commits, 65 refs, 0 findings.
 
-0.17.3: fresh workspaces start with six categorized starter rules, and any rule can be turned off and on without deletion (CLI `tandem rules enable/disable`, TUI keyboard/mouse; disabled rules remain visible via `tandem rules list --all`). Idle TUIs no longer rebuild board trees from unchanged Git snapshots every two seconds.
-
-0.17.2 (2026-10-19): board commits use the repository's Git identity instead of a fixed Tandem author, so remotes with author push rules accept board syncs.
-
-Earlier: 0.17.1 rewrote the docs into seven pages (Home, Quickstart, Concepts, Agents, TUI and web, CLI, Configuration) with diagrams, real captures, old-URL redirects and the teaser; it also fixed refused-mutation writes and concurrent-add IDs. 0.17.0 added the session working set and local-record activity chooser (not live agent/process monitoring). The new mark and site art are live.
-
-## Readiness scan (2026-10-26)
-
-Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
-
-- PUBLIC repository. The real tailnet name appears in 31 commits, including current board records; username home paths in the tracked .tandem_old/ folder on main (13 lines) and in 84 history commits. MIT licence. No credentials; no blob over 1 MB.
-
-gitguard pilot phase A (2026-10-28, counts and shapes only; report in the gitguard repo, pilot/history-scan.md): 2 tailnet groups (59 occurrences) in board events and logs; home paths from 2 usernames in this clone. Cleanup is with the tandem Ceph (approved 2026-10-26).
-
-Visibility: public.
+Public-reader first impression today: an empty About (no description, homepage or topics), 0 open issues with no issue template, and the README is 53 lines with no screenshot, no status line and no report path.
 
 ## Shippable means
 
@@ -41,17 +27,16 @@ The common bar in AGENTS.md, plus: the site and README carry the current brand, 
 
 ## Crippling issues
 
-1. None open in the current tree or active board. Tailnet names and home paths remain only in history and archived board records, which are accepted by never-6 (no history rewrite).
-
-Remaining active project work (parent-closure assistance, deferred multi-project web, release-checklist wording, mise release pickup lag and small tooling papercuts) is not by itself a public-shipping blocker.
-
+1. The public `tandem` branch is the internal work log: 156 files and 381 commits of task/decision/log/event records naming machines, coordinator message ids and private project names, plus `plan/` research directories and an AGENTS.md describing the private workflow. Under the narrowed framework this is not a privacy violation, but it is one click from the README and the opposite of straightforward.
+2. README: no status statement (pre-1.0, protocol 0.5.0), no screenshot or teaser, no known issues, no link to the 45-section `RELEASES.md`, no way to report a problem, no AUR mention.
+3. Repo About metadata empty; Issues open but no template, Discussions off.
+4. Stale docs lines: the CLI page still says "move every machine to 0.17.1" and another page pins 0.17.3; `extensions/` is an empty "future" placeholder.
+5. Minor: `.gitguard.toml` cites a personal notes document; the Brainfile attribution question in AGENTS.md is unresolved.
 
 ## Next step
 
-Cleanup check (2026-10-29):
-- Main a164f66 removed .tandem_old/ (0 entries).
-- Rule never-6 bans private hostnames, tailnet URLs, LAN IPs and absolute home paths in board records.
-- The current board's active records are clean. The tailnet name remains only in 16 archived logs and 1 event file; home paths only in 11 archived logs. never-6 leaves archived records unchanged, so this is accepted history.
-- Fixed: edb1ab8 (2026-10-29) replaced the 13 real-username absolute home paths on main with ~/… paths, no history rewrite. Verified from an anonymous clone: no real-username home paths and no tailnet name in the main tree.
+Algorant started the public-repo review on 2026-11-09: the tandem Ceph is reviewing README, cleanup and banner against its repo-style-rules, with a gitguard scan alongside, and its proposals land in the Sideshow session "Public repos: tandem". Since tandem is already public, this is cleanup, simplification and look rather than a visibility flip.
 
-Upcoming (Algorant, 2026-10-29; not scoped, nothing started): significant presentability polish first, then sharing through X/Twitter threads, blog posts and videos. Any flip waits for Algorant (the 2026-10-29 flip list is on hold).
+This workspace records state only. My six-repo plan post carries the tandem section (README, About, board-branch decision, doc lines) and the proposals addressed to the tandem board: http://desktop.tail1cefc.ts.net:8228/session/RcUrkMsFz1A
+
+Upcoming (Algorant, 2026-10-29; not scoped): presentability first, then sharing through X/Twitter threads, blog posts and videos.
