@@ -12,14 +12,18 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:35Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-11T17:01:13Z"
+updatedAt: "2026-11-11T18:34:31Z"
 priority: "high"
 ---
 ## State
 
-Algorant/tandem is PUBLIC, at 0.17.5 (tag `tandem-v0.17.5`, 2026-11-08), MIT. Verified 2026-11-09: the docs site at trytandem.dev returns 200 and is generated from `docs/` (Astro Starlight in `site/`, synced by `site/scripts/sync-docs.mjs`), the release carries 13 assets including the installer and linux/darwin x86_64+aarch64 tarballs, AUR `tandem-bin` is 0.17.5-1, and every command in `tandem --help` appears in the CLI docs with no name mismatches. gitguard is enabled (fleet config) and passed at `121aee5`: 1054 commits, 65 refs, 0 findings.
+Algorant/tandem is PUBLIC, at 0.17.7 (tag `tandem-v0.17.7`, release 2026-11-11), MIT. Verified 2026-11-09 to 2026-11-11: the docs site at trytandem.dev returns 200 and is generated from `docs/`, the release carries the installer plus linux/darwin x86_64+aarch64 tarballs, every command in `tandem --help` appears in the CLI docs, and gitguard passes (0 findings at `121aee5`, 1054 commits, 65 refs; its Ceph reports 0 findings across 1,096 commits at the review tip).
 
-Public-reader first impression today: an empty About (no description, homepage or topics), 0 open issues with no issue template, and the README is 53 lines with no screenshot, no status line and no report path.
+The public face, after Algorant's cleanup review (`a356a45`, "Public face: README and banner, one docs owner, no planning trees"):
+- README follows his repo-style-rules: `docs/banner.svg` as the title, two-sentence first-person intro, "How to use this repo" with the prohibition first, Core hierarchy, and `## License` with `[MIT](LICENSE)`. Status, screenshot and known-issues sections were declined by design.
+- About filled: description "local-first coordination for people and agents, in plain Markdown", homepage https://trytandem.dev, eight topics.
+- `plan/` trees, `tandem/plan`, `protocol/plan` and the empty `extensions/` placeholder are gone from the tree; the stale 0.17.1/0.17.3 doc pins are fixed; the site teaser was dropped because it showed a retired adapter.
+- The `tandem` branch stays public by Algorant's decision (the board demonstrates the product), with board messages hostname-free going forward and existing history kept.
 
 ## Shippable means
 
@@ -27,16 +31,13 @@ The common bar in AGENTS.md, plus: the site and README carry the current brand, 
 
 ## Crippling issues
 
-1. The public `tandem` branch is the internal work log: 156 files and 381 commits of task/decision/log/event records naming machines, coordinator message ids and private project names, plus `plan/` research directories and an AGENTS.md describing the private workflow. Under the narrowed framework this is not a privacy violation, but it is one click from the README and the opposite of straightforward.
-2. README: no status statement (pre-1.0, protocol 0.5.0), no screenshot or teaser, no known issues, no link to the 45-section `RELEASES.md`, no way to report a problem, no AUR mention.
-3. Repo About metadata empty; Issues open but no template, Discussions off.
-4. Stale docs lines: the CLI page still says "move every machine to 0.17.1" and another page pins 0.17.3; `extensions/` is an empty "future" placeholder.
-5. Minor: `.gitguard.toml` cites a personal notes document; the Brainfile attribution question in AGENTS.md is unresolved.
+1. AUR is the one missing install path: `tandem-bin` is stuck on the Arch openssl failure (tandem `task-104`), so the README names only the curl installer and cargo. Not a blocker for reading the repo, but a real gap for Arch users.
+2. Accepted, recorded: the public `tandem` branch still carries the board's history with machine names, coordinator ids and internal project names from before the hostname-free rule. Under the narrowed framework this is publishable, and Algorant chose to keep the history rather than rewrite it.
+
+Nothing else open: no README, licence, About, metadata or link problem remains on the public surface.
 
 ## Next step
 
-Algorant started the public-repo review on 2026-11-09: the tandem Ceph is reviewing README, cleanup and banner against its repo-style-rules, with a gitguard scan alongside, and its proposals land in the Sideshow session "Public repos: tandem". Since tandem is already public, this is cleanup, simplification and look rather than a visibility flip.
+tandem is the first project in the polish-then-share sequence: with the public face shipped, the remaining prerequisites are the AUR build (`task-104`) and a decision on when to announce (X thread, blog post, video). Its board carries the substantive work: `task-97` (complete delivers and accepts in one write) is the main agent-facing item; `task-75` and `task-42` are close-or-recheck candidates; `task-93` needs rewording because it sits on a public board.
 
-This workspace records state only. My six-repo plan post carries the tandem section (README, About, board-branch decision, doc lines) and the proposals addressed to the tandem board: http://desktop.tail1cefc.ts.net:8228/session/RcUrkMsFz1A
-
-Upcoming (Algorant, 2026-10-29; not scoped): presentability first, then sharing through X/Twitter threads, blog posts and videos.
+My six-repo plan records tandem's state and points at this review: http://desktop.tail1cefc.ts.net:8228/session/RcUrkMsFz1A
