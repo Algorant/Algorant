@@ -7,11 +7,12 @@ state: todo
 priority: "low"
 effort: "small"
 accord:
-  status: "ready"
+  status: "blocked"
   acceptance: ["Algorant has decided whether the side projects stay on this board or live elsewhere"]
-  updatedAt: "2026-11-12T19:56:56Z"
+  note: "Waiting on Algorant: do the side projects belong on this board at all? Recommended: keep them parked here as one card so nothing is lost, and only open one when he says it is next."
+  updatedAt: "2026-11-12T19:57:03Z"
 createdAt: "2026-11-12T19:56:56Z"
-updatedAt: "2026-11-12T19:56:56Z"
+updatedAt: "2026-11-12T19:57:03Z"
 ---
 
 ## Description
