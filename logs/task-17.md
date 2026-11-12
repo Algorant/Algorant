@@ -3,7 +3,6 @@ id: task-17
 uid: 3f2ac786-cb81-4a88-a86f-ff5dc2bc3c15
 type: task
 title: "Sharing framework with gitguard: policy for publishable-by-default repos"
-state: todo
 priority: "high"
 references: ["https://github.com/Algorant/gitguard"]
 relatedFiles: ["docs/sharing-framework.md", "AGENTS.md", "docs/public-readiness.md"]
@@ -12,9 +11,13 @@ accord:
   status: "ready"
   acceptance: ["Algorant has decided the framework's open questions (flip authorization, Jev exposure per repository, machine nicknames), and docs/sharing-framework.md and AGENTS.md reflect them.", "The pilot repository list and per-repository Jev modes are agreed with the gitguard Ceph and recorded.", "Each portfolio Task records its gitguard verification status once the tool can verify."]
   constraints: ["gitguard owns rules, questions, thresholds and hooks; this workspace only sets policy and records verification.", "No values of findings in this public board or docs: categories and locations only."]
-  updatedAt: "2026-10-27T03:06:52Z"
+  updatedAt: "2026-11-12T19:56:10Z"
 createdAt: "2026-10-27T03:06:52Z"
-updatedAt: "2026-10-29T13:26:41Z"
+updatedAt: "2026-11-12T19:56:10Z"
+archivedAt: "2026-11-12T19:56:10Z"
+resolution:
+  outcome: "completed"
+  note: "Policy settled: the framework lives in docs/sharing-framework.md and global AGENTS.md, gitguard is enabled and passing in every repo in scope, and per-repo verification now lives on the repo cards rather than here."
 ---
 Requested by Algorant via Herdra (2026-10-27). This repository owns the POLICY (the line between shareable and private, and the portfolio); gitguard (~/Projects/gitguard, its own Ceph) owns the TOOL.
 
