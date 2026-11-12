@@ -3,15 +3,16 @@ id: task-19
 uid: dee1e428-3cc4-4466-b8e6-309626ebf136
 type: task
 title: "Parked: side projects (xunfurl, RSSify, retrokit, AlgoPDF, mediafetch, obsmd, finanza)"
-state: todo
+state: "todo"
 priority: "low"
 effort: "small"
 accord:
-  status: "claimed"
+  status: "ready"
   acceptance: ["Algorant has decided whether the side projects stay on this board or live elsewhere"]
-  updatedAt: "2026-11-12T20:12:07Z"
+  note: "Parked card, approved by Algorant; nothing in flight."
+  updatedAt: "2026-11-12T20:12:18Z"
 createdAt: "2026-11-12T19:56:56Z"
-updatedAt: "2026-11-12T20:12:07Z"
+updatedAt: "2026-11-12T20:12:18Z"
 ---
 **Decided (Algorant, 2026-11-12, via Herdra): the side projects stay on this board as one parked card.** Nothing here is work until he names one.
 
