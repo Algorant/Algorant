@@ -3,7 +3,6 @@ id: task-15
 uid: e79ad1b7-dffe-4412-ae4d-9827596ef99e
 type: task
 title: "08 — finanza: public rulebook (later)"
-state: todo
 priority: "low"
 tags: ["public-readiness", "finanza"]
 accord:
@@ -12,7 +11,11 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:56Z"
 createdAt: "2026-10-12T01:50:56Z"
-updatedAt: "2026-10-29T13:16:41Z"
+updatedAt: "2026-11-12T19:56:22Z"
+archivedAt: "2026-11-12T19:56:22Z"
+resolution:
+  outcome: "canceled"
+  note: "finanza: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."
 ---
 
 ## Description
