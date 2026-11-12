@@ -2,9 +2,9 @@
 id: task-16
 uid: b2b45f39-5bf4-42d6-9f4a-8e133be9d910
 type: task
-title: "6 — herdra: private until Algorant raises it (no action)"
+title: "herdra: private until Algorant raises it (no action)"
 state: todo
-priority: "high"
+priority: "low"
 references: ["https://github.com/Algorant/herdra"]
 relatedFiles: ["VISION.md", "README.md", "docs/public-readiness.md"]
 tags: ["public-readiness", "herdra"]
@@ -14,7 +14,7 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-11-12T19:56:46Z"
+updatedAt: "2026-11-12T20:12:04Z"
 ---
 ## State
 
