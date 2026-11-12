@@ -171,3 +171,4 @@
 {"ts":"2026-11-12T14:42:02Z","event":"decision.created","id":"decision-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":171,"data":{"title":"Verdigris rescoped: a public colour scheme repo, planned by its Ceph"}}
 {"ts":"2026-11-12T14:42:55Z","event":"task.updated","id":"task-4","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":172,"data":{"fields":["body"]}}
 {"ts":"2026-11-12T14:43:09Z","event":"decision.updated","id":"decision-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":173,"data":{"fields":["body"]}}
+{"ts":"2026-11-12T19:49:32Z","event":"decision.updated","id":"decision-1","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":174,"data":{"fields":["status","body"]}}
