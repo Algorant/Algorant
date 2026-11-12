@@ -3,20 +3,23 @@ id: task-18
 uid: dd82eec9-33f1-44a4-84c3-bde894645683
 type: task
 title: "Migration plan for six public repos (pi, dotfiles, Algomarchy, tandem, verdigris, herdra)"
-state: "in-progress"
 priority: "high"
 effort: "large"
 accord:
-  status: "delivered"
+  status: "accepted"
   acceptance: ["One Sideshow post published covering all six repos in Algorant's order, each with public state, blockers, simplify/rescope items, shortest path, and the five-point readiness checklist marked met/missing/unknown with evidence", "Board-level rescope proposals named per project as suggestions for each owner, not applied", "Cross-repo themes and a proposed order of work included", "No public flip, push or other-repo edit made"]
   claimedAt: "2026-11-09T22:04:55Z"
   deliveredAt: "2026-11-09T22:14:57Z"
   summary: "Six-repo migration plan published as one Sideshow post: per-repo state, outstanding work, his questions, owner-directed board proposals, readiness matrix with gitguard evidence, cross-repo themes, order of work, and the decisions only he can make."
   evidence: ["Sideshow post http://desktop.tail1cefc.ts.net:8228/session/RcUrkMsFz1A (post /p/FvNXz4niQ3A), 12 surfaces: overview, production-path diagram, one section per repo in Algorant's order, readiness matrix, cross-repo themes, proposed order and nine decisions", "Per-repo sections carry done / outstanding / needs your details / board proposals for the owner / shortest path, as Herdra relayed", "Five-point matrix filled with evidence; gitguard column replaced by the gitguard Ceph's scan pass at current tips (6 clean, herdra 2 jev:family findings in task-43, herdr-agent-tree 1 history-only candidate, verdigris + theme governed by Algorant's 2026-10-29 decision)", "No repo, board, or visibility changed in any other project; all changes proposed to owners"]
-  updatedAt: "2026-11-09T22:14:57Z"
+  updatedAt: "2026-11-12T19:56:11Z"
 createdAt: "2026-11-09T22:04:46Z"
-updatedAt: "2026-11-09T22:14:57Z"
+updatedAt: "2026-11-12T19:56:11Z"
 assignee: "algorant"
+archivedAt: "2026-11-12T19:56:11Z"
+resolution:
+  outcome: "completed"
+  note: "The six-repo migration plan was published and is now carried by the per-repo cards plus VISION.md's goal and order. Post: http://desktop.tail1cefc.ms.net:8228/session/RcUrkMsFz1A"
 ---
 ## Algorant's words (verbatim)
 
