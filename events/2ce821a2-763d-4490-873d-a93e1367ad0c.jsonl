@@ -189,3 +189,4 @@
 {"ts":"2026-11-12T19:56:44Z","event":"task.updated","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":189,"data":{"fields":["title","body"]}}
 {"ts":"2026-11-12T19:56:46Z","event":"task.updated","id":"task-16","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":190,"data":{"fields":["title","body"]}}
 {"ts":"2026-11-12T19:56:56Z","event":"task.created","id":"task-19","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":191,"data":{"title":"Parked: side projects (xunfurl, RSSify, retrokit, AlgoPDF, mediafetch, obsmd, finanza)"}}
+{"ts":"2026-11-12T19:56:58Z","event":"task.created","id":"task-20","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":192,"data":{"title":"GitHub profile README: the front door"}}
