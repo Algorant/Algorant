@@ -3,17 +3,20 @@ id: task-3
 uid: 4f6c1fe0-535e-402c-9cf1-eca0d9988dd6
 type: task
 title: "01 — Tandem: polish, then share"
-state: todo
 references: ["https://github.com/Algorant/tandem"]
 tags: ["public-readiness", "tandem"]
 accord:
   status: "ready"
   acceptance: ["The project meets the shippable bar in AGENTS.md; verified independently here from a fresh anonymous view.", "Every profile or channel link to it resolves for an anonymous visitor.", "Algorant's decision to publish (or to defer) is recorded."]
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
-  updatedAt: "2026-10-29T03:13:35Z"
+  updatedAt: "2026-11-12T19:56:08Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-11T18:34:31Z"
+updatedAt: "2026-11-12T19:56:08Z"
 priority: "high"
+archivedAt: "2026-11-12T19:56:08Z"
+resolution:
+  outcome: "completed"
+  note: "tandem shipped: 0.17.7 verified (tag tandem-v0.17.7), banner, rule-compliant README, About filled, planning trees removed, doc pins fixed, site 200. Only the AUR build remains (tandem task-104)."
 ---
 ## State
 
