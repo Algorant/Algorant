@@ -177,3 +177,4 @@
 {"ts":"2026-11-12T19:56:08Z","event":"task.completed","id":"task-3","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":177,"data":{}}
 {"ts":"2026-11-12T19:56:10Z","event":"task.completed","id":"task-17","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":178,"data":{}}
 {"ts":"2026-11-12T19:56:11Z","event":"task.completed","id":"task-18","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":179,"data":{}}
+{"ts":"2026-11-12T19:56:13Z","event":"task.canceled","id":"task-6","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":180,"data":{"reason":"xunfurl: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."}}
