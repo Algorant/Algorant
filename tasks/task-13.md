@@ -2,7 +2,7 @@
 id: task-13
 uid: 6f9ff1e9-1bcb-4f15-821a-c46dd8b078b0
 type: task
-title: "03b — Algomarchy guide (omarchy-setup): polish, then share"
+title: "5 — Algomarchy guide: omarchy-setup, private, bring-up depends on the dotfiles mirror"
 state: todo
 priority: "high"
 tags: ["public-readiness", "algomarchy"]
@@ -12,46 +12,19 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:52Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-10-29T03:47:03Z"
+updatedAt: "2026-11-12T19:56:44Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/Algomarchy"]
 ---
-
-## Description
-
 ## State
 
-The guide now lives in a separate, hand-maintained repository: Algorant/omarchy-setup (titled Algomarchy). It is PRIVATE; last commit 2026-10-19 (7a09a93). Verified 2026-10-26: its tree is README.md (the guide, with a three-step bring-up: install Omarchy, run bootstrap.sh, run `mise bootstrap`), bootstrap.sh, .gitignore and five images. The README has three `TODO capture` placeholders and states that the repository stays private until a fresh install is proven and release is approved.
+`Algorant/omarchy-setup` is the intended public guide (README titled "Algomarchy"); `Algorant/Algomarchy` is the private operations repo. Both private. MIT and gitguard passing (`092fe5b`, 0 findings, 35 commits). Fresh-install proof passed 2026-10-16 on the local-fixture path.
 
-Fresh-install proof passed: Algomarchy task-82 (accepted, 2026-10-16) installed Omarchy in a disposable Quickemu VM, ran the bootstrap and `mise bootstrap`, rebooted and verified the configured desktop. Plan and approvals: Algomarchy task-81 (two repos, setup maintained directly) and task-83 (generated dotfiles made coherent for the bootstrap).
-
-Algorant/Algomarchy stays the PRIVATE operations repository (publisher, private notes); last commit 2026-10-25. The profile still links Algorant/Algomarchy, a dead link for visitors (accepted as motivation).
-
-Conflict: `bootstrap.sh` clones `https://github.com/Algorant/dotfiles.git` by default, and the README links plugin folders and the Omarchy profile in Algorant/dotfiles. Algorant decided on 2026-10-21 that the generated dotfiles stay private (task-12), so a stranger can follow neither.
-
-
-## Readiness scan (2026-10-26)
-
-Read-only pattern scan of the current tree and full history of every branch (gitleaks/trufflehog not installed); findings by path or commit, no values. Gmail in commit authorship is approved.
-
-- omarchy-setup: **clean**, with no findings in tree or history. No licence. README: 7 TODO lines (captures, README.md:31-43); 4 links into the private generated dotfiles and one to the private Pi catalog; bootstrap.sh defaults to the private dotfiles.
-
-Licence decision (Algorant via Herdra, 2026-10-26): MIT, copyright Algorant; sent to the Algomarchy Ceph for omarchy-setup.
-
-Why private: private until the fresh-install proof and explicit release approval (Algomarchy task-82); after the proof, "going public is still his separate decision" (Herdra, 2026-10-16). Algorant/Algomarchy is the private operations repository by design.
-
-## Shippable means
-
-The common bar in AGENTS.md, plus: a section per major Omarchy area (e.g. packages, theme and Verdigris, keybindings, terminal and shell, mise bootstrap, agents) that explains what was changed. The generated dotfiles repository stays private (task-12), so the guide cannot rely on links into it.
-
-## Crippling issues
-
-1. The bootstrap and README depend on the private Algorant/dotfiles (see State). Recommended to Algorant via Herdra (2026-10-26): make omarchy-setup self-contained, so the bootstrap takes the reader's own dotfiles source and plugin links become excerpts or screenshots.
-2. Three capture placeholders remain in the README.
-3. Release not approved; the profile link still points at the private operations repository.
-
+Blocks a stranger today: `bootstrap.sh` defaults to the private (and stale) dotfiles mirror; 7 of 12 referenced images are missing; three `TODO capture` markers; an internal gate sentence about release approval; no banner or one-line licence footer.
 
 ## Next step
 
-Re-assessed under the narrowed policy (2026-10-29). omarchy-setup (88f6163) has the reference README note, an AGENTS.md reference section and MIT, with no credentials or personal records. It is still PRIVATE. Offered to Algorant via Herdra as a flip together with Algorant/dotfiles, since its bootstrap and links point there. After the flip, repoint the profile's Algomarchy link to Algorant/omarchy-setup.
+Algorant decides the name (omarchy-setup stays public, or Algomarchy becomes the guide and the ops repo is renamed), then the owner makes the bring-up self-contained and captures or drops the images.
 
-Upcoming (Algorant, 2026-10-29; not scoped, nothing started): significant presentability polish first, then sharing through X/Twitter threads, blog posts and videos. Any flip waits for Algorant (the 2026-10-29 flip list is on hold).
+## Waiting on
+
+The name decision, and the dotfiles card (the guide fetches that mirror).
