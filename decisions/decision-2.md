@@ -6,14 +6,13 @@ title: "Verdigris rescoped: a public colour scheme repo, planned by its Ceph"
 status: "proposed"
 deciders: ["Algorant"]
 createdAt: "2026-11-12T14:42:02Z"
-updatedAt: "2026-11-12T14:42:02Z"
+updatedAt: "2026-11-12T14:43:09Z"
 ---
+Algorant, 2026-11-12 via Herdra, his words: "its mean to be a public colorscheme repo where people can see waht I use for config, with pictures/demos of what they look like for every given thing piece of software etc." And on my earlier framing: "telling me 'a ton of these are private now' is not helpful and doesn't seem to capture or understand waht the goal of this repo is."
 
-Algorant, via Herdra 2026-11-12: verdigris is rescoped as a public colour scheme repo, in the spirit of flexoki. Its own Ceph plans the work; this workspace records state only.
+The model is kepano's flexoki: a palette, a real theme file, and a screenshot per supported app. What the repo publishes — which pieces of software are covered and how — is the verdigris Ceph's decision (terminal t41, Sideshow "verdigris rescope").
 
-Consequences for this board and the migration plan:
-- Drop the port-table critique from the plan: what the repo publishes as ports or palettes is its Ceph's decision under the new scope.
-- Drop the three verdigris calls previously listed for Algorant (ports, previews, board branch). Only a go-ahead is relayed.
-- What still applies from the public bar: banner, one-line licence footer per his repo-style-rules, and a version story, since the palette is 0.2.0 and untagged. gitguard already passes on both repos.
-
-This supersedes the content-prescribing parts of the six-repo plan for verdigris, not the factual record in task-4.
+Consequences recorded here:
+- The six-repo plan keeps verdigris as state only: "rescoping with its Ceph". No port-table critique, no private-path catalogue, and none of the three former verdigris calls (ports, previews, board branch).
+- The general public bar still applies: banner, one-line licence footer per repo-style-rules, a version story (palette 0.2.0, untagged), and gitguard, which already passes on both repos.
+- Lesson for the rest of the plan: describing what a repo lacks against its own goal beats cataloguing what is private today.
