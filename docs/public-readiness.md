@@ -1,35 +1,33 @@
 # Public-readiness map
 
-This file maps each portfolio project to its repositories, local checkout, and how its public version is produced. Each project's state, crippling issues, and next step live in its Task on this board ([AGENTS.md](../AGENTS.md)). The aims and order are in [VISION.md](../VISION.md).
+This file maps each portfolio project to its repositories, its local checkout, and how its public version is produced. The order and the readiness bar are in [VISION.md](../VISION.md). **Live state and next steps live on the Tandem board, one card per repo**; this map is the stable reference: identity, visibility and mechanism.
 
-Baseline visibility was checked on 2026-10-11 with `gh repo view`; Verdigris's two repositories, generated dotfiles and omarchy-setup were rechecked on 2026-10-15. Herdra was also verified private when added to the portfolio. Verdigris (main) verified public on 2026-10-26. Re-check before relying on it.
+Baseline visibility was checked on 2026-10-11; pi's flip (2026-11-10), tandem 0.17.7 (2026-11-11) and verdigris's rescope (2026-11-12) were verified then. Re-check before relying on it.
 
-| Order / Task | Project | Public repository | Private source | Checkout | Visibility | Public version produced by |
+| Order / Board card | Project | Public repository | Private source | Checkout | Visibility | Public version produced by |
 |---|---|---|---|---|---|---|
-| 1 / `task-3` | Tandem | [Algorant/tandem](https://github.com/Algorant/tandem) | (same) | `~/Projects/tandem` | Public | direct; site via GitHub Pages |
-| 2 / `task-2` | Pi setup | [Algorant/pi](https://github.com/Algorant/pi) | `Algorant/.pi` | `~/.pi` | Private (generated) / Private (source) | "Publish Pi snapshot" Action on every `main` push |
-| 3 / `task-12` | Dotfiles | [Algorant/dotfiles](https://github.com/Algorant/dotfiles) | `Algorant/.dotfiles`, `omarchy` branch | none (mise history) | Private by Algorant's decision, 2026-10-21 (generated) / Private (source) | on-demand publisher in private Algorant/Algomarchy reading `.dotfiles@omarchy` (Algomarchy task-69); replaces the old `master`-triggered Action |
-| 3 / `task-13` | Algomarchy guide | [Algorant/omarchy-setup](https://github.com/Algorant/omarchy-setup) (profile still links [Algorant/Algomarchy](https://github.com/Algorant/Algomarchy)) | `Algorant/Algomarchy` (operations, publisher) | `~/Projects/omarchy-setup`, `~/Projects/Algomarchy` | Private / Private | direct, hand-maintained; fresh-VM proof passed 2026-10-16; depends on the private generated dotfiles (rework pending Algorant) |
-| 4 / `task-4` | Verdigris | [Algorant/verdigris](https://github.com/Algorant/verdigris) and [Algorant/omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme) (Omarchy port, public 2026-10-15) | (same) | `~/Projects/verdigris` (palette/ports) | Public (palette/ports, fresh history since 2026-10-26; old history private in `Algorant/verdigris-archive`) / Public (Omarchy theme) | direct; theme installs independently via `omarchy theme install` |
-| 5 / `task-16` | Herdra (with herdr-agent-tree, public, and herdr-notifs-plus, private) | [Algorant/herdra](https://github.com/Algorant/herdra) (intentional private placeholder) | (same) | `~/Projects/herdra` | Private; readiness unreviewed | not yet decided; private-config dependency and sensitive-content review pending |
-| later / `task-14` | obsmd | none; a separate generic setup guide may come later (new repository, fresh content) | `Algorant/obsmd` | `~/Projects/obsmd` | Private by Algorant's decision (2026-10-26) | written fresh; no obsmd content or history is published |
-| later / `task-15` | finanza rulebook | not yet decided | `Algorant/finanza` | `~/Projects/finanza` | Private | written fresh; no source is published |
-| later / `task-9` | mediafetch | [Algorant/mediafetch](https://github.com/Algorant/mediafetch) | (same) | `~/Projects/mediafetch` | Private | direct |
+| 1 | pi setup | [Algorant/pi](https://github.com/Algorant/pi) | `Algorant/.pi` | `~/.pi` | **Public** (flipped 2026-11-10, fresh history) | "Publish pi snapshot" Action on every `main` push of `.pi` |
+| 2 | tandem | [Algorant/tandem](https://github.com/Algorant/tandem) | (same) | `~/Projects/tandem` | Public, 0.17.7 | direct; site via GitHub Pages |
+| 3 | verdigris | [Algorant/verdigris](https://github.com/Algorant/verdigris) and [Algorant/omarchy-verdigris-theme](https://github.com/Algorant/omarchy-verdigris-theme) | (same) | `~/Projects/verdigris` | Public (palette/ports fresh history since 2026-10-26; old history private in `Algorant/verdigris-archive`) | direct; theme installs via `omarchy theme install` |
+| 4 | dotfiles | [Algorant/dotfiles](https://github.com/Algorant/dotfiles) | `Algorant/.dotfiles`, `omarchy` branch | none (mise history) | Private by Algorant's decision, 2026-10-21 | on-demand publisher in private `Algorant/Algomarchy` (card: dotfiles) |
+| 5 | Algomarchy guide | [Algorant/omarchy-setup](https://github.com/Algorant/omarchy-setup) (the profile still links [Algorant/Algomarchy](https://github.com/Algorant/Algomarchy)) | `Algorant/Algomarchy` (operations, publisher) | `~/Projects/omarchy-setup`, `~/Projects/Algomarchy` | Both private | direct, hand-maintained; fresh-VM proof passed 2026-10-16; bring-up currently depends on the private dotfiles mirror |
+| 6 | herdra | [Algorant/herdra](https://github.com/Algorant/herdra), with [herdr-agent-tree](https://github.com/Algorant/herdr-agent-tree) (public) and [herdr-notifs-plus](https://github.com/Algorant/herdr-notifs-plus) (private) | (same) | `~/Projects/herdra` | Private; stays private until Algorant raises it | not decided, and not a pending decision |
+| parked | side projects | [mediafetch](https://github.com/Algorant/mediafetch) (private) | obsmd `Algorant/obsmd`, finanza `Algorant/finanza` | `~/Projects/{obsmd,finanza,mediafetch}` | mediafetch private; obsmd private by decision (2026-10-26); finanza private | not this board's work unless Algorant says otherwise |
+| parked | older profile projects | xunfurl, RSSify, retrokit, AlgoPDF | (same) | — | unchanged since 2026-10 | same |
 
-Not in current focus (still linked from the profile): xunfurl (`task-6`), RSSify (`task-7`), retrokit (`task-8`), AlgoPDF (`task-10`). AlgoNix was dropped from the profile on 2026-10-11 in favour of Algomarchy.
-
-The public Omarchy theme is separate from `Algorant/omarchy-setup` and generated `Algorant/dotfiles`. Generated dotfiles stay private by Algorant's decision (2026-10-21); omarchy-setup remains private, with publication gated on VM proof (Herdra update, 2026-10-15). The private `Algorant/.pi` source is optional and never cloned as part of that setup.
+Visibility and readiness are not permission: nothing flips without Algorant's explicit OK for that specific repository, at that moment. Approving readiness never authorizes pushing, rewriting history or changing visibility. AlgoNix was dropped from the profile on 2026-10-11 in favour of Algomarchy.
 
 ## Review checklist
 
 To bring a project to its shippable bar ([AGENTS.md](../AGENTS.md)), its own Ceph:
 
 1. Checks the tracked tree and Git history for secrets, private data, and machine-local state, and records locations without copying values. A clean tree does not prove a clean history.
-2. Checks the README's promises against the implementation, and states the work-in-progress status and known issues.
+2. Checks the README against `repo-style-rules`: banner, first person, succinct, `[MIT](LICENSE)` last.
 3. Checks licensing and attribution, including derived work (for example, AlgoPDF's NightPDF base).
 4. Validates with the project's own commands and records any gaps.
-5. Gets Algorant's decision. Approving readiness does not authorize pushing, rewriting history, or changing visibility.
+5. Confirms the private→public mechanism works repeatably (a flip, or a generator run and its diff).
+6. Gets Algorant's decision. Approving readiness does not authorize pushing, rewriting history, or changing visibility.
 
 ## Adding a project
 
-Confirm its GitHub identity and its place in the order with Algorant. Match checkouts by Git remote, not directory name. Then add a Task and a row here. Adding a project to this map does not give permission to publish it.
+Confirm its GitHub identity and its place in the order with Algorant. Match checkouts by Git remote, not directory name. Then add a card and a row here. Adding a project to this map does not give permission to publish it.
