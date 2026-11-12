@@ -3,7 +3,6 @@ id: task-14
 uid: 35ffc32d-c0d4-4963-8c8e-6f787da348bd
 type: task
 title: "06 — obsmd: stays private; generic setup guide later"
-state: todo
 priority: "low"
 tags: ["public-readiness", "obsmd"]
 accord:
@@ -12,7 +11,11 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:54Z"
 createdAt: "2026-10-12T01:50:54Z"
-updatedAt: "2026-10-29T13:16:43Z"
+updatedAt: "2026-11-12T19:56:21Z"
+archivedAt: "2026-11-12T19:56:21Z"
+resolution:
+  outcome: "canceled"
+  note: "obsmd: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."
 ---
 
 ## Description
