@@ -7,12 +7,11 @@ state: todo
 priority: "low"
 effort: "small"
 accord:
-  status: "blocked"
+  status: "claimed"
   acceptance: ["Algorant has decided whether the side projects stay on this board or live elsewhere"]
-  note: "Waiting on Algorant: do the side projects belong on this board at all? Recommended: keep them parked here as one card so nothing is lost, and only open one when he says it is next."
-  updatedAt: "2026-11-12T19:57:03Z"
+  updatedAt: "2026-11-12T20:12:07Z"
 createdAt: "2026-11-12T19:56:56Z"
-updatedAt: "2026-11-12T20:12:05Z"
+updatedAt: "2026-11-12T20:12:07Z"
 ---
 **Decided (Algorant, 2026-11-12, via Herdra): the side projects stay on this board as one parked card.** Nothing here is work until he names one.
 
