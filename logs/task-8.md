@@ -3,7 +3,6 @@ id: task-8
 uid: b0501cf2-2d33-4e6e-b84f-0e99e744da8e
 type: task
 title: "11 — retrokit: prepare for public sharing (not in focus)"
-state: todo
 references: ["https://github.com/Algorant/retrokit"]
 tags: ["public-readiness", "retrokit"]
 accord:
@@ -12,8 +11,12 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:43Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-10-29T03:47:14Z"
+updatedAt: "2026-11-12T19:56:16Z"
 priority: "low"
+archivedAt: "2026-11-12T19:56:16Z"
+resolution:
+  outcome: "canceled"
+  note: "retrokit: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."
 ---
 ## State
 
