@@ -12,30 +12,31 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:37Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-12T14:42:00Z"
+updatedAt: "2026-11-12T14:42:55Z"
 priority: "high"
 ---
 ## State
 
 Both repositories are PUBLIC: `Algorant/verdigris` (palette, fresh history since 2026-10-26) and `Algorant/omarchy-verdigris-theme` (public since 2026-10-15). The old history stays private in `verdigris-archive`. MIT in both.
 
-**Rescoped by Algorant (2026-11-12, via Herdra): verdigris is a public colour scheme repo, in the spirit of flexoki.** Its own Ceph plans the work, so this workspace records state only and does not critique or scope its contents.
+**Goal (Algorant, via Herdra 2026-11-12, his words):** "its mean to be a public colorscheme repo where people can see waht I use for config, with pictures/demos of what they look like for every given thing piece of software etc." Modelled on kepano's flexoki: a palette, a real theme file, and a screenshot per supported app.
+
+**Rescoping with its Ceph** (terminal t41), which owns the plan (Sideshow "verdigris rescope"). This workspace records state only; it does not scope or critique the repo's contents. Algorant's correction, worth keeping in mind: cataloguing what is private today misses the point of the repo.
 
 Verified 2026-11-12:
-- The palette is shown plainly: SVG swatch plus a hex table, with the extended colours one link away.
+- The palette is shown plainly: SVG swatch plus a hex table.
 - The Omarchy theme carries previews, an install command, what-gets-themed and the palette mapping; every README link resolves.
-- Both trees are clean and both boards are empty (their work is archived).
-- gitguard adopted after Algorant's 2026-11-09 answer and **passing**: `6aa49f7` (22 commits, 7 refs) and `2c9ba58` (13 commits, 3 refs), 0 findings. Its Ceph chained gitguard into the repo's existing tracked guard, proved it with planted-secret and financial-path pushes, and left only wallpaper and preview images unverified by eye.
-- No tags or releases in either repo; the palette version lives only in `css/palette.json` (0.2.0).
+- Both trees are clean and both boards are empty.
+- gitguard adopted after Algorant's 2026-11-09 answer and **passing**: `6aa49f7` (22 commits, 7 refs) and `2c9ba58` (13 commits, 3 refs), 0 findings, with its Ceph chaining gitguard into the repo's existing tracked guard and proving it with planted-secret and financial-path pushes.
 
 ## Shippable means
 
-Met as visibility, and the rescope sets the content bar. What the public face still lacks, recorded for its Ceph rather than as a request to anyone: a banner, the one-line licence footer from his repo-style-rules, and a version story (the palette is at 0.2.0 and nothing is tagged). Preview images still carry internal context (`previews/herdr.png` lists private project names and task ids; `btop.png` shows exact hardware). The HTTPS theme install is documented but was never exercised on this machine, and `verdigris-archive` is undocumented.
+The common bar plus the goal above: for every supported piece of software, something a visitor can see and use — a theme file and a screenshot, not a description of where a file might live.
 
 ## Crippling issues
 
-None. Both repos are public, clean and scanning clean.
+None recorded here. Content and shape are the rescope's business; this record does not grade them.
 
 ## Next step
 
-Its Ceph plans the colour-scheme shape; nothing here waits on Algorant. This record updates when that Ceph reports.
+Wait for its Ceph's rescope plan and report; update the state here when it lands. Nothing waits on Algorant.
