@@ -184,3 +184,4 @@
 {"ts":"2026-11-12T19:56:19Z","event":"task.canceled","id":"task-9","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":184,"data":{"reason":"mediafetch: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."}}
 {"ts":"2026-11-12T19:56:21Z","event":"task.canceled","id":"task-14","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":185,"data":{"reason":"obsmd: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."}}
 {"ts":"2026-11-12T19:56:22Z","event":"task.canceled","id":"task-15","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":186,"data":{"reason":"finanza: not on this board's goal. Parked on one card; Algorant decides whether the side projects belong here at all."}}
+{"ts":"2026-11-12T19:56:41Z","event":"task.updated","id":"task-4","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":187,"data":{"fields":["title","body"]}}
