@@ -173,3 +173,4 @@
 {"ts":"2026-11-12T14:43:09Z","event":"decision.updated","id":"decision-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":173,"data":{"fields":["body"]}}
 {"ts":"2026-11-12T19:49:32Z","event":"decision.updated","id":"decision-1","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":174,"data":{"fields":["status","body"]}}
 {"ts":"2026-11-12T19:49:34Z","event":"decision.updated","id":"decision-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":175,"data":{"fields":["status","body"]}}
+{"ts":"2026-11-12T19:56:07Z","event":"task.completed","id":"task-2","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":176,"data":{}}

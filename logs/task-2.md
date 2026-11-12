@@ -3,7 +3,6 @@ id: task-2
 uid: dae194be-bd7a-4d67-9192-1b94ddd630c6
 type: task
 title: "02 — Pi catalog: polish, then share"
-state: todo
 references: ["https://github.com/Algorant/pi"]
 relatedFiles: ["docs/pi-public-mirror-plan.md", "docs/public-readiness.md", "README.md"]
 tags: ["public-readiness", "pi"]
@@ -11,10 +10,14 @@ accord:
   status: "ready"
   acceptance: ["The project meets the shippable bar in AGENTS.md; verified independently here from a fresh anonymous view.", "Every profile or channel link to it resolves for an anonymous visitor.", "Algorant's decision to publish (or to defer) is recorded."]
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
-  updatedAt: "2026-10-29T03:13:33Z"
+  updatedAt: "2026-11-12T19:56:07Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-12T14:39:08Z"
+updatedAt: "2026-11-12T19:56:07Z"
 priority: "high"
+archivedAt: "2026-11-12T19:56:07Z"
+resolution:
+  outcome: "completed"
+  note: "pi shipped: public since 2026-11-10 on a fresh history, README is the reference implementation of repo-style-rules, MIT detected, publisher green, gitguard 0 findings. Follow-ups live on .pi's board (task-668 to 671) plus a scan of the republished history."
 ---
 ## State
 
