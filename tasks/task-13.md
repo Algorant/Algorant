@@ -7,13 +7,14 @@ state: "in-progress"
 priority: "high"
 tags: ["public-readiness", "algomarchy"]
 accord:
-  status: "claimed"
+  status: "blocked"
   acceptance: ["The project meets the shippable bar in AGENTS.md and its own addition: a section-per-area guide; verified independently here from a fresh anonymous view.", "Every profile or channel link to it resolves for an anonymous visitor.", "Algorant's decision to publish (or to defer) is recorded."]
   claimedAt: "2026-11-13T04:38:51Z"
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
-  updatedAt: "2026-11-13T04:38:51Z"
+  note: "Guide blockers delivered locally at bd71bca; GitHub-rendered preview, seven dropped-media spots and per-file media review in http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. Awaiting Algorant's banner/drop judgement and explicit push/flip word via Herdra. Tip scan no findings; history no findings, five PNGs hand-reviewed safe, still tool-unverified (gitguard task-18). No push or flip."
+  updatedAt: "2026-11-13T04:46:08Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-11-13T04:38:51Z"
+updatedAt: "2026-11-13T04:46:08Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/Algomarchy"]
 assignee: "algomarchy"
 ---

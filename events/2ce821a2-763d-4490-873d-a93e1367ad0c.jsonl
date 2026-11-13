@@ -207,3 +207,4 @@
 {"ts":"2026-11-13T04:37:22Z","event":"accord.delivered","id":"task-21","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":207,"data":{}}
 {"ts":"2026-11-13T04:38:51Z","event":"accord.claimed","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":208,"data":{}}
 {"ts":"2026-11-13T04:40:39Z","event":"accord.claimed","id":"task-12","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":209,"data":{}}
+{"ts":"2026-11-13T04:46:08Z","event":"accord.blocked","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":210,"data":{}}
