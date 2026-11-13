@@ -14,25 +14,21 @@ accord:
   note: "Mirror style gap now closed through publisher overlay source 845d01f; workflow 43367773795 succeeded, generated mirror tip 3855b39 (source 129fcbf). Banner title and MIT footer match overlay; second publisher run no-op. Gitguard tip no findings; history no findings in 48 commits, 22 media manually reviewed safe, still tool-unverified (gitguard task-18). Same Sideshow post now shows both README renders and 27-blob combined safe/hold table: http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. Still private; awaiting Algorant's look and explicit flip word."
   updatedAt: "2026-11-13T04:48:44Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-11-13T04:48:44Z"
+updatedAt: "2026-11-13T16:41:46Z"
 assignee: "algomarchy"
 ---
 ## State
 
-`Algorant/dotfiles` is the generated mirror of `.dotfiles@omarchy`: PRIVATE, MIT, reference README note, clean tree, gitguard 0 findings at `940f3a0`.
+`Algorant/dotfiles` is the PRIVATE generated mirror of `.dotfiles@omarchy`. The stale snapshot has been refreshed: GitHub tip `3855b39` says "sync from .dotfiles@omarchy 129fcbfb8b30" (verified 2026-11-13). The owner's Accord note records workflow 43367773795 successful, the second run a no-op, README banner and MIT footer matched, gitguard history clean across 48 commits, and 22 media manually reviewed (tool-unverified).
 
-**Still stale.** The mirror was last synced 2026-10-29 from source `f8cd3f8`; `.dotfiles@omarchy` is now at `129fcbf` (2026-11-12), at least 115 commits further. On 2026-11-09 the tree compare showed 29 upstream files missing with no ignore rule, 8 deleted files still published, and 23 same-path files differing.
+## Approved direction
 
-## Decided (Algorant, 2026-11-12, via Herdra)
+Algorant approved public dotfiles together with the showroom on 2026-11-12, reversing the earlier private-only direction. Obtain explicit permission for the actual flip at that moment.
 
-**The dotfiles go public together with the Algomarchy guide.** This reverses the 2026-10-21 "stays private", and the flip itself still needs his explicit word for that repository at that moment.
+## Naming update (Algorant, 2026-11-13)
+
+The publisher and its private operations now belong to `Algorant/.algomarchy`, standard checkout `~/.algomarchy`. `algomarchy` is the public showroom, prepared in private `omarchy-setup` until a fresh-history handoff at the end. `algomarchy-bootstrap` is folded into private ops and archived. This supersedes current-state references to the old `Algorant/Algomarchy` name, not the archived history.
 
 ## Next step
 
-1. One `gh workflow run publish-dotfiles.yml` refresh, then diff the export against `.dotfiles@omarchy` at `129fcbf`.
-2. Fix the ignore rules so additions and deletions both flow.
-3. Banner and the one-line licence footer in the mirror's README.
-4. gitguard re-scan after the refresh.
-5. One flip word from him, covering this and the guide.
-
-Owner of the change: the Algomarchy Ceph. The guide card depends on this one.
+Await Algorant's review and explicit flip word alongside the showroom. The refresh and README-style gap are closed. Owner: the algomarchy Ceph; this card records state only.

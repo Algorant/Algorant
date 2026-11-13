@@ -211,3 +211,6 @@
 {"ts":"2026-11-13T04:46:09Z","event":"accord.blocked","id":"task-12","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":211,"data":{}}
 {"ts":"2026-11-13T04:48:44Z","event":"accord.blocked","id":"task-12","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":212,"data":{}}
 {"ts":"2026-11-13T05:15:22Z","event":"accord.blocked","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":213,"data":{}}
+{"ts":"2026-11-13T16:41:46Z","event":"task.updated","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":214,"data":{"fields":["title","references","body"]}}
+{"ts":"2026-11-13T16:41:46Z","event":"task.updated","id":"task-20","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":215,"data":{"fields":["body"]}}
+{"ts":"2026-11-13T16:41:46Z","event":"task.updated","id":"task-12","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":216,"data":{"fields":["body"]}}
