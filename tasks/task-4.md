@@ -12,23 +12,19 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:37Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-12T20:11:59Z"
+updatedAt: "2026-11-13T04:33:39Z"
 priority: "high"
 ---
 ## State
 
-Both repositories are public: `Algorant/verdigris` (fresh history since 2026-10-26) and `Algorant/omarchy-verdigris-theme` (2026-10-15), MIT, gitguard passing (`6aa49f7`, 22 commits; `2c9ba58`, 13 commits; 0 findings). The old history stays private in `verdigris-archive`.
+Both repositories are public: `Algorant/verdigris` (fresh history since 2026-10-26) and `Algorant/omarchy-verdigris-theme` (2026-10-15), MIT, gitguard passing (`6aa49f7` with 22 commits; `2c9ba58` with 13; 0 findings). Old history stays private in `verdigris-archive`.
 
 **Goal (Algorant's words, 2026-11-12):** a public colour scheme repo where people can see what he uses for config, with pictures and demos of what it looks like for every piece of software — modelled on kepano's flexoki: a palette, a real theme file, and a screenshot per supported app.
 
-## Next step
+## In progress
 
-Its own Ceph (t41) plans the rescope (Sideshow "verdigris rescope") and reports. This card records state only; it does not scope the repo's contents.
+Its Ceph is **actively building the rescope** — commits on 2026-11-12 (`5d3ed95` ANSI slot 7, `55ad1e7` Hyprland borders from the generated theme) after the gitguard adoption. Plan in Sideshow "verdigris rescope".
 
 ## Waiting on
 
-A go-ahead, if he wants one relayed. Nothing else.
-
-## Previous notes
-
-Earlier port-by-port critique and three former calls (ports, previews, board branch) are withdrawn: they missed the repo's goal. Public bar still applies: banner, one-line licence footer, a version story (palette 0.2.0, untagged).
+Nothing from Algorant. This card records state; content decisions are its Ceph's.
