@@ -3,17 +3,19 @@ id: task-21
 uid: e99c2f1f-6e14-46bf-875c-997f96f88c04
 type: task
 title: "Review verdigris against the readiness bar and correct its card"
-state: todo
+state: "in-progress"
 priority: "high"
 effort: "medium"
 references: ["Algorant/verdigris", "Algorant/omarchy-verdigris-theme"]
 tags: ["portfolio", "verdigris", "review"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Every app page is checked against the repo itself: theme file, screenshot currency, README install line and working links", "The five readiness items are each marked met or not met with evidence at the current tip", "task-4 is rewritten to the verified state, with an owner named for each remaining gap", "One screen reaches Herdra: whether verdigris is done, and what is genuinely left"]
-  updatedAt: "2026-11-13T04:35:04Z"
+  claimedAt: "2026-11-13T04:37:11Z"
+  updatedAt: "2026-11-13T04:37:11Z"
 createdAt: "2026-11-13T04:35:04Z"
-updatedAt: "2026-11-13T04:35:04Z"
+updatedAt: "2026-11-13T04:37:11Z"
+assignee: "algorant"
 ---
 
 ## Description
