@@ -12,19 +12,46 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:37Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-13T04:33:39Z"
+updatedAt: "2026-11-13T04:37:14Z"
 priority: "high"
 ---
-## State
-
-Both repositories are public: `Algorant/verdigris` (fresh history since 2026-10-26) and `Algorant/omarchy-verdigris-theme` (2026-10-15), MIT, gitguard passing (`6aa49f7` with 22 commits; `2c9ba58` with 13; 0 findings). Old history stays private in `verdigris-archive`.
+## State — verified in the repo at `55ad1e7` (2026-11-13), not from reports
 
 **Goal (Algorant's words, 2026-11-12):** a public colour scheme repo where people can see what he uses for config, with pictures and demos of what it looks like for every piece of software — modelled on kepano's flexoki: a palette, a real theme file, and a screenshot per supported app.
 
-## In progress
+Both repos are public: `Algorant/verdigris` (fresh history since 2026-10-26, 178 tracked files) and `Algorant/omarchy-verdigris-theme` (2026-10-15). Old history stays private in `verdigris-archive`.
 
-Its Ceph is **actively building the rescope** — commits on 2026-11-12 (`5d3ed95` ANSI slot 7, `55ad1e7` Hyprland borders from the generated theme) after the gitguard adoption. Plan in Sideshow "verdigris rescope".
+What the repo actually contains today:
+- `palette/` — `verdigris.json` (version 0.2.0), `verdigris.css`, `notes.md`, README.
+- `docs/` — `banner.png`, `banner.svg`, `palette-swatch.svg`, thumbnails.
+- `apps/` — **19 folders** (atuin, btop, eza, fastfetch, flea, ghostty, herdr, hokum, lazygit, leaf, nvim, obsidian, omarchy, pi, spotifast, starship, tandem, yazi, zsh), every one with a README, at least one screenshot and thumbnails.
+- `CHANGELOG.md` at 0.2.0 (2026-11-06), `LICENSE` (MIT, GitHub agrees), `build/`.
 
-## Waiting on
+## Five readiness items at the current tip
 
-Nothing from Algorant. This card records state; content decisions are its Ceph's.
+1. **README — met, with three blemishes.** Banner as the title (no H1), palette swatch, a gallery of nine screenshots plus six more, grouped lists (os / terminal-cli / apps), a "how to use" line, and `## License` with `[MIT](LICENSE)` last; no trailing full stops. Blemishes: line 8's `[additional colors]` is a reference with no target, the tone is imperative rather than first person, and two of its outbound links 404 (below).
+2. **MIT — met.** `LICENSE` at the root, GitHub reports MIT.
+3. **gitguard — met for the repo, with a scan gap.** Enabled, fleet config, hooks fire on every push (pre-push records 2026-11-13). The last **full-history** pass was at `6aa49f7` (22 commits, 0 findings); the rescope commits after it (`a6c5683`, `be23bff`, `4bc1fcf`, `53b9a6a`, `5d3ed95`, `55ad1e7`) have only incremental coverage.
+4. **Current — met.** Commits on 2026-11-12 and 2026-11-13; every app's screenshots were retaken in this rescope (all 19 app folders last touched 2026-11-12), so none is stale against palette 0.2.0.
+5. **Mechanism — n/a.** Public since 2026-10-26; no generator, no flip pending.
+
+## Per-app goal
+
+- 16 of 19 apps ship a real theme file in the app's own format (`atuin`, `btop`, `eza`, `fastfetch`, `ghostty`, `herdr`, `hokum`, `lazygit`, `leaf`, `obsidian`, `omarchy` (4 sub-areas), `pi`, `starship`, `tandem`, `yazi`, `zsh`).
+- Three ship none, and two say why: **flea** takes its colors from the omarchy theme, **nvim** keeps its colorscheme in the public `Algorant/verdigris.nvim`. **spotifast** has screenshots and no explanation at all.
+- Links: 0 broken relative links; **2 dead external links** — `Algorant/hokum` (404) and `Algorant/omarchy-setup` (404 while the guide is private).
+
+## Gaps and their owners
+
+| Gap | Owner |
+|---|---|
+| `[additional colors]` reference with no target in README line 8 | verdigris Ceph |
+| `Algorant/hokum` 404 — publish the repo or drop the link | verdigris Ceph, with Algorant if publishing hokum is the answer |
+| spotifast page: no theme file and no note on where its colors come from | verdigris Ceph |
+| Full-history gitguard pass after the rescope commits | verdigris Ceph (or the gitguard Ceph) |
+| No git tags or GitHub releases for a palette now at 0.2.0; `CHANGELOG` still cites bat and Windows Terminal pages that no longer exist and claims every theme file states its palette version (2 of 19 do) | verdigris Ceph |
+| `Algorant/omarchy-setup` 404 resolves when the guide flips | dotfiles + guide cards (his flip word) |
+
+## Next step
+
+Nothing here waits on Algorant. The verdigris Ceph closes the six gaps above; this card re-verifies when it reports.
