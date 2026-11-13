@@ -11,10 +11,10 @@ accord:
   acceptance: ["The project meets the shippable bar in AGENTS.md and its own addition: Omarchy-era output; verified independently here from a fresh anonymous view.", "Every profile or channel link to it resolves for an anonymous visitor.", "Algorant's decision to publish (or to defer) is recorded."]
   claimedAt: "2026-11-13T04:40:39Z"
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
-  note: "Mirror refresh bbfbace matches source 129fcbf at 0 missing/0 stale/0 differing. Added/deleted file flow proven; ignore rules already correct. Full-history gitguard no findings, 22 media blobs manually reviewed safe, still tool-unverified (gitguard task-18). No visibility change. Explicit release word pending. Additional style gap from this card remains: mirror README is still text title and lacks the one-line MIT footer; this pass changed guide style only."
-  updatedAt: "2026-11-13T04:46:09Z"
+  note: "Mirror style gap now closed through publisher overlay source 845d01f; workflow 43367773795 succeeded, generated mirror tip 3855b39 (source 129fcbf). Banner title and MIT footer match overlay; second publisher run no-op. Gitguard tip no findings; history no findings in 48 commits, 22 media manually reviewed safe, still tool-unverified (gitguard task-18). Same Sideshow post now shows both README renders and 27-blob combined safe/hold table: http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. Still private; awaiting Algorant's look and explicit flip word."
+  updatedAt: "2026-11-13T04:48:44Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-11-13T04:46:09Z"
+updatedAt: "2026-11-13T04:48:44Z"
 assignee: "algomarchy"
 ---
 ## State
