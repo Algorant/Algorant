@@ -201,3 +201,4 @@
 {"ts":"2026-11-12T20:12:18Z","event":"accord.released","id":"task-19","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":201,"data":{"disposition":"reassign"}}
 {"ts":"2026-11-13T04:33:39Z","event":"task.updated","id":"task-4","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":202,"data":{"fields":["body"]}}
 {"ts":"2026-11-13T04:33:41Z","event":"task.updated","id":"task-12","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":203,"data":{"fields":["body"]}}
+{"ts":"2026-11-13T04:35:04Z","event":"task.created","id":"task-21","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":204,"data":{"title":"Review verdigris against the readiness bar and correct its card"}}
