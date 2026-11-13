@@ -33,8 +33,8 @@ Simplest first, in his order. Each card on the board carries that repo's state a
 1. **pi** — his Pi configuration, published as a generated catalog from the private `.pi` source. Public since 2026-11-10.
 2. **tandem** — agentic task management, "Jira for clankers". Public; the public face shipped at 0.17.7.
 3. **verdigris** — a public colour scheme repo: a palette, a real theme file and a screenshot per supported app, plus the Omarchy theme. Rescoping with its own agent.
-4. **dotfiles** — his Omarchy machine setup, generated from the private `.dotfiles` source by the Algomarchy publisher.
-5. **Algomarchy guide** — `omarchy-setup`, how he customised every important part of Omarchy.
+4. **dotfiles** — his Omarchy machine setup, generated from the private `.dotfiles` source by the `.algomarchy` publisher.
+5. **algomarchy** — the public showroom of his Omarchy setup, currently prepared in private `omarchy-setup`; a fresh-history `algomarchy` takes over before publication. Private operations, installer, VM proof and publisher stay in `.algomarchy` (`~/.algomarchy`); `algomarchy-bootstrap` is folded in and archived.
 6. **herdra** — his front-door orchestrator. Private until he raises it; not a pending decision.
 
 Side projects (xunfurl, RSSify, retrokit, AlgoPDF, mediafetch, finanza, obsmd) sit on one parked card: they are not this board's work unless he says otherwise.
