@@ -14,7 +14,7 @@ accord:
   note: "Reframed by Algorant as showroom, not installation guide. Private revision e85bb03 pushed; Bring-up and bootstrap.sh removed from HEAD, tour/demo + plain-English guide placeholders added, app/plugin galleries and source pages completed. Private Algorant/algomarchy-bootstrap tip 3486749 preserves installer-only path history (two original path commits). Gitguard showroom tip no findings with 9 hand-reviewed PNGs tool-unverified; history no findings/45 commits with 14 PNG unverified. New post UpQhXLKkyxM in session http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. BEFORE FLIP: old installer/Bring-up still reachable in source history; propose keep old repo private as archive and fresh-history showroom under public name, only with explicit approval. Also cleaner herdr screenshot preferred because supplied crop retains release chatter and local URL. No source history rewrite, rename or visibility change."
   updatedAt: "2026-11-13T05:15:22Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-11-13T16:41:46Z"
+updatedAt: "2026-11-14T22:14:11Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/.algomarchy"]
 assignee: "algomarchy"
 ---
@@ -29,7 +29,7 @@ The showroom is prepared in private `Algorant/omarchy-setup`, tip `e85bb03` ("Ma
 - `Algorant/algomarchy`: public showroom. At the very end a fresh-history repo takes over the work currently in private `omarchy-setup`, before going public.
 - `Algorant/.algomarchy`: private operations, installer, VM proof and publisher; standard checkout `~/.algomarchy`.
 - `algomarchy-bootstrap` is folded into private operations and archived (GitHub confirms archived).
-- On this machine the ops checkout is still `~/Projects/Algomarchy`, with origin already `Algorant/.algomarchy`; the standard location is not present locally. Moving it belongs to its owner.
+- Ops checkout is now `~/.algomarchy`, with origin `Algorant/.algomarchy`; its Ceph runs there. `~/Projects/Algomarchy` is gone (verified by Herdra, 2026-11-14).
 
 ## Earlier approval, retained as history
 
