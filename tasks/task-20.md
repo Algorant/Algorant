@@ -11,7 +11,7 @@ accord:
   acceptance: ["Every profile link resolves for an anonymous visitor, or is deliberately marked private", "Wording follows repo-style-rules"]
   updatedAt: "2026-11-12T19:56:58Z"
 createdAt: "2026-11-12T19:56:58Z"
-updatedAt: "2026-11-13T16:41:46Z"
+updatedAt: "2026-11-14T23:23:26Z"
 ---
 The profile README (`README.md` here) is the public front door. Wording and links change under this card.
 
@@ -19,7 +19,7 @@ The profile README (`README.md` here) is the public front door. Wording and link
 
 The existing algomarchy entry still links the old operations repository. Leave it unchanged for now: the replacement showroom is not public yet. The herdra entry stays marked private until Algorant raises it.
 
-## Locked names (Algorant, 2026-11-13, via Herdra)
+## Historical names (Algorant, 2026-11-13, via Herdra)
 
 "lets lock in algomarchy and .algomarchy for now"
 
@@ -27,6 +27,10 @@ The existing algomarchy entry still links the old operations repository. Leave i
 
 Earlier 2026-11-12 approval to repoint to `omarchy-setup` is superseded by these names.
 
+## Current identity — landed 2026-11-14
+
+Private `Algorant/.algOS`, checkout `~/.algOS`, owner algOS Ceph. Future public showroom `Algorant/algOS`, a tailored Omarchy/Arch setup, replaces the former proposed public name. Mixed case is explicitly approved.
+
 ## Next step
 
-Only when the showroom flips, change the existing profile entry to `https://github.com/Algorant/algomarchy`, following repo-style-rules. Verify the final URL anonymously afterwards. Do not change the public README now.
+The local README draft now says `[algOS](https://github.com/Algorant/algOS) — My tailored Omarchy/Arch setup. Private for now.` It is a draft, not published. Do not push until the showroom's separate flip approval and anonymous verification of its final public URL. Archived records and historical quotes stay unchanged.
