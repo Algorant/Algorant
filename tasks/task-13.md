@@ -2,7 +2,7 @@
 id: task-13
 uid: 6f9ff1e9-1bcb-4f15-821a-c46dd8b078b0
 type: task
-title: "algomarchy: showroom prepared privately, fresh public repo at the end"
+title: "algOS: showroom prepared privately, fresh public repo at the end"
 state: "in-progress"
 priority: "high"
 tags: ["public-readiness", "algomarchy"]
@@ -14,13 +14,25 @@ accord:
   note: "Reframed by Algorant as showroom, not installation guide. Private revision e85bb03 pushed; Bring-up and bootstrap.sh removed from HEAD, tour/demo + plain-English guide placeholders added, app/plugin galleries and source pages completed. Private Algorant/algomarchy-bootstrap tip 3486749 preserves installer-only path history (two original path commits). Gitguard showroom tip no findings with 9 hand-reviewed PNGs tool-unverified; history no findings/45 commits with 14 PNG unverified. New post UpQhXLKkyxM in session http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. BEFORE FLIP: old installer/Bring-up still reachable in source history; propose keep old repo private as archive and fresh-history showroom under public name, only with explicit approval. Also cleaner herdr screenshot preferred because supplied crop retains release chatter and local URL. No source history rewrite, rename or visibility change."
   updatedAt: "2026-11-13T05:15:22Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-11-14T22:19:11Z"
-references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/.algomarchy"]
+updatedAt: "2026-11-14T23:23:24Z"
+references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/.algOS"]
 assignee: "algomarchy"
 ---
 ## State
 
 The showroom is prepared in private `Algorant/omarchy-setup`, tip `e85bb03` ("Make algomarchy a showroom with app and plugin galleries"), verified on GitHub 2026-11-13. Bring-up and `bootstrap.sh` are removed from HEAD; galleries and source pages are built. The owner's Accord note records gitguard tip/history passes and hand-reviewed media, plus the remaining screenshot concern. The current source history still contains the old installer; it is not the proposed public history.
+
+## Current identity — cutover landed 2026-11-14
+
+Private operations: `Algorant/.algOS`, checkout `~/.algOS`, owner **algOS Ceph**. Future public showroom: `Algorant/algOS`, prepared in private `omarchy-setup` until the final fresh-history handoff. Framing: **a tailored Omarchy/Arch setup**, not an operating system. Mixed case is explicitly approved. dotfiles stays dotfiles.
+
+## Next step
+
+The algOS Ceph finishes the showroom and prepares the final fresh-history public repo. Obtain separate explicit publication permission then. The profile entry is drafted locally as algOS; do not push it until the final public URL passes anonymous verification.
+
+This card records state only. Historical names and exploratory notes below are retained as history, not current instructions.
+
+## Historical naming record
 
 ## Names locked (Algorant, 2026-11-13, via Herdra)
 
@@ -54,3 +66,5 @@ Alignment discussion: http://desktop.tail1cefc.ts.net:8228/session/0kP-K1iU0P0 (
 This supersedes the 2026-11-13 algomarchy/.algomarchy name lock and settles the exploratory alignment above: full cutover, private `.algOS`, public `Algorant/algOS`, with mixed case explicitly approved as an exception to the lowercase style rule. Framing: a tailored omarchy/arch setup, not an operating system.
 
 Implementation has not been declared landed. The owning Ceph plans cutover order; retain current-state names in card titles, other cards and VISION until Herdra confirms the rename has landed. No rename or file change performed here. Naming approval is not permission to flip visibility; that remains separate.
+
+Landed confirmation (Herdra, 2026-11-14): the private rename, checkout move and Ceph cutover above are complete; earlier instructions to wait for that notice are superseded. Publication remains unapproved.
