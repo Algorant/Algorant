@@ -2,7 +2,7 @@
 id: task-13
 uid: 6f9ff1e9-1bcb-4f15-821a-c46dd8b078b0
 type: task
-title: "algOS: showroom prepared privately, fresh public repo at the end"
+title: "algOS: public showroom (2026-11-16)"
 state: "in-progress"
 priority: "high"
 tags: ["public-readiness", "algomarchy"]
@@ -14,10 +14,20 @@ accord:
   note: "Reframed by Algorant as showroom, not installation guide. Private revision e85bb03 pushed; Bring-up and bootstrap.sh removed from HEAD, tour/demo + plain-English guide placeholders added, app/plugin galleries and source pages completed. Private Algorant/algomarchy-bootstrap tip 3486749 preserves installer-only path history (two original path commits). Gitguard showroom tip no findings with 9 hand-reviewed PNGs tool-unverified; history no findings/45 commits with 14 PNG unverified. New post UpQhXLKkyxM in session http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. BEFORE FLIP: old installer/Bring-up still reachable in source history; propose keep old repo private as archive and fresh-history showroom under public name, only with explicit approval. Also cleaner herdr screenshot preferred because supplied crop retains release chatter and local URL. No source history rewrite, rename or visibility change."
   updatedAt: "2026-11-13T05:15:22Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-11-16T03:49:45Z"
-references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/.algOS"]
+updatedAt: "2026-11-16T17:11:17Z"
+references: ["https://github.com/Algorant/algOS", "https://github.com/Algorant/.algOS"]
 assignee: "algomarchy"
 ---
+## State — PUBLIC (2026-11-16)
+
+`Algorant/algOS` is public on a fresh history (`00d2c65`), MIT, verified signed out (HTTP 200). Flip word from Algorant: "Ok I htink its ready to be made public, and then switch the link in my github profile to point to it after we change the repo name". Private operations, installer, VM proof and publisher stay in `Algorant/.algOS`; the old `omarchy-setup` history stays private.
+
+Profile README repointed as he asked: the entry now links `https://github.com/Algorant/algOS` with its description unchanged (`e35e982`), and the signed-out profile page carries the link.
+
+dotfiles stays private (task-12); links to it from algOS may be dead for now, by his 2026-11-15 decision.
+
+## History
+
 ## State
 
 The showroom is prepared in private `Algorant/omarchy-setup`, tip `e85bb03` ("Make algomarchy a showroom with app and plugin galleries"), verified on GitHub 2026-11-13. Bring-up and `bootstrap.sh` are removed from HEAD; galleries and source pages are built. The owner's Accord note records gitguard tip/history passes and hand-reviewed media, plus the remaining screenshot concern. The current source history still contains the old installer; it is not the proposed public history.
