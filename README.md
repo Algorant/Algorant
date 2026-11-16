@@ -8,7 +8,7 @@ This is the most exciting time to be in love with computers.
 - [tandem](https://github.com/Algorant/tandem) — My agentic task management system. Jira for clankers.
 - [herdra](https://github.com/Algorant/herdra) — My front-door agent for coordinating work across projects. Private for now.
 - [veridgris](https://github.com/Algorant/verdigris) — My preferred colorscheme, with support for the things I use.
-- [algomarchy](https://github.com/Algorant/Algomarchy) — How I customized every important part of Omarchy to fit me.
+- [algOS](https://github.com/Algorant/algOS) — How I customized every important part of Omarchy to fit me.
 
 ## Some Projects
 
