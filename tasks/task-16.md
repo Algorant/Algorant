@@ -2,9 +2,9 @@
 id: task-16
 uid: b2b45f39-5bf4-42d6-9f4a-8e133be9d910
 type: task
-title: "herdra: private until Algorant raises it (no action)"
+title: "herdra: readiness review and public plan (private until his flip word)"
 state: todo
-priority: "low"
+priority: "high"
 references: ["https://github.com/Algorant/herdra"]
 relatedFiles: ["VISION.md", "README.md", "docs/public-readiness.md"]
 tags: ["public-readiness", "herdra"]
@@ -14,8 +14,38 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-11-12T20:12:04Z"
+updatedAt: "2026-11-16T05:12:46Z"
 ---
+## Raised by Algorant (2026-11-15, via Herdra)
+
+"so as far as repos to make 'nice' we have tasks to fix dotfiles and herdra, and do a review of tandem, right?"
+
+herdra is now an active readiness Task. It stays **private until his explicit flip word**; this card plans readiness, it does not authorize publication.
+
+## What this Task needs
+
+1. A review against the readiness bar (README in repo-style-rules, MIT, gitguard at tip, current, mechanism), with evidence at the current tip.
+2. A public-readiness plan from that review, covering at least the recorded blockers below.
+
+Owner of the review and changes: Herdra, for its own repository. Not started: Herdra dispatches it once Algorant confirms the order.
+
+## Recorded blockers (read-only, 2026-11-09 to 11-12)
+
+- Two `jev:family` gitguard findings in board record `task-43`, at the tip of the `tandem` branch and in its history; under the history rule the repository cannot go public as it stands.
+- No root `.gitignore`; `.tandem/` and `.pi/notes/` are excluded only via `.git/info/exclude`.
+- README has no banner, no "how to use" line and no one-line licence footer.
+- Nothing runnable by a stranger: entry points need `~/.pi`, `hc`, the Herdr app and tandem.
+- Tracked screenshots of live workflow (`herdr-app/*/shots/*.png`) and machine-specific `research/` notes.
+- Six stale worktop cards on its board (`task-28/33/34/35/36/40`).
+
+Plugins: `herdr-agent-tree` is public and strong; `herdr-notifs-plus` is private and scans clean.
+
+## History
+
+Until 2026-11-15 this card read "private until Algorant raises it (no action)". Prior body retained below.
+
+---
+
 ## State
 
 `Algorant/herdra` is private and **stays private until Algorant raises it** — not a pending decision, and never something to put to him.

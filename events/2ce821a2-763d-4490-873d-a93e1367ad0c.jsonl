@@ -222,3 +222,4 @@
 {"ts":"2026-11-14T23:23:26Z","event":"task.updated","id":"task-20","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":222,"data":{"fields":["body"]}}
 {"ts":"2026-11-16T03:49:45Z","event":"task.updated","id":"task-13","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":223,"data":{"fields":["body"]}}
 {"ts":"2026-11-16T05:12:43Z","event":"task.created","id":"task-22","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":224,"data":{"title":"Review tandem against the readiness bar and correct its card"}}
+{"ts":"2026-11-16T05:12:46Z","event":"task.updated","id":"task-16","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":225,"data":{"fields":["title","priority","body"]}}
