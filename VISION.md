@@ -20,11 +20,13 @@ Every project here took a lot of finagling to get working, and every one is stil
 
 Algorant, 2026-11-09: *"organized nice readme, licence (always generic MIT no fuss), gitguard approved/passed, and having the latest updates along with confirming that private -> public actions work appropriately and consistently."*
 
-1. **README** in his `repo-style-rules`: banner as the title, first person, succinct, licence last as `[MIT](LICENSE)`.
+1. **README reviewed and overhauled** with him, in his `repo-style-rules`: banner as the title, first person, succinct, licence last as `[MIT](LICENSE)`. This is the heart of readiness; every repo so far got a full rewrite.
 2. **Licence**: plain MIT, no deliberation.
 3. **gitguard passed** on the tree and history at the current tip.
 4. **Current**: the published content matches the work, not a stale snapshot.
 5. **Mechanism verified**: the visibility flip, or the generator that produces a public mirror, works repeatably.
+
+A clean security scan is one item to check off, not readiness. Algorant, 2026-11-16: *"dotfiles doesn't have readiness in the sense that it matters. so far we have done a complete review and overhaul of the readme for every single repo, and this one would be no different. it doesn't have any security issues, which is completely differnet and just one more thing to check off. but that isn't the encapsulation of 'readiness'. skip dotfiles we will come back to it because its obviously going to take the longest once you take into accoutn a readme rewrite"*
 
 ## The order
 
@@ -33,7 +35,7 @@ Simplest first, in his order. Each card on the board carries that repo's state a
 1. **pi** — his Pi configuration, published as a generated catalog from the private `.pi` source. Public since 2026-11-10.
 2. **tandem** — agentic task management, "Jira for clankers". Public; the public face shipped at 0.17.7.
 3. **verdigris** — a public colour scheme repo: a palette, a real theme file and a screenshot per supported app, plus the Omarchy theme. Rescoping with its own agent.
-4. **dotfiles** — his Omarchy machine setup, generated from the private `.dotfiles` source by the `.algOS` publisher.
+4. **dotfiles** — his Omarchy machine setup, generated from the private `.dotfiles` source by the `.algOS` publisher. Private, and deliberately last: its README rewrite is still owed and will take the longest.
 5. **algOS** — a tailored Omarchy/Arch setup, not an operating system. Public since 2026-11-16 as `Algorant/algOS` (fresh history, `00d2c65`), on Algorant's flip word; the showroom was prepared in private `omarchy-setup`. Private operations, installer, VM proof and publisher live in `Algorant/.algOS` (`~/.algOS`), owned by the algOS Ceph. Mixed-case branding is Algorant's explicit exception to the lowercase style rule. The former `algomarchy-bootstrap` is folded in and archived.
 6. **herdra** — his front-door orchestrator. Private until he raises it; not a pending decision.
 

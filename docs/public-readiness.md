@@ -24,7 +24,7 @@ Visibility and readiness are not permission: nothing flips without Algorant's ex
 To bring a project to its shippable bar ([AGENTS.md](../AGENTS.md)), its own Ceph:
 
 1. Checks the tracked tree and Git history for secrets, private data, and machine-local state, and records locations without copying values. A clean tree does not prove a clean history.
-2. Checks the README against `repo-style-rules`: banner, first person, succinct, `[MIT](LICENSE)` last.
+2. Reviews and overhauls the README with Algorant against `repo-style-rules`: banner, first person, succinct, `[MIT](LICENSE)` last. This rewrite is the core of readiness; a clean security check (step 1) alone never makes a repo ready.
 3. Checks licensing and attribution, including derived work (for example, AlgoPDF's NightPDF base).
 4. Validates with the project's own commands and records any gaps.
 5. Confirms the private→public mechanism works repeatably (a flip, or a generator run and its diff).
