@@ -11,7 +11,7 @@ accord:
   acceptance: ["Every profile link resolves for an anonymous visitor, or is deliberately marked private", "Wording follows repo-style-rules"]
   updatedAt: "2026-11-12T19:56:58Z"
 createdAt: "2026-11-12T19:56:58Z"
-updatedAt: "2026-11-14T23:23:26Z"
+updatedAt: "2026-11-16T17:11:18Z"
 ---
 The profile README (`README.md` here) is the public front door. Wording and links change under this card.
 
@@ -34,3 +34,7 @@ Private `Algorant/.algOS`, checkout `~/.algOS`, owner algOS Ceph. Future public 
 ## Next step
 
 The local README draft now says `[algOS](https://github.com/Algorant/algOS) — My tailored Omarchy/Arch setup. Private for now.` It is a draft, not published. Do not push until the showroom's separate flip approval and anonymous verification of its final public URL. Archived records and historical quotes stay unchanged.
+
+## Done 2026-11-16
+
+The algOS entry links `https://github.com/Algorant/algOS` (commit `e35e982`), verified on the signed-out profile page and the target returns 200. Remaining: herdra stays marked private for now; the "veridgris" link text is a typo of verdigris (link itself works).
