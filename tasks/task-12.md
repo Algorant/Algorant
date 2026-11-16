@@ -2,7 +2,7 @@
 id: task-12
 uid: bf46ebb5-f902-4ebd-9918-22d338256736
 type: task
-title: "dotfiles: generated mirror, goes public with the guide"
+title: "dotfiles: generated mirror, kept private for now"
 state: "in-progress"
 priority: "high"
 tags: ["public-readiness", "dotfiles"]
@@ -14,7 +14,7 @@ accord:
   note: "Mirror style gap now closed through publisher overlay source 845d01f; workflow 43367773795 succeeded, generated mirror tip 3855b39 (source 129fcbf). Banner title and MIT footer match overlay; second publisher run no-op. Gitguard tip no findings; history no findings in 48 commits, 22 media manually reviewed safe, still tool-unverified (gitguard task-18). Same Sideshow post now shows both README renders and 27-blob combined safe/hold table: http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. Still private; awaiting Algorant's look and explicit flip word."
   updatedAt: "2026-11-13T04:48:44Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-11-16T05:12:47Z"
+updatedAt: "2026-11-16T05:12:53Z"
 assignee: "algomarchy"
 ---
 ## State
