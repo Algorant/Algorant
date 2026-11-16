@@ -14,7 +14,7 @@ accord:
   note: "Mirror style gap now closed through publisher overlay source 845d01f; workflow 43367773795 succeeded, generated mirror tip 3855b39 (source 129fcbf). Banner title and MIT footer match overlay; second publisher run no-op. Gitguard tip no findings; history no findings in 48 commits, 22 media manually reviewed safe, still tool-unverified (gitguard task-18). Same Sideshow post now shows both README renders and 27-blob combined safe/hold table: http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. Still private; awaiting Algorant's look and explicit flip word."
   updatedAt: "2026-11-13T04:48:44Z"
 createdAt: "2026-10-12T01:50:52Z"
-updatedAt: "2026-11-14T23:23:21Z"
+updatedAt: "2026-11-16T05:12:47Z"
 assignee: "algomarchy"
 ---
 ## State
@@ -36,3 +36,9 @@ Await Algorant's review and explicit flip word alongside the showroom. The refre
 ## Current identity — landed 2026-11-14
 
 Publisher and private operations: `Algorant/.algOS`, checkout `~/.algOS`, owner algOS Ceph. The paired showroom launches as `Algorant/algOS` (fresh history at the end), framed as a tailored Omarchy/Arch setup. This supersedes the older current-name description above. dotfiles stays dotfiles; flip permission remains separate.
+
+## Kept private (Algorant, via Herdra, 2026-11-15)
+
+"leave dotfiles private. the links can just be dead for now"
+
+dotfiles stays private when the algOS showroom flips; links to it may be dead for now. Still pending — this supersedes the "goes public together with the showroom" pairing for the time being. Also raised by him as a repo to fix: "so as far as repos to make 'nice' we have tasks to fix dotfiles and herdra, and do a review of tandem, right?"
