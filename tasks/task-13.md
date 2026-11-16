@@ -14,7 +14,7 @@ accord:
   note: "Reframed by Algorant as showroom, not installation guide. Private revision e85bb03 pushed; Bring-up and bootstrap.sh removed from HEAD, tour/demo + plain-English guide placeholders added, app/plugin galleries and source pages completed. Private Algorant/algomarchy-bootstrap tip 3486749 preserves installer-only path history (two original path commits). Gitguard showroom tip no findings with 9 hand-reviewed PNGs tool-unverified; history no findings/45 commits with 14 PNG unverified. New post UpQhXLKkyxM in session http://desktop.tail1cefc.ts.net:8228/session/i3YyIHqkN5M. BEFORE FLIP: old installer/Bring-up still reachable in source history; propose keep old repo private as archive and fresh-history showroom under public name, only with explicit approval. Also cleaner herdr screenshot preferred because supplied crop retains release chatter and local URL. No source history rewrite, rename or visibility change."
   updatedAt: "2026-11-13T05:15:22Z"
 createdAt: "2026-10-12T01:50:53Z"
-updatedAt: "2026-11-14T23:23:24Z"
+updatedAt: "2026-11-16T03:49:45Z"
 references: ["https://github.com/Algorant/omarchy-setup", "https://github.com/Algorant/.algOS"]
 assignee: "algomarchy"
 ---
@@ -68,3 +68,11 @@ This supersedes the 2026-11-13 algomarchy/.algomarchy name lock and settles the 
 Implementation has not been declared landed. The owning Ceph plans cutover order; retain current-state names in card titles, other cards and VISION until Herdra confirms the rename has landed. No rename or file change performed here. Naming approval is not permission to flip visibility; that remains separate.
 
 Landed confirmation (Herdra, 2026-11-14): the private rename, checkout move and Ceph cutover above are complete; earlier instructions to wait for that notice are superseded. Publication remains unapproved.
+
+## Milestone — verified 2026-11-16 (read-only, GitHub)
+
+- Showroom README in private `omarchy-setup` is the new 35-line expandable skeleton at `c26d72d` (Algorant: "new readme is better"). Media placeholders wait on Algorant's own captures.
+- Installer proven in a fresh VM (fully unattended: one pass, reboot, no-change rerun, per the algOS Ceph via Herdra) and merged privately: `.algOS` master `002a07d` ("Squash commits from native-installer-vm-proof-2").
+- Visibility unchanged: `Algorant/.algOS`, `Algorant/omarchy-setup` and `Algorant/dotfiles` all PRIVATE. Flip permission remains separate.
+
+Remaining before the flip: Algorant's captures for the media placeholders, the final fresh-history `Algorant/algOS` handoff, then his explicit flip word for the showroom and dotfiles together.
