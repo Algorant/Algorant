@@ -3,16 +3,18 @@ id: task-25
 uid: 3ac5f91c-c47f-4dc6-ad32-b11b4a107273
 type: task
 title: "README pattern A: demo first, Screenshots section last, per repo"
-state: todo
+state: "in-progress"
 priority: "high"
 effort: "medium"
 relatedFiles: ["VISION.md", "docs/public-readiness.md"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Every in-scope public or going-public repo has its demo right after the intro, or is marked not applicable", "Each has a '## Screenshots' section near the end: same-size stills, 2-column table, small captions", "Each row is ticked with the commit that landed it, verified on GitHub"]
-  updatedAt: "2026-11-17T15:38:09Z"
+  claimedAt: "2026-11-17T15:38:11Z"
+  updatedAt: "2026-11-17T15:38:11Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T15:38:09Z"
+updatedAt: "2026-11-17T15:38:11Z"
+assignee: "algorant"
 ---
 
 ## Description
