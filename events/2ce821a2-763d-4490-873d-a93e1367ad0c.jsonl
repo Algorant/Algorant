@@ -241,3 +241,4 @@
 {"ts":"2026-11-17T15:30:16Z","event":"task.completed","id":"task-23","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":241,"data":{}}
 {"ts":"2026-11-17T15:38:09Z","event":"task.created","id":"task-25","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":242,"data":{"title":"README pattern A: demo first, Screenshots section last, per repo"}}
 {"ts":"2026-11-17T15:38:11Z","event":"accord.claimed","id":"task-25","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":243,"data":{}}
+{"ts":"2026-11-17T15:40:00Z","event":"task.created","id":"task-26","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":244,"data":{"title":"herdr-agent-tree: headless demo and README mock (pattern A)"}}
