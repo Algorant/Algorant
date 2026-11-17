@@ -3,7 +3,6 @@ id: task-25
 uid: 3ac5f91c-c47f-4dc6-ad32-b11b4a107273
 type: task
 title: "README/media review hub: case-by-case Showcase layouts"
-state: "in-progress"
 priority: "high"
 effort: "medium"
 relatedFiles: ["VISION.md", "docs/public-readiness.md"]
@@ -11,10 +10,14 @@ accord:
   status: "claimed"
   acceptance: ["Every primary demo/Showcase precedes catalogs/setup/reference; format is case-by-case, not a fixed gallery template", "The single hub links matching current renders and exact decisions; obsolete layouts have no approval prompts", "Owners update this hub in place; privacy holds, separate flip permission and no-live-capture remain explicit"]
   claimedAt: "2026-11-17T15:38:11Z"
-  updatedAt: "2026-11-17T19:34:07Z"
+  updatedAt: "2026-11-17T20:00:52Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T19:46:20Z"
+updatedAt: "2026-11-17T20:00:52Z"
 assignee: "algorant"
+archivedAt: "2026-11-17T20:00:52Z"
+resolution:
+  outcome: "completed"
+  note: "Hub pass complete: all seven active repos live—theme 0017ad1, verdigris 2704e69, nvim b8e8e21, algOS ae0adeb, pi 187af6bd, tandem 7b9753b, herdra 8dcdaf5. Every publication verified on GitHub; herdra source private .herdra. Retired agent-tree archived PUBLIC, demo discarded with backup. Deferred follow-ups stay on owner boards; no approvals remain in this hub. https://github.com/Algorant/herdra ; review record http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo"
 ---
 ## Current status — all eight carry Showcase
 
