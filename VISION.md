@@ -26,8 +26,6 @@ Algorant, 2026-11-09: *"organized nice readme, licence (always generic MIT no fu
 4. **Current**: the published content matches the work, not a stale snapshot.
 5. **Mechanism verified**: the visibility flip, or the generator that produces a public mirror, works repeatably.
 
-Privacy review flags only credentials, family records and other people's personal data; Algorant's own projects, spend and transcripts are fine to show ([sharing framework](docs/sharing-framework.md), 2026-11-17).
-
 A clean security scan is one item to check off, not readiness. Algorant, 2026-11-16: *"dotfiles doesn't have readiness in the sense that it matters. so far we have done a complete review and overhaul of the readme for every single repo, and this one would be no different. it doesn't have any security issues, which is completely differnet and just one more thing to check off. but that isn't the encapsulation of 'readiness'. skip dotfiles we will come back to it because its obviously going to take the longest once you take into accoutn a readme rewrite"*
 
 ## The order

@@ -15,10 +15,6 @@ These never go into a repository that is or may become public, in any branch, ta
 
 Machine names, the username and home paths, tailnet and MagicDNS names, LAN IP addresses, the homelab domain and service hostnames, and the commit-author email. These need no redaction, mapping or review.
 
-Algorant's own information is also fine: his project lists and project names, his agent spend and cost footers, and his agent transcripts, including in screenshots and clips. Reviewers do not retake, crop or drop media for these. Algorant, 2026-11-17, overriding a retake of herdra screenshots that showed his project list, a cost footer and agent transcripts: *"I disagree with your 'retake'. I am the human for which the guard was created. I do not consider any of those a big deal. its fine"*
-
-Still flagged: credentials, family records, and any other person's personal data.
-
 ## History
 
 Only a leaked secret justifies rewriting or restarting history, and the secret is rotated as well. Nothing else needs fresh history. If a repository's history holds personal records, it stays private (obsmd).
