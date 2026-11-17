@@ -12,9 +12,15 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:37Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-13T04:37:14Z"
+updatedAt: "2026-11-17T19:47:43Z"
 priority: "high"
 ---
+## Latest public state — 2704e69
+
+Algorant approved publication of the opening Showcase and previewed privacy bundle; landed and verified 2026-11-17. GitHub returns 200, main is 2704e69, Showcase precedes OS/terminal/app catalogs (verified here). Owner reports five affected app pages and gallery links match; removed screenshot URLs are absent on main, but old history retains them. Push scanner found no text findings; 8 media files were not content-scanned, so this is not a whole-push clean claim.
+
+Deferred follow-up on verdigris's board (task-20): fewer images, uniform size, retakes as needed; do not start until Algorant asks. Nvim has its own pending acceptance, not included.
+
 ## State — verified in the repo at `55ad1e7` (2026-11-13), not from reports
 
 **Goal (Algorant's words, 2026-11-12):** a public colour scheme repo where people can see what he uses for config, with pictures and demos of what it looks like for every piece of software — modelled on kepano's flexoki: a palette, a real theme file, and a screenshot per supported app.
