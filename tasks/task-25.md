@@ -13,9 +13,13 @@ accord:
   claimedAt: "2026-11-17T15:38:11Z"
   updatedAt: "2026-11-17T19:34:07Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T19:44:04Z"
+updatedAt: "2026-11-17T19:46:20Z"
 assignee: "algorant"
 ---
+## Current status — all eight carry Showcase
+
+Theme LIVE 0017ad1, explicitly approved. Seven other draft/source and matching preview confirmations: verdigris v5; nvim v8; herdra f5a2809/v3 (private); tandem cc62643/v10; pi 1303439f/v5; algOS v3; herdr-agent-tree 2382adb/v9. The hub records each current source/preview. Heading choice is settled, not another approval ask. Remaining publication/content/privacy approvals stay held.
+
 ## Latest standard — Showcase everywhere (Algorant, 2026-11-17)
 
 "for omarchy-verdigris, both 'showcase' and 'gallery' both look better than the repo without it. I want to standardize around one word and use it for all repos. lets just go with showcase as the word to be applied everywhere."
