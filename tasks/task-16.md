@@ -2,7 +2,7 @@
 id: task-16
 uid: b2b45f39-5bf4-42d6-9f4a-8e133be9d910
 type: task
-title: "herdra: readiness review and public plan (private until his flip word)"
+title: "herdra: public snapshot live; private source .herdra"
 state: todo
 priority: "high"
 references: ["https://github.com/Algorant/herdra"]
@@ -14,8 +14,16 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-11-17T14:33:11Z"
+updatedAt: "2026-11-17T20:00:49Z"
 ---
+## Shipped
+
+Public snapshot `Algorant/herdra` at `8dcdaf5`; private source `Algorant/.herdra`. Verified directly on GitHub: public/private split, MIT detected, signed-out HTTP 200. Herdra confirms publication approved. The README/media pass is live, with the file-specific media exception retained.
+
+Earlier blocker and private-only records below are history, not current state. The public snapshot is not a flip of the old private source and its board history.
+
+## Historical record
+
 ## Raised by Algorant (2026-11-15, via Herdra)
 
 "so as far as repos to make 'nice' we have tasks to fix dotfiles and herdra, and do a review of tandem, right?"
