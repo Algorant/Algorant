@@ -13,9 +13,17 @@ accord:
   claimedAt: "2026-11-17T15:38:11Z"
   updatedAt: "2026-11-17T17:57:06Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T18:16:27Z"
+updatedAt: "2026-11-17T18:28:58Z"
 assignee: "algorant"
 ---
+## Current review gate — all eight matching previews ready
+
+Hub: http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo (post 8t9eEWa7nIY).
+
+Current matching supporting previews: theme YOHyPr16XYM v2; verdigris sFH7OQheWq4 v4; nvim nGfS7SuRY4M v5; herdra hFQz48JGQac v2; tandem Z2jkMT07Gl0 v6; pi fmRvssyOmjE v3; algOS DZIb25Y5vbg v2; herdr-agent-tree 0MjDjjh-Gfg v5. Each row has an exact decision. All public changes held pending Algorant's picks; privacy holds and separate flip permission retained. No new media or capture.
+
+The earlier pending gate below is retained as history; it is superseded by this state.
+
 ## Current gate — updated layout previews required
 
 Algorant rejected the hub's recommendations beside old mocks (2026-11-17): "for readme showcase, there are links for the existing latest mock, but not the updated one? what is this"
