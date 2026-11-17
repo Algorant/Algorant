@@ -13,9 +13,17 @@ accord:
   claimedAt: "2026-11-17T15:38:11Z"
   updatedAt: "2026-11-17T19:34:07Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T19:34:07Z"
+updatedAt: "2026-11-17T19:44:04Z"
 assignee: "algorant"
 ---
+## Latest standard — Showcase everywhere (Algorant, 2026-11-17)
+
+"for omarchy-verdigris, both 'showcase' and 'gallery' both look better than the repo without it. I want to standardize around one word and use it for all repos. lets just go with showcase as the word to be applied everywhere."
+
+Banner/brief intro → `## Showcase` → strongest demo/images → catalogs/setup/reference. No headerless rows, Gallery or Screenshots. Format remains case-by-case. Theme chooses Showcase from its existing comparison. Owners requested to confirm/change headings in current drafts only, no new assets/captures/renders beyond the heading swap, no publishing. One consolidated report when all eight carry it.
+
+Earlier guidance below is historical and superseded wherever it permits headerless rows or a different heading.
+
 ## Current principle — Algorant, 2026-11-17
 
 "for verdigris itself: the 'showcase' part should be above the os/terminal/app sections. why is this not cohesive/standardized? for every single other repo we put the images and showcase at the top. 'open with the convincing visual'"
