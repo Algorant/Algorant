@@ -3,16 +3,18 @@ id: task-23
 uid: 34ca8987-e8b2-4a16-8128-40bd5da5fd07
 type: task
 title: "Standard License footer across every public and going-public repo"
-state: todo
+state: "in-progress"
 priority: "high"
 effort: "small"
 relatedFiles: ["VISION.md", "docs/public-readiness.md"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["Every public or going-public repo in the table ends its README with exactly '## License' then '[MIT](LICENSE)', verified on GitHub", "Each row is ticked with the commit that landed it", "Rows with no owner were raised to Herdra"]
-  updatedAt: "2026-11-17T15:28:39Z"
+  claimedAt: "2026-11-17T15:28:41Z"
+  updatedAt: "2026-11-17T15:28:41Z"
 createdAt: "2026-11-17T15:28:39Z"
-updatedAt: "2026-11-17T15:28:39Z"
+updatedAt: "2026-11-17T15:28:41Z"
+assignee: "algorant"
 ---
 
 ## Description
