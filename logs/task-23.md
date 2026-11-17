@@ -3,7 +3,6 @@ id: task-23
 uid: 34ca8987-e8b2-4a16-8128-40bd5da5fd07
 type: task
 title: "Standard License footer across every public and going-public repo"
-state: "in-progress"
 priority: "high"
 effort: "small"
 relatedFiles: ["VISION.md", "docs/public-readiness.md"]
@@ -11,10 +10,14 @@ accord:
   status: "claimed"
   acceptance: ["Every public or going-public repo in the table ends its README with exactly '## License' then '[MIT](LICENSE)', verified on GitHub", "Each row is ticked with the commit that landed it", "Rows with no owner were raised to Herdra"]
   claimedAt: "2026-11-17T15:28:41Z"
-  updatedAt: "2026-11-17T15:28:41Z"
+  updatedAt: "2026-11-17T15:30:16Z"
 createdAt: "2026-11-17T15:28:39Z"
-updatedAt: "2026-11-17T15:29:08Z"
+updatedAt: "2026-11-17T15:30:16Z"
 assignee: "algorant"
+archivedAt: "2026-11-17T15:30:16Z"
+resolution:
+  outcome: "completed"
+  note: "Every repo in scope ends its README with \"## License\" then \"[MIT](LICENSE)\", verified on GitHub 2026-11-17:\ntandem 90ed14e, verdigris 514491e, pi e1b2780 (from .pi's public/README.template.md), algOS 6d669d8 (public; LICENSE 200 signed out), herdra 2146e49, dotfiles 89eb8e6 (private mirror; overlay in .algOS 049d3e9), omarchy-setup 55ca3c5 (private showroom), verdigris.nvim 942bf33 and omarchy-verdigris-theme c9a8c33 (verdigris Ceph), herdr-agent-tree 073a14e, herdr-notifs-plus dc4406b and rssify dd3a190 (pushed here, owners assigned by Herdra).\nSkipped: gitguard (private, no LICENSE on GitHub) until it goes public; the GitHub profile (no LICENSE file); forks of other people's repos."
 ---
 
 ## Description
