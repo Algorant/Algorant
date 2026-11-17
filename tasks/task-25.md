@@ -13,9 +13,13 @@ accord:
   claimedAt: "2026-11-17T15:38:11Z"
   updatedAt: "2026-11-17T17:57:06Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T17:57:06Z"
+updatedAt: "2026-11-17T17:58:48Z"
 assignee: "algorant"
 ---
+## Single active review hub
+
+http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo (post 8t9eEWa7nIY, HTTP 200 verified). All eight requested repos appear, theme/verdigris first. Owners notified to route row updates here; existing preview posts are supporting history only. Text-only assembly helper remains a bounded fact-check; no media creation or capture. All public changes held for approval.
+
 ## Current direction — Algorant, 2026-11-17, via Herdra
 
 "ok generally 'Screenshots' should just be 'Showcase' or, in repos where its not needed, can just be images pasted in a 3 or 4 image row under the banner. should be kind of case by case. that goes for the omarchy-verdigris-theme readme, a well as verdigris readme ... come up with a plan and confirm what I'm saying"
