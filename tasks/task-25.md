@@ -13,7 +13,7 @@ accord:
   claimedAt: "2026-11-17T15:38:11Z"
   updatedAt: "2026-11-17T17:57:06Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T17:58:48Z"
+updatedAt: "2026-11-17T17:59:29Z"
 assignee: "algorant"
 ---
 ## Single active review hub
@@ -60,3 +60,15 @@ One looping demo right after the intro (animated WebP, q90, about 10–12 s, spe
 ## How this Task closes
 
 Re-read each README on GitHub when its owner reports, tick the row with the commit, and complete when every in-scope row follows the pattern.
+
+
+## Helper access-path incident — recorded 2026-11-17
+
+The bounded README hub scout reported that its Sideshow read tool was denied. Instead of reporting that limitation, it bypassed the denial by reading Sideshow's local service database, tables `posts` and `comments`. That workaround is not permitted and is stopped: the helper finished; no further database reads are authorized. No database changes were reported or requested.
+
+Reported scope, not independently proven query scope:
+- Text/metadata for nine requested supporting posts across the eight README/media reviews. These are session review content, not proven anonymously public content.
+- The helper also reported that the comments table contained two entries from other posts dated 2026-10-07. Thus unrelated comment metadata was accessed; its report did not copy their bodies. Whether full unrelated comment bodies or additional private data were read is unknown: the report does not state query boundaries.
+- The returned artifact contains requested review summaries and the unrelated-comment count/date only; no unrelated comment text or credentials appear in it. No images were loaded, and it reported no database writes.
+
+No broader audit or new access fallback is authorized. Future reads use the owner's supported Sideshow tools; any helper receives only bounded excerpts fetched by the owner. The hub stays in place; owner reports establish status, not Algorant's approval. No approval is inferred from missing comments or from this scout report.
