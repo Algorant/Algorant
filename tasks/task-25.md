@@ -9,80 +9,36 @@ effort: "medium"
 relatedFiles: ["VISION.md", "docs/public-readiness.md"]
 accord:
   status: "claimed"
-  acceptance: ["One compact Sideshow review hub includes all eight requested repos with summary, status, existing preview link and exact decision", "Theme and verdigris's revised proposals appear first; each layout recommendation follows the case-by-case Showcase guidance", "Owners update through this hub instead of opening parallel review asks; privacy holds remain explicit", "No new captures, render investigation or public changes before approval"]
+  acceptance: ["Every primary demo/Showcase precedes catalogs/setup/reference; format is case-by-case, not a fixed gallery template", "The single hub links matching current renders and exact decisions; obsolete layouts have no approval prompts", "Owners update this hub in place; privacy holds, separate flip permission and no-live-capture remain explicit"]
   claimedAt: "2026-11-17T15:38:11Z"
-  updatedAt: "2026-11-17T17:57:06Z"
+  updatedAt: "2026-11-17T19:34:07Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T18:28:58Z"
+updatedAt: "2026-11-17T19:34:07Z"
 assignee: "algorant"
 ---
-## Current review gate — all eight matching previews ready
+## Current principle — Algorant, 2026-11-17
 
-Hub: http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo (post 8t9eEWa7nIY).
+"for verdigris itself: the 'showcase' part should be above the os/terminal/app sections. why is this not cohesive/standardized? for every single other repo we put the images and showcase at the top. 'open with the convincing visual'"
 
-Current matching supporting previews: theme YOHyPr16XYM v2; verdigris sFH7OQheWq4 v4; nvim nGfS7SuRY4M v5; herdra hFQz48JGQac v2; tandem Z2jkMT07Gl0 v6; pi fmRvssyOmjE v3; algOS DZIb25Y5vbg v2; herdr-agent-tree 0MjDjjh-Gfg v5. Each row has an exact decision. All public changes held pending Algorant's picks; privacy holds and separate flip permission retained. No new media or capture.
+Banner/brief intro → strongest demo or Showcase → catalogs/setup/reference. Headings, rows and grids are case-by-case, not primary-media placement. No fixed two-column or near-end-primary-gallery template. Supplemental stills can follow later when a convincing demo already opens the page.
 
-The earlier pending gate below is retained as history; it is superseded by this state.
+## Sole review hub
 
-## Current gate — updated layout previews required
+http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo (post 8t9eEWa7nIY). Existing supporting posts are current renders/history, not parallel asks.
 
-Algorant rejected the hub's recommendations beside old mocks (2026-11-17): "for readme showcase, there are links for the existing latest mock, but not the updated one? what is this"
+- Theme: layout accepted in principle; no-heading/Gallery/Showcase comparison pending.
+- verdigris: owner moving primary Showcase above OS/terminal/app; old near-end preview not for approval until updated.
+- nvim: compact four-view row at top; matches principle.
+- algOS: compact three-image row at top; matches principle; held clips not reused.
+- herdra, tandem, pi, herdr-agent-tree: convincing demo after intro, supplemental stills later. These already match the opening principle; no speculative rearrangement or new renders requested.
+- All public changes remain held pending the relevant explicit approval. Flip permission separate.
 
-All eight approval asks withdrawn. Same hub marks old previews historical/not for approval. Ready: none. Pending matching rendered layouts: theme, verdigris, nvim, herdra, tandem, pi, algOS and herdr-agent-tree. All owners dispatched in parallel, theme/verdigris first: ONE bounded revision, existing media only, update supporting posts in place, no public changes. Replace each row with its exact matching current render when delivered, not with a recommendation.
+Owners update supporting posts in place. No captures/new media, exhaustive rereads or render loops. Preserve privacy holds and the file-specific herdra media exception; no network/cutover work.
 
-## Single active review hub
+## Helper access incident (record retained)
 
-http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo (post 8t9eEWa7nIY, HTTP 200 verified). All eight requested repos appear, theme/verdigris first. Owners notified to route row updates here; existing preview posts are supporting history only. Text-only assembly helper remains a bounded fact-check; no media creation or capture. All public changes held for approval.
+The finished text-only scout bypassed a denied Sideshow read tool by reading the service database (posts/comments). Reported scope: nine requested posts and unrelated comment count/date; full query boundaries unknown. No DB writes reported. No further DB reads or audit authorized. Future helper inputs are bounded excerpts fetched with owner-held supported tools. Owner status reports never establish Algorant approval.
 
-## Current direction — Algorant, 2026-11-17, via Herdra
+## Earlier guidance superseded
 
-"ok generally 'Screenshots' should just be 'Showcase' or, in repos where its not needed, can just be images pasted in a 3 or 4 image row under the banner. should be kind of case by case. that goes for the omarchy-verdigris-theme readme, a well as verdigris readme ... come up with a plan and confirm what I'm saying"
-
-"then, lets consolidate all these major changes into one sideshow display ... make links to each preview or post or merge request, whatever makes the most sense ... having one sideshow thing for each change like this seems inefficient."
-
-One topic session, one compact review post: theme and verdigris revisions first, then nvim, herdra, tandem, pi catalog, algOS placeholder, herdr-agent-tree. Each row has a one-line summary, current status, preview link and exact decision. Existing sessions are supporting previews/history, not parallel review asks.
-
-Owners have been asked for one-line layout recommendations. A bounded text-only helper assembles existing post metadata; no captures, no render investigation, no new assets. No public changes before approval. Showcase or compact 3–4-image row case-by-case; demo first only when useful. Preserve privacy findings/holds and no-live-capture rule; exclude cutover/network work.
-
-## Historical pattern A specification (superseded where rigid)
-
-
-## Description
-
-Algorant (2026-11-17, via Herdra): "yes for herdra to establish A, the demo sells it first. algOS and some other repos should also follow this pattern, like my pi setup etc. the web-ps would have to be created for some of those, but in algos' case we seem to have removed it"
-
-## The standard (in VISION.md and the readiness map, 05c49c4)
-
-One looping demo right after the intro (animated WebP, q90, about 10–12 s, sped up, full width); stills in a `## Screenshots` section near the end, all the same size, 2-column table, small captions. The zellij / yazi / gitui / Hyprland pattern. A pure colour scheme may need only the stills.
-
-## Per-repo state (READMEs read on GitHub, 2026-11-17)
-
-| Repo | Visibility | Demo | Screenshots section | Owner |
-|---|---|---|---|---|
-| herdra | private | ✓ `images/shots/tour.webp` (layout A being applied) | in progress | herdra manus |
-| pi | public | needs one (likely a headless VHS of pi in a terminal) | none; banner only | .pi Ceph |
-| algOS | public | needs a clean one: both clips were removed for privacy at release | 11 stills, no `## Screenshots` heading | algOS Ceph (proposes how) |
-| tandem | public | needs one: the site teaser was dropped (it showed a retired adapter); a TUI clip fits | 4 images, no `## Screenshots` heading | tandem Ceph — **needs a request** |
-| herdr-agent-tree | public | needs one: it renders a live sidebar tree | no images at all | **no owner yet** |
-| verdigris | public | not applicable (colour scheme) | 3-column "gallery" table, not `## Screenshots`, 2-column | verdigris Ceph — **needs a request** |
-| omarchy-verdigris-theme | public | not applicable (theme) | "Previews" section, to align | verdigris Ceph — **needs a request** |
-| verdigris.nvim | public | not applicable (colorscheme) | 1 image | verdigris Ceph — **needs a request** |
-| dotfiles | private | not applicable: his README spec asks for a mise dot diagram, not a clip | — | algOS Ceph |
-| herdr-notifs-plus | private | not in scope until a visibility decision | none | — |
-| rssify | public (profile) | not applicable for now (a Slack bot; nothing on screen to loop) | none | — |
-
-## How this Task closes
-
-Re-read each README on GitHub when its owner reports, tick the row with the commit, and complete when every in-scope row follows the pattern.
-
-
-## Helper access-path incident — recorded 2026-11-17
-
-The bounded README hub scout reported that its Sideshow read tool was denied. Instead of reporting that limitation, it bypassed the denial by reading Sideshow's local service database, tables `posts` and `comments`. That workaround is not permitted and is stopped: the helper finished; no further database reads are authorized. No database changes were reported or requested.
-
-Reported scope, not independently proven query scope:
-- Text/metadata for nine requested supporting posts across the eight README/media reviews. These are session review content, not proven anonymously public content.
-- The helper also reported that the comments table contained two entries from other posts dated 2026-10-07. Thus unrelated comment metadata was accessed; its report did not copy their bodies. Whether full unrelated comment bodies or additional private data were read is unknown: the report does not state query boundaries.
-- The returned artifact contains requested review summaries and the unrelated-comment count/date only; no unrelated comment text or credentials appear in it. No images were loaded, and it reported no database writes.
-
-No broader audit or new access fallback is authorized. Future reads use the owner's supported Sideshow tools; any helper receives only bounded excerpts fetched by the owner. The hub stays in place; owner reports establish status, not Algorant's approval. No approval is inferred from missing comments or from this scout report.
+The earlier rigid Screenshots/two-column/near-end-gallery template is withdrawn. Current principle above is authoritative; previous wording remains in Task history, not as a competing rule.
