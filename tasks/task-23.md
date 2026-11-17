@@ -13,7 +13,7 @@ accord:
   claimedAt: "2026-11-17T15:28:41Z"
   updatedAt: "2026-11-17T15:28:41Z"
 createdAt: "2026-11-17T15:28:39Z"
-updatedAt: "2026-11-17T15:28:41Z"
+updatedAt: "2026-11-17T15:29:08Z"
 assignee: "algorant"
 ---
 
@@ -37,7 +37,7 @@ Every README's last section is exactly:
 |---|---|---|---|
 | tandem | public | ✓ matches | — |
 | verdigris | public | ✓ matches | — |
-| pi | public | ✓ matches (published catalog) | .pi Ceph (Herdra dispatching a check) |
+| pi | public | ✓ verified at `e1b2780` (signed out); comes from `public/README.template.md` in `.pi`, so regenerations keep it | .pi Ceph — no change needed |
 | algOS | public | ✓ matches | algOS Ceph (dispatched) |
 | herdra | private | ✓ matches | herdra manus (dispatched) |
 | dotfiles | private | ✗ footer is a bare `[MIT](LICENSE)` after publisher prose, no `## License` heading | algOS Ceph (dispatched) |

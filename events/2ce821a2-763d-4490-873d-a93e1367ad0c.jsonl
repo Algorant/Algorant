@@ -237,3 +237,4 @@
 {"ts":"2026-11-17T15:28:43Z","event":"task.created","id":"task-24","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":237,"data":{"title":"Profile README: lowercase treatment"}}
 {"ts":"2026-11-17T15:28:45Z","event":"accord.claimed","id":"task-24","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":238,"data":{}}
 {"ts":"2026-11-17T15:28:46Z","event":"task.completed","id":"task-24","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":239,"data":{}}
+{"ts":"2026-11-17T15:29:08Z","event":"task.updated","id":"task-23","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":240,"data":{"fields":["body"]}}
