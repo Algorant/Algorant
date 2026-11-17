@@ -21,6 +21,8 @@ Every project here took a lot of finagling to get working, and every one is stil
 Algorant, 2026-11-09: *"organized nice readme, licence (always generic MIT no fuss), gitguard approved/passed, and having the latest updates along with confirming that private -> public actions work appropriately and consistently."*
 
 1. **README reviewed and overhauled** with him, in his `repo-style-rules`: banner as the title, first person, succinct, licence last as `[MIT](LICENSE)`. This is the heart of readiness; every repo so far got a full rewrite.
+
+   Where the project has something to watch, the README follows pattern A (Algorant, 2026-11-17: *"the demo sells it first"*): one looping demo right after the intro (animated WebP, q90, about 10–12 s, sped up, full width), then the stills in a `## Screenshots` section near the end, all the same size in a 2-column table with small captions. A pure colour scheme may need only the stills.
 2. **Licence**: plain MIT, no deliberation, and every README ends with the same last section, exactly as verdigris and tandem do:
 
    ```
