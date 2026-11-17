@@ -47,7 +47,7 @@ Simplest first, in his order. Each card on the board carries that repo's state a
 3. **verdigris** — a public colour scheme repo: a palette, a real theme file and a screenshot per supported app, plus the Omarchy theme. Rescoping with its own agent.
 4. **dotfiles** — his Omarchy machine setup, generated from the private `.dotfiles` source by the `.algOS` publisher. Private, and deliberately last: its README rewrite is still owed and will take the longest.
 5. **algOS** — a tailored Omarchy/Arch setup, not an operating system. Public since 2026-11-16 as `Algorant/algOS` (fresh history, `00d2c65`), on Algorant's flip word; the showroom was prepared in private `omarchy-setup`. Private operations, installer, VM proof and publisher live in `Algorant/.algOS` (`~/.algOS`), owned by the algOS Ceph. Mixed-case branding is Algorant's explicit exception to the lowercase style rule. The former `algomarchy-bootstrap` is folded in and archived.
-6. **herdra** — his front-door orchestrator. Private until he raises it; not a pending decision.
+6. **herdra** — his front-door orchestrator, public as a fresh snapshot (`8dcdaf5`); the working source stays private in `Algorant/.herdra`.
 
 Side projects (xunfurl, RSSify, retrokit, AlgoPDF, mediafetch, finanza, obsmd) sit on one parked card: they are not this board's work unless he says otherwise.
 
