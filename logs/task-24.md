@@ -3,7 +3,6 @@ id: task-24
 uid: ea37f802-2150-442e-8962-567afa99d685
 type: task
 title: "Profile README: lowercase treatment"
-state: "in-progress"
 priority: "medium"
 effort: "small"
 relatedFiles: ["README.md"]
@@ -11,10 +10,14 @@ accord:
   status: "claimed"
   acceptance: ["Program and project names on the profile are lowercase except approved exceptions and acronyms", "Verified on the signed-out profile page"]
   claimedAt: "2026-11-17T15:28:45Z"
-  updatedAt: "2026-11-17T15:28:45Z"
+  updatedAt: "2026-11-17T15:28:46Z"
 createdAt: "2026-11-17T15:28:43Z"
-updatedAt: "2026-11-17T15:28:45Z"
+updatedAt: "2026-11-17T15:28:46Z"
 assignee: "algorant"
+archivedAt: "2026-11-17T15:28:46Z"
+resolution:
+  outcome: "completed"
+  note: "Pushed d5e859a at his request and verified on the signed-out profile page."
 ---
 
 ## Description
