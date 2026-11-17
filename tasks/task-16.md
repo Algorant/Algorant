@@ -14,7 +14,7 @@ accord:
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
   updatedAt: "2026-10-16T13:11:33Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-11-16T05:12:46Z"
+updatedAt: "2026-11-17T14:33:11Z"
 ---
 ## Raised by Algorant (2026-11-15, via Herdra)
 
@@ -61,3 +61,9 @@ None here. Herdra owns its own readiness and scoping; this card records state.
 ## Waiting on
 
 Nothing — and no question for Algorant.
+
+## Media exception (Algorant, 2026-11-17, via Herdra)
+
+Herdra screenshots showing his project list, a cost footer and agent transcripts were flagged and a retake proposed. He overrode that for these shots only: "I disagree with your 'retake'. I am the human for which the guard was created. I do not consider any of those a big deal. its fine" — and then: "not permanently, its good that gitguard found them or whatever you used, but I am overriding them as an exception".
+
+One-off exception for this herdra media. The readiness bar is unchanged: his own information is still flagged in other reviews.
