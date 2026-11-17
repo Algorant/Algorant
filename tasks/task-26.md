@@ -3,17 +3,19 @@ id: task-26
 uid: c59b25ba-f07d-4697-bf51-8f3a486046b7
 type: task
 title: "herdr-agent-tree: headless demo and README mock (pattern A)"
-state: todo
+state: "in-progress"
 priority: "high"
 effort: "medium"
 references: ["https://github.com/Algorant/herdr-agent-tree"]
 relatedFiles: ["VISION.md"]
 accord:
-  status: "ready"
+  status: "claimed"
   acceptance: ["A headless WebP demo of the agent tree exists, made in a scratch hc core via hc-test, with placeholder content only", "A pattern-A README mock (demo after intro, Screenshots section, License footer) is published to Sideshow, and the link reaches Herdra", "Nothing is pushed until Algorant picks; the live core and Herdr window were never touched"]
-  updatedAt: "2026-11-17T15:40:00Z"
+  claimedAt: "2026-11-17T15:40:17Z"
+  updatedAt: "2026-11-17T15:40:17Z"
 createdAt: "2026-11-17T15:40:00Z"
-updatedAt: "2026-11-17T15:40:00Z"
+updatedAt: "2026-11-17T15:40:17Z"
+assignee: "pi:herdr-agent-tree-demo"
 ---
 
 ## Description
