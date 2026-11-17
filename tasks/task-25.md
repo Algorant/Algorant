@@ -13,9 +13,15 @@ accord:
   claimedAt: "2026-11-17T15:38:11Z"
   updatedAt: "2026-11-17T17:57:06Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T17:59:29Z"
+updatedAt: "2026-11-17T18:16:27Z"
 assignee: "algorant"
 ---
+## Current gate — updated layout previews required
+
+Algorant rejected the hub's recommendations beside old mocks (2026-11-17): "for readme showcase, there are links for the existing latest mock, but not the updated one? what is this"
+
+All eight approval asks withdrawn. Same hub marks old previews historical/not for approval. Ready: none. Pending matching rendered layouts: theme, verdigris, nvim, herdra, tandem, pi, algOS and herdr-agent-tree. All owners dispatched in parallel, theme/verdigris first: ONE bounded revision, existing media only, update supporting posts in place, no public changes. Replace each row with its exact matching current render when delivered, not with a recommendation.
+
 ## Single active review hub
 
 http://desktop.tail1cefc.ts.net:8228/session/iMTCezlsbAo (post 8t9eEWa7nIY, HTTP 200 verified). All eight requested repos appear, theme/verdigris first. Owners notified to route row updates here; existing preview posts are supporting history only. Text-only assembly helper remains a bounded fact-check; no media creation or capture. All public changes held for approval.
