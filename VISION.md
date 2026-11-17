@@ -22,7 +22,7 @@ Algorant, 2026-11-09: *"organized nice readme, licence (always generic MIT no fu
 
 1. **README reviewed and overhauled** with him, in his `repo-style-rules`: banner as the title, first person, succinct, licence last as `[MIT](LICENSE)`. This is the heart of readiness; every repo so far got a full rewrite.
 
-   Where the project has something to watch, the README follows pattern A (Algorant, 2026-11-17: *"the demo sells it first"*): one looping demo right after the intro (animated WebP, q90, about 10–12 s, sped up, full width), then the stills in a `## Screenshots` section near the end, all the same size in a 2-column table with small captions. A pure colour scheme may need only the stills.
+   Open with the convincing visual (Algorant, 2026-11-17): banner and brief intro, then `## Showcase` containing the strongest demo/images before catalogs, setup and reference sections. The heading is standardized everywhere, including the theme; no `Gallery`, `Screenshots` or headerless image rows. Format (row, grid, demo) remains case-by-case. A demo leads when useful; a pure colour scheme may use stills. Do not bury the primary showcase near the end in the name of flexibility. Consistent sizing and small captions should serve the repo, not force a fixed gallery layout. Consolidate proposals into one portfolio review hub, linking existing previews rather than making parallel review asks. Preserve privacy findings and holds; no live capture or public changes before approval.
 2. **Licence**: plain MIT, no deliberation, and every README ends with the same last section, exactly as verdigris and tandem do:
 
    ```
