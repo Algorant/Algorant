@@ -3,7 +3,6 @@ id: task-26
 uid: c59b25ba-f07d-4697-bf51-8f3a486046b7
 type: task
 title: "herdr-agent-tree: headless demo and README mock (pattern A)"
-state: "todo"
 priority: "high"
 effort: "medium"
 references: ["https://github.com/Algorant/herdr-agent-tree"]
@@ -19,7 +18,11 @@ accord:
   note: "discarded: Algorant (2026-11-17): \"herdr-agent-tree is not relevant anymore. I don't think we even use this\". Archive the retired plugin and drop its unpublished demo, not integrate it. Shared portfolio checkout and sessions preserved; separate local demo branch will be backed up and discarded."
   updatedAt: "2026-11-17T19:52:02Z"
 createdAt: "2026-11-17T15:40:00Z"
-updatedAt: "2026-11-17T19:52:02Z"
+updatedAt: "2026-11-17T19:52:19Z"
+archivedAt: "2026-11-17T19:52:19Z"
+resolution:
+  outcome: "canceled"
+  note: "Algorant (2026-11-17): \"herdr-agent-tree is not relevant anymore. I don't think we even use this\". Herdra confirmed old TUI config/session references are inactive and must remain untouched. Repo archived PUBLIC, not deleted or made private. Demo manus discarded/closed; unpublished readme-demo branch backed up as a verified git bundle in local state then removed. Profile had no entry; portfolio list/hub entry removed."
 ---
 
 ## Description
