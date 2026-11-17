@@ -2,20 +2,32 @@
 id: task-25
 uid: 3ac5f91c-c47f-4dc6-ad32-b11b4a107273
 type: task
-title: "README pattern A: demo first, Screenshots section last, per repo"
+title: "README/media review hub: case-by-case Showcase layouts"
 state: "in-progress"
 priority: "high"
 effort: "medium"
 relatedFiles: ["VISION.md", "docs/public-readiness.md"]
 accord:
   status: "claimed"
-  acceptance: ["Every in-scope public or going-public repo has its demo right after the intro, or is marked not applicable", "Each has a '## Screenshots' section near the end: same-size stills, 2-column table, small captions", "Each row is ticked with the commit that landed it, verified on GitHub"]
+  acceptance: ["One compact Sideshow review hub includes all eight requested repos with summary, status, existing preview link and exact decision", "Theme and verdigris's revised proposals appear first; each layout recommendation follows the case-by-case Showcase guidance", "Owners update through this hub instead of opening parallel review asks; privacy holds remain explicit", "No new captures, render investigation or public changes before approval"]
   claimedAt: "2026-11-17T15:38:11Z"
-  updatedAt: "2026-11-17T15:38:11Z"
+  updatedAt: "2026-11-17T17:57:06Z"
 createdAt: "2026-11-17T15:38:09Z"
-updatedAt: "2026-11-17T15:38:11Z"
+updatedAt: "2026-11-17T17:57:06Z"
 assignee: "algorant"
 ---
+## Current direction — Algorant, 2026-11-17, via Herdra
+
+"ok generally 'Screenshots' should just be 'Showcase' or, in repos where its not needed, can just be images pasted in a 3 or 4 image row under the banner. should be kind of case by case. that goes for the omarchy-verdigris-theme readme, a well as verdigris readme ... come up with a plan and confirm what I'm saying"
+
+"then, lets consolidate all these major changes into one sideshow display ... make links to each preview or post or merge request, whatever makes the most sense ... having one sideshow thing for each change like this seems inefficient."
+
+One topic session, one compact review post: theme and verdigris revisions first, then nvim, herdra, tandem, pi catalog, algOS placeholder, herdr-agent-tree. Each row has a one-line summary, current status, preview link and exact decision. Existing sessions are supporting previews/history, not parallel review asks.
+
+Owners have been asked for one-line layout recommendations. A bounded text-only helper assembles existing post metadata; no captures, no render investigation, no new assets. No public changes before approval. Showcase or compact 3–4-image row case-by-case; demo first only when useful. Preserve privacy findings/holds and no-live-capture rule; exclude cutover/network work.
+
+## Historical pattern A specification (superseded where rigid)
+
 
 ## Description
 

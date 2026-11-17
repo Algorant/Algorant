@@ -244,3 +244,4 @@
 {"ts":"2026-11-17T15:40:00Z","event":"task.created","id":"task-26","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":244,"data":{"title":"herdr-agent-tree: headless demo and README mock (pattern A)"}}
 {"ts":"2026-11-17T15:40:17Z","event":"accord.claimed","id":"task-26","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":245,"data":{}}
 {"ts":"2026-11-17T16:06:47Z","event":"accord.delivered","id":"task-26","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":246,"data":{}}
+{"ts":"2026-11-17T17:57:06Z","event":"task.updated","id":"task-25","actor":"2ce821a2-763d-4490-873d-a93e1367ad0c","seq":247,"data":{"fields":["title","acceptance","body"]}}
