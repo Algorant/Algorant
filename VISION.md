@@ -21,7 +21,15 @@ Every project here took a lot of finagling to get working, and every one is stil
 Algorant, 2026-11-09: *"organized nice readme, licence (always generic MIT no fuss), gitguard approved/passed, and having the latest updates along with confirming that private -> public actions work appropriately and consistently."*
 
 1. **README reviewed and overhauled** with him, in his `repo-style-rules`: banner as the title, first person, succinct, licence last as `[MIT](LICENSE)`. This is the heart of readiness; every repo so far got a full rewrite.
-2. **Licence**: plain MIT, no deliberation.
+2. **Licence**: plain MIT, no deliberation, and every README ends with the same last section, exactly as verdigris and tandem do:
+
+   ```
+   ## License
+
+   [MIT](LICENSE)
+   ```
+
+   Algorant, 2026-11-17: *"I want that standardized across all my repos."*
 3. **gitguard passed** on the tree and history at the current tip.
 4. **Current**: the published content matches the work, not a stale snapshot.
 5. **Mechanism verified**: the visibility flip, or the generator that produces a public mirror, works repeatably.

@@ -25,7 +25,7 @@ To bring a project to its shippable bar ([AGENTS.md](../AGENTS.md)), its own Cep
 
 1. Checks the tracked tree and Git history for secrets, private data, and machine-local state, and records locations without copying values. A clean tree does not prove a clean history.
 2. Reviews and overhauls the README with Algorant against `repo-style-rules`: banner, first person, succinct, `[MIT](LICENSE)` last. This rewrite is the core of readiness; a clean security check (step 1) alone never makes a repo ready.
-3. Checks licensing and attribution, including derived work (for example, AlgoPDF's NightPDF base).
+3. Checks licensing and attribution, including derived work (for example, AlgoPDF's NightPDF base), and that the README's last section is exactly `## License` followed by `[MIT](LICENSE)` (the verdigris/tandem format).
 4. Validates with the project's own commands and records any gaps.
 5. Confirms the private→public mechanism works repeatably (a flip, or a generator run and its diff).
 6. Gets Algorant's decision. Approving readiness does not authorize pushing, rewriting history, or changing visibility.
