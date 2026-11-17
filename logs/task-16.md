@@ -3,7 +3,6 @@ id: task-16
 uid: b2b45f39-5bf4-42d6-9f4a-8e133be9d910
 type: task
 title: "herdra: public snapshot live; private source .herdra"
-state: todo
 priority: "high"
 references: ["https://github.com/Algorant/herdra"]
 relatedFiles: ["VISION.md", "README.md", "docs/public-readiness.md"]
@@ -12,9 +11,13 @@ accord:
   status: "ready"
   acceptance: ["The project meets the shippable bar in AGENTS.md, including documented usable prerequisites without private-config access; independently verified from an anonymous view.", "Every profile or channel link to it resolves anonymously after publication; until then the approved private placeholder is explicitly recorded.", "Algorant's publication or deferral decision is recorded."]
   constraints: ["Each project's own agent makes its changes; this workspace only records public state and coordinates through Herdra.", "Do not change visibility, rewrite history, publish or copy private repository contents into this public board without explicit authorization."]
-  updatedAt: "2026-10-16T13:11:33Z"
+  updatedAt: "2026-11-17T20:00:51Z"
 createdAt: "2026-10-16T13:11:33Z"
-updatedAt: "2026-11-17T20:00:49Z"
+updatedAt: "2026-11-17T20:00:51Z"
+archivedAt: "2026-11-17T20:00:51Z"
+resolution:
+  outcome: "completed"
+  note: "Public snapshot 8dcdaf5 verified PUBLIC/MIT/HTTP 200; private source .herdra remains PRIVATE. Publication confirmed by Herdra; README/media pass live."
 ---
 ## Shipped
 
