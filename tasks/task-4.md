@@ -12,9 +12,17 @@ accord:
   constraints: ["Each project's own Ceph makes its changes; this workspace records state and asks through Herdra.", "Do not push other repositories, change visibility, rewrite history, or publish without Algorant's explicit word.", "Nothing private in this public board: no credentials or personal records (family, home address, financial or health data, private correspondence, vault content)."]
   updatedAt: "2026-10-29T03:13:37Z"
 createdAt: "2026-09-12T03:58:08Z"
-updatedAt: "2026-11-17T19:47:43Z"
+updatedAt: "2026-11-18T16:04:34Z"
 priority: "high"
 ---
+## Latest public state — 7936c90
+
+Approved per-app coverage published: 26 sets / 49 original files, no transforms (owner report). GitHub main verified at 7936c90 ("Publish approved Verdigris app READMEs and screenshots"); signed-out repository HTTP 200. Review runtime is not public: review/index.html returns 404.
+
+Owner reports all 49 source hashes checked and representative app/widget pages and images verified. No captures or configuration changes. Push scanner found no text findings; 32 PNGs were not content-scanned, so no whole-push-clean claim.
+
+Remaining on verdigris's board: task-22 stays open for two clips and floating-terminal coverage. Earlier open/parked notes below are historical and must not be read as new authorization.
+
 ## Latest public state — 2704e69
 
 Algorant approved publication of the opening Showcase and previewed privacy bundle; landed and verified 2026-11-17. GitHub returns 200, main is 2704e69, Showcase precedes OS/terminal/app catalogs (verified here). Owner reports five affected app pages and gallery links match; removed screenshot URLs are absent on main, but old history retains them. Push scanner found no text findings; 8 media files were not content-scanned, so this is not a whole-push clean claim.
